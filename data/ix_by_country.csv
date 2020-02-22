@@ -1,0 +1,802 @@
+id,booth,country,name,website
+0,2349,Africa,Desert Gold Ventures Inc.,http://www.desertgold.ca
+1,2515,Africa,Lundin Group ,http://www.thelundingroup.com
+2,2100,Angola,Rio Tinto,http://www.riotinto.com
+3,2215B,Argentina,AbraPlata Resource Corp. ,http://www.aethonminerals.com
+4,2923,Argentina,Aldebaran Resources Inc.,http://www.aldebaranresources.com
+5,2325,Argentina,Anglo American,http://www.angloamerican.com
+6,2434,Argentina,Barrick Gold Corporation,http://www.barrick.com
+7,3016,Argentina,Fomicruz S.E. ,http://www.fomicruz.com
+8,2924,Argentina,Golden Arrow Resources,http://www.goldenarrowresources.com
+9,2706,Argentina,Golden Minerals Company,http://www.goldenminerals.com
+10,3143,Argentina,Latin Metals Inc.,http://www.latinmetals.com
+11,2515,Argentina,Lundin Group ,http://www.thelundingroup.com
+12,2849,Argentina,McEwen Mining Inc.,http://www.mcewenmining.com
+13,2124,Argentina,Millennial Lithium Corp.,http://www.millenniallithium.com
+14,2219A,Argentina,Mirasol Resources Ltd.,http://www.mirasolresources.com
+15,2828,Argentina,Neo Lithium Corp.,http://www.neolithium.ca
+16,2350,Argentina,Newcrest Mining Ltd.,http://www.newcrest.com.au
+17,2912,Argentina,Newmont Corporation,http://www.newmont.com
+18,2841,Argentina,OceanaGold Corporation,http://www.oceanagold.com
+19,2615B,Argentina,Patagonia Exploracion S.A.,http://N/A
+20,2634,Argentina,Portofino Resources Inc.,http://www.portofinoresources.com
+21,3250,Argentina,Rugby Mining Limited,http://www.rugbymining.com
+22,2850,Argentina,Sandstorm Gold Royalties,http://www.sandstormgold.com
+23,3141,Argentina,Wealth Minerals Ltd.,http://www.wealthminerals.com
+24,2311,Argentina,Wheaton Precious Metals Corp.,http://www.wheatonpm.com
+25,2715,Argentina,Yamana Gold Inc.,http://www.yamana.com
+26,2537,Australia,Aeris Resources Limited,http://www.aerisresources.com.au
+27,2743,Australia,Aftermath Silver Ltd,http://www.vendettaminingcorp.com
+28,2435,Australia,Altius Minerals Corp.,http://www.altiusminerals.com
+29,2325,Australia,Anglo American,http://www.angloamerican.com
+30,3123,Australia,BHP,http://www.bhp.com
+31,2418B,Australia,Blackstone Minerals Ltd,http://www.blackstoneminerals.com.au
+32,2620B,Australia,Breaker Resources NL,http://www.breakerresources.com.au
+33,2420A,Australia,Copper Mountain Mining Corporation,http://www.cumtn.com
+34,2651,Australia,EMX Royalty Corp.,http://www.emxroyalty.com
+35,2938,Australia,Hammer Metals Ltd,http://www.hammermetals.com.au
+36,2313,Australia,Kirkland Lake Gold Ltd. ,http://www.klgold.com
+37,2332,Australia,Lepidico Ltd.,http://www.lepidico.com
+38,2301,Australia,Mandalay Resources Corp.,http://www.mandalayresources.com
+39,3050,Australia,Monument Mining Limited,http://www.monumentmining.com
+40,2912,Australia,Newmont Corporation,http://www.newmont.com
+41,2113,Australia,Pacific Trends Resources Pty Ltd,http://www.pacifictrendsresources.com.au
+42,2816,Australia,Pacton Gold Inc.,http://www.pactongold.com
+43,2144,Australia,Panda Mining Pty Ltd,http://n/a
+44,3044,Australia,Peel Mining Ltd.,http://www.peelmining.com.au
+45,2100,Australia,Rio Tinto,http://www.riotinto.com
+46,2549,Australia,RNC Minerals,http://www.rncminerals.com
+47,3250,Australia,Rugby Mining Limited,http://www.rugbymining.com
+48,2922,Australia,S2 Resources Ltd.,http://www.s2resources.com.au
+49,2340,Australia,Sayona Mining Limited,http://www.sayonamining.com.au
+50,2745,Australia,SolGold,http://www.solgold.com.au
+51,3246,Australia,South32 Limited,http://www.south32.net
+52,2840,Australia,SQM,http://www.sqm.com
+53,2509,Australia,Teck Resources Limited,http://www.teck.com
+54,2235,Australia,Vista Gold Corp.,http://www.vistagold.com
+55,2414B,Australia,White Rock Minerals,http://www.whiterockminerals.com.au
+56,3239,Bolivia,New Pacific Metals Corp.,http://www.newpacificmetals.com
+57,2243,Bolivia,Orvana Minerals Corp.,http://www.orvana.com
+58,3306,Bolivia,Prophecy Development Corp.,http://www.prophecydev.com
+59,2738,Bosnia And Herzegowina,Adriatic Metals Plc,http://www.adriaticmetals.com
+60,3036,Botswana,Copperzone Resources Limited,http://www.copperzone-resources.com
+61,2515,Botswana,Lundin Group ,http://www.thelundingroup.com
+62,3242,Brazil,Altamira Gold,http://www.altamiragold.com
+63,2621A,Brazil,Amarillo Gold Corp.,http://www.amarillogold.com
+64,2325,Brazil,Anglo American,http://www.angloamerican.com
+65,2831,Brazil,Cabral Gold Ltd. ,http://www.cabralgold.com
+66,2702,Brazil,Centaurus Metals Ltd,http://www.centaurus.com.au
+67,2732,Brazil,Eldorado Gold Corporation,http://www.eldoradogold.com
+68,3222,Brazil,Ero Copper Corp.,http://www.erocopper.com
+69,2526,Brazil,GoldMining Inc.,http://www.goldmining.com
+70,2522,Brazil,IAMGOLD Corporation,http://www.iamgold.com
+71,2430,Brazil,Jaguar Mining Inc.,http://www.jaguarmining.com
+72,2913,Brazil,Kinross Gold Corporation,http://www.kinross.com
+73,2700,Brazil,Lara Exploration Ltd.,http://www.laraexploration.com
+74,3147,Brazil,Largo Resources Ltd.,http://www.largoresources.com
+75,2843,Brazil,Leagold Mining Corporation,http://www.leagold.com
+76,2515,Brazil,Lundin Group ,http://www.thelundingroup.com
+77,2532,Brazil,Moydow Resources Limited,http://www.moydow.com
+78,3322,Brazil,Nexa Resources S.A.,http://www.nexaresources.com
+79,2100,Brazil,Rio Tinto,http://www.riotinto.com
+80,2850,Brazil,Sandstorm Gold Royalties,http://www.sandstormgold.com
+81,2533,Brazil,Serabi Gold plc,http://www.serabigold.com
+82,2152,Brazil,TriStar Gold Inc.,http://www.tristargold.com
+83,"2307, 3318",Brazil,Vale Canada Limited,http://www.vale.com
+84,2311,Brazil,Wheaton Precious Metals Corp.,http://www.wheatonpm.com
+85,2715,Brazil,Yamana Gold Inc.,http://www.yamana.com
+86,2146,Bulgaria,Artemis Gold Inc.,http://www.artemisgoldinc.com
+87,2649,Bulgaria,Dundee Precious Metals Inc.,http://www.dundeeprecious.com
+88,2530,Bulgaria,Mundoro Capital Inc.,http://www.mundoro.com
+89,3145,Bulgaria,Velocity Minerals Ltd.,http://www.velocityminerals.com
+90,3141,Bulgaria,Wealth Minerals Ltd.,http://www.wealthminerals.com
+91,3212,Burkina Faso,Artisanal Gold Council,http://www.artisanalgold.org
+92,2731,Burkina Faso,B2Gold Corp.,http://www.b2gold.com
+93,2522,Burkina Faso,IAMGOLD Corporation,http://www.iamgold.com
+94,2105,Burkina Faso,MANAGEM Group,http://www.managemgroup.com
+95,2519,Burkina Faso,Orezone Gold Corporation,http://www.orezone.com
+96,2635,Burkina Faso,Roxgold Inc.,http://www.roxgold.com
+97,2850,Burkina Faso,Sandstorm Gold Royalties,http://www.sandstormgold.com
+98,2724,Burkina Faso,SEMAFO Inc.,http://www.semafo.com
+99,2540,Burkina Faso,Teranga Gold Corporation,http://www.terangagold.com
+100,2118,Burkina Faso,Trevali Mining Corporation,http://www.trevali.com
+101,3152,Cameroon,Mississauga Mining,http://www.mississaugamining.com
+102,2751,Canada,Affinity Metals  Corp,http://www.affinity-metals.com
+103,2127,Canada,Agnico Eagle Mines Limited,http://www.agnicoeagle.com
+104,2722,Canada,Alamos Gold Inc.,http://www.alamosgold.com
+105,2447,Canada,Alexco Resource Corp.,http://www.alexcoresource.com
+106,2435,Canada,Altius Minerals Corp.,http://www.altiusminerals.com
+107,2622A,Canada,Alto Ventures Ltd.,http://www.altoventures.com
+108,2823,Canada,ALX Resources Corp.,http://www.alxresources.com
+109,2753,Canada,American Creek Resources Ltd.,http://www.americancreek.com
+110,2716,Canada,Amex Exploration,http://www.amexexploration.com
+111,2906,Canada,Anaconda Mining Inc.,http://www.anacondamining.com
+112,2325,Canada,Anglo American,http://www.angloamerican.com
+113,2927,Canada,Appia Energy Corp.,http://www.appiaenergy.ca
+114,2103,Canada,Arctic Star Exploration Corp.,http://www.arcticstar.ca
+115,3233,Canada,Ardiden Limited,http://www.ardiden.com.au
+116,2351,Canada,Ares Strategic Mining Inc.,http://www.aresmining.com
+117,3300,Canada,Argo Gold,http://www.argogold.ca
+118,2947,Canada,Argonaut Gold Inc.,http://www.argonautgold.com
+119,2146,Canada,Artemis Gold Inc.,http://www.artemisgoldinc.com
+120,2329,Canada,Ascot Resources Ltd.,http://www.ascotgold.com
+121,2106,Canada,Aston Bay,http://www.astonbayholdings.com
+122,2610,Canada,ATAC Resources Ltd.,http://www.atacresources.com
+123,2904,Canada,Atlantic Gold Corporation,http://www.atlanticgoldcorporation.com
+124,3340,Canada,Auramex Resource Corp,http://www.auramex.com
+125,2421A,Canada,Auryn Resources Inc.,http://www.aurynresources.com
+126,2303,Canada,Avalon Advanced Materials Inc.,http://www.avalonadvancedmaterials.com
+127,2608,Canada,Avidian Gold Corp.,http://www.avidiangold.com
+128,2445,Canada,Avino Silver & Gold Mines Ltd.,http://www.avino.com
+129,2433,Canada,Azimut Exploration Inc.,http://www.azimut-exploration.com
+130,2902,Canada,Balmoral Resources Ltd.,http://www.balmoralresources.com
+131,2221B,Canada,Banyan Gold Corp.,http://www.banyangold.com
+132,2117,Canada,Benton Resources Inc.,http://www.bentonresources.ca
+133,3123,Canada,BHP,http://www.bhp.com
+134,2418B,Canada,Blackstone Minerals Ltd,http://www.blackstoneminerals.com.au
+135,3234,Canada,Blind Creek Resources Ltd.,http://www.blindcreekresources.com
+136,2308,Canada,Blue Star Gold Corp.,http://www.bluestargold.ca
+137,2749,Canada,Blue Thunder Mining Corp,http://www.bluethundermining.com
+138,2931,Canada,BONTERRA Resources Inc.,http://www.btrgold.com
+139,3214,Canada,Braveheart Resources Inc.,http://www.braveheartresourcesinc.com
+140,3228,Canada,Brixton Metals Corporation,http://www.brixtonmetals.com
+141,2951,Canada,BTU Metals Corp.,http://www.btumetals.com
+142,2736,Canada,Buchans Resources Ltd. ,http://www.buchansresources.com
+143,2219B,Canada,BWR Exploration Inc. ,http://www.bwrexploration.com
+144,2909,Canada,Callinex Mines Inc.,http://www.callinex.ca
+145,2747,Canada,Canada Nickel Company,http://www.canadanickel.com
+146,2542,Canada,Canadian Securities Exchange,http://www.thecse.com
+147,2140,Canada,CanAlaska Uranium Ltd.,http://www.canalaska.com
+148,3034,Canada,Canarc Resource Corp.,http://www.canarc.net
+149,3151,Canada,Cantex Mine Development Corp,http://www.cantex.ca
+150,2711,Canada,Carube Copper Corp.,http://www.carubecopper.com
+151,2148,Canada,Centerra Gold Inc.,http://www.centerragold.com
+152,2151,Canada,Century Global Commodities Corporation,http://www.centuryglobal.ca
+153,2306,Canada,Clean Air Metals Inc,http://www.cleanairmetals.ca
+154,2141,Canada,Commander Resources Ltd.,http://www.commanderresources.com
+155,2817,Canada,Commerce Resources Corp.,http://www.commerceresources.com
+156,2911,Canada,Constantine Metal Resources Ltd.,http://www.constantinemetals.com
+157,2713,Canada,Copper Fox Metals Inc.,http://www.copperfoxmetals.com
+158,2420A,Canada,Copper Mountain Mining Corporation,http://www.cumtn.com
+159,2504,Canada,Critical Elements Corporation,http://www.cecorp.ca
+160,2614B,Canada,Crystal Lake Mining,http://www.crystallakemining.com
+161,3032,Canada,Delta Resources Limited,http://www.deltaresources.ca
+162,2514,Canada,Denison Mines Corp.,http://www.denisonmines.com
+163,2813,Canada,Discovery Group,http://www.discoverygroup.ca
+164,2617B,Canada,Durango Resources Inc.,http://www.durangoresourcesinc.com
+165,2832,Canada,Dynasty Gold Corp.,http://www.dynastygoldcorp.com
+166,2319,Canada,Eagle Plains Resources Ltd.,http://www.eagleplains.com
+167,2932,Canada,Earthmetrix Inc.,http://www.earthmetrix.ca
+168,2620A,Canada,Eastfield Resources Ltd.,http://www.eastfieldresources.com
+169,2732,Canada,Eldorado Gold Corporation,http://www.eldoradogold.com
+170,2622B,Canada,Endurance Gold Corp,http://www.endurancegold.com
+171,3232,Canada,Engineer Gold Mines Ltd,http://www.engineergoldmines.com
+172,2333,Canada,EnviroLeach Technologies Inc.,http://www.enviroleach.com
+173,3308,Canada,Eros Resources Corp.,http://www.erosresourcescorp.com
+174,3140,Canada,Evergold Corp,http://www.evergoldcorp.ca
+175,3040,Canada,Evrim Resources Corp.,http://www.evrimresources.com
+176,2153,Canada,Exiro Minerals Corp.,http://www.exirominerals.com
+177,2729,Canada,First Mining Gold Corp.,http://www.firstmininggold.com
+178,2641,Canada,Fission Uranium Corp.,http://www.fissionuranium.com
+179,2726,Canada,Focus Graphite Inc.,http://www.focusgraphite.com
+180,2616A,Canada,Foran Mining Corporation,http://www.foranmining.com
+181,2837,Canada,Fortune Minerals Limited,http://www.fortuneminerals.com
+182,2825,Canada,Forum Energy Metals Corp.,http://www.forumenergymetals.com
+183,2425A,Canada,FPX Nickel Corp.,http://www.fpxnickel.com
+184,3236,Canada,Frontier Lithium Inc.,http://www.frontierlithium.com
+185,3302,Canada,Galleon Gold Corp. ,http://www.galleongold.com
+186,2623A,Canada,Galway Metals Inc.,http://www.galwaymetalsinc.com
+187,3149,Canada,Garibaldi Resources Corp,http://www.garibaldiresources.com
+188,2833,Canada,Gatling Exploration Inc.,http://www.gatlingexploration.com
+189,3220,Canada,Generation Mining Limited,http://www.genmining.com
+190,2746,Canada,Genesis Metals,http://www.genesismetalscorp.
+191,2642,Canada,Geomega Resources Inc.,http://www.geomega.ca
+192,3130,Canada,GFG Resources Inc.,http://www.gfgresources.com
+193,2718,Canada,Globex Mining Enterprises Inc.,http://www.globexmining.com
+194,2625B,Canada,Go Metals Corp.,http://www.gocobalt.ca
+195,2304,Canada,Gold Terra Resource Corp.,http://www.goldterracorp.com
+196,2924,Canada,Golden Arrow Resources,http://www.goldenarrowresources.com
+197,2543,Canada,Golden Goliath Resources Ltd.,http://www.goldengoliath.com
+198,2650,Canada,Golden Predator Mining Corp.,http://www.goldenpredator.com
+199,2526,Canada,GoldMining Inc.,http://www.goldmining.com
+200,3131,Canada,Goldmoney Inc.,http://www.goldmoney.com
+201,2646,Canada,Goldspot Discoveries Inc.,http://www.goldspot.ca
+202,2615A,Canada,Gossan Resources Limited,http://www.gossan.ca
+203,2824,Canada,Gowest Gold Ltd.,http://www.gowestgold.com
+204,2114,Canada,Greg Exploration Inc.,http://www.goldenretrievergroup.com
+205,2122,Canada,Grid Metals Corp.,http://www.gridmetalscorp.com
+206,3020,Canada,Grizzly Discoveries Inc.,http://www.grizzlydiscoveries.com
+207,2323,Canada,GT Gold Corp.,http://www.gtgoldcorp.ca
+208,2425B,Canada,Happy Creek Minerals Ltd.,http://www.happycreekminerals.com
+209,3030,Canada,Harfang Exploration Inc.,http://www.harfangexploration.com
+210,2820,Canada,Harte Gold Corp.,http://www.hartegold.com
+211,2437,Canada,Hecla Mining Company,http://www.hecla-mining.com
+212,2416A,Canada,High Power Exploration,http://www.hpxploration.com
+213,3245,Canada,HighGold Mining Inc,http://www.highgoldmining.com
+214,2145,Canada,HPQ Silicon Resources,http://www.hpqsilicon.com
+215,2522,Canada,IAMGOLD Corporation,http://www.iamgold.com
+216,2741,Canada,Independence Gold Corp.,http://www.ingold.ca
+217,2421B,Canada,IsoEnergy Ltd.,http://www.isoenergy.ca
+218,3137,Canada,Jameson Resources Limited,http://www.jamesonresources.com.au
+219,2536,Canada,Kesselrun Resources Ltd.,http://www.kesselrunresources.com
+220,2313,Canada,Kirkland Lake Gold Ltd. ,http://www.klgold.com
+221,3231,Canada,Klondike Silver Corp.,http://www.klondikesilver.com
+222,3023,Canada,Kutcho Copper Corp.,http://www.kutcho.ca
+223,3025,Canada,Laurion Mineral Exploration Inc.,http://www.laurion.ca
+224,2332,Canada,Lepidico Ltd.,http://www.lepidico.com
+225,2508,Canada,Libero Copper,http://www.liberocopper.com
+226,2547,Canada,Lomiko Metals Inc.,http://www.lomiko.com
+227,2515,Canada,Lundin Group ,http://www.thelundingroup.com
+228,2451,Canada,Manex Resource Group Inc.,http://www.manexresourcegroup.com
+229,3237,Canada,Manganese X Energy Corp.,http://www.manganesexenergycorp.com
+230,2130,Canada,Manitou Gold Inc.,http://www.manitougold.com
+231,2241,Canada,Marathon Gold Corporation,http://www.marathon-gold.com
+232,2612B,Canada,Market Making Services Inc.,http://www.marketmakingservices.com
+233,2849,Canada,McEwen Mining Inc.,http://www.mcewenmining.com
+234,2953,Canada,MegumaGold,http://www.megumagold.com
+235,3024,Canada,Metallic Group of Companies,http://www.metallicgroup.ca
+236,2640,Canada,Metals Creek Resources Corp.,http://www.metalscreek.com
+237,2709,Canada,Metals Group Inc.,http://www.metalsgroup.com
+238,2502,Canada,Midland Exploration Inc.,http://www.midlandexploration.com
+239,2417A,Canada,Monarques Gold Corporation,http://www.monarquesgold.com
+240,3045,Canada,Moneta Porcupine Mines Inc.,http://www.monetaporcupine.com
+241,2822,Canada,Morien Resources Corp.,http://www.morienres.com
+242,2532,Canada,Moydow Resources Limited,http://www.moydow.com
+243,2111,Canada,Murchison Minerals Ltd.,http://www.murchisonminerals.com
+244,2619B,Canada,New Age Metals,http://www.newagemetals.com
+245,2748,Canada,New Found Gold Corp,http://www.newfoundgold.ca
+246,2314,Canada,New Gold Inc.,http://www.newgold.com
+247,3239,Canada,New Pacific Metals Corp.,http://www.newpacificmetals.com
+248,2350,Canada,Newcrest Mining Ltd.,http://www.newcrest.com.au
+249,2912,Canada,Newmont Corporation,http://www.newmont.com
+250,2408,Canada,Nicola Mining Inc.,http://www.nicolamining.com
+251,2624B,Canada,NioBay Metals Inc.,http://www.niobaymetals.com
+252,2631,Canada,Noront Resources Ltd.,http://www.norontresources.com
+253,2707,Canada,North Arrow Minerals Inc.,http://www.northarrowminerals.com
+254,2115,Canada,Northern Graphite Corporation,http://www.northerngraphite.com
+255,3037,Canada,Northern Shield Resources Inc.,http://www.northern-shield.com
+256,3029,Canada,Northern Superior Resources Inc.,http://www.nsuperior.com
+257,2929,Canada,Northstar Gold Corp.,http://www.northstargoldmining.com
+258,2727,Canada,NorZinc Ltd,http://www.norzinc.com
+259,2830,Canada,Nouveau Monde Graphite,http://www.nouveaumonde.ca
+260,2419A,Canada,Olivut Resources Ltd.,http://www.olivut.com
+261,2125,Canada,Opus One Resources Inc. ,http://www.opusoneresources.com
+262,2324,Canada,Orefinders Resources Inc.,http://www.orefinders.ca
+263,2138,Canada,Orestone Mining Corp,http://www.orestone.ca
+264,2529,Canada,Orford Mining Corp.,http://www.orfordmining.com
+265,3013,Canada,Osisko Metals Incorporated,http://www.osiskometals.com
+266,2546,Canada,OTC Markets Group,http://www.otcmarkets.com
+267,2552,Canada,Otso Gold Corp.,http://www.otsogold.com
+268,2120,Canada,Pacific Empire Minerals Corp.,http://www.pemcorp.ca
+269,2816,Canada,Pacton Gold Inc.,http://www.pactongold.com
+270,2205,Canada,Palladium One,http://www.palladiumoneinc.com
+271,3010,Canada,Pancontinental Resources Corporation,http://www.panconresources.com
+272,2728,Canada,Pavey Ark Minerals Inc.,http://www.paveyarkminerals.com
+273,2237,Canada,Pelangio Exploration Inc.,http://www.pelangio.com
+274,2634,Canada,Portofino Resources Inc.,http://www.portofinoresources.com
+275,2322,Canada,Power Ore Inc.,http://www.powerore.com
+276,2523,Canada,Premier Gold Mines Limited,http://www.premiergoldmines.com
+277,2207,Canada,Privateer Gold,http://www.privateer.gold
+278,2847,Canada,Probe Metals Inc.,http://www.probemetals.com
+279,3306,Canada,Prophecy Development Corp.,http://www.prophecydev.com
+280,3007,Canada,Pure Gold Mining,http://www.puregoldmining.ca
+281,2636,Canada,Purepoint Uranium Group Inc.,http://www.purepoint.ca
+282,2217A,Canada,QMX Gold Corporation,http://www.qmxgold.ca
+283,2908,Canada,Radisson Mining Resources Inc.,http://www.radissonmining.com
+284,2630,Canada,Red Cloud Securities Inc. ,http://www.redcloudks.com
+285,2539,Canada,Red Pine Exploration Inc.,http://www.redpineexp.com
+286,2548,Canada,Renforth Resources Inc.,http://www.renforthresources.com
+287,2730,Canada,Resource Capital Funds,http://www.resourcecapitalfunds.com
+288,3048,Canada,Richardson GMP - Alexandra Horwood,http://www.alexandrahorwood.com
+289,2100,Canada,Rio Tinto,http://www.riotinto.com
+290,2413A,Canada,Riverside Resources Inc.,http://www.rivres.com
+291,3328,Canada,RJK Explorations Ltd.,http://www.rjkexplorations.com
+292,2549,Canada,RNC Minerals,http://www.rncminerals.com
+293,3042,Canada,Rockcliff Metals Corporation,http://www.rockcliffmetals.com
+294,3153,Canada,ROKMASTER Resources Corp.,http://www.rokmaster.com
+295,2131,Canada,Romios Gold Resources Inc.,http://www.romios.com
+296,3348,Canada,Royal Canadian Mint,http://www.reserves.mint.ca
+297,2617A,Canada,Sabina Gold & Silver Corp.,http://www.sabinagoldsilver.com
+298,2850,Canada,Sandstorm Gold Royalties,http://www.sandstormgold.com
+299,2340,Canada,Sayona Mining Limited,http://www.sayonamining.com.au
+300,2143,Canada,ScoZinc Mining Ltd.,http://www.scozinc.com
+301,3247,Canada,Searchlight Resources Inc.,http://www.searchlightresources.com
+302,2835,Canada,Serengeti Resources Inc.,http://www.serengetiresources.com
+303,"948, 2312",Canada,Sherritt International Corporation,http://www.sherritt.com
+304,2213A,Canada,Sidex,http://www.sidex.ca
+305,2910,Canada,Sirios Resources Inc.,http://www.sirios.com
+306,2346,Canada,Sitka Gold Corp,http://www.sitkagoldcorp.com
+307,2223A,Canada,Skeena Resources Ltd.,http://www.skeenaresources.com
+308,2629,Canada,Skyharbour Resources Ltd.,http://www.skyharbourltd.com
+309,2432,Canada,Sokoman Minerals Corp. ,http://www.sokomanmineralscorp.com
+310,3246,Canada,South32 Limited,http://www.south32.net
+311,2128,Canada,SPC Metals,http://www.sudburyplatinumcorp.com
+312,2213B,Canada,Sphinx Resources Ltd.,http://www.sphinxresources.ca
+313,2343,Canada,Spirit Mining LLC,http://www.spiritmining.us
+314,3049,Canada,Sprott Group of Companies,http://www.sprott.com
+315,2330,Canada,Star Diamond Corporation,http://www.stardiamondcorp.com
+316,2345,Canada,Stratabound Minerals Corp.,http://www.stratabound.com
+317,3124,Canada,Strategic Exploration Group,http://www.strategicmetalsltd.com
+318,2545,Canada,Strongbow Exploration Inc.,http://www.strongbowexploration.com
+319,3018,Canada,Stuhini Exploration Ltd.,http://www.stuhini.com
+320,3144,Canada,Talisker Resources,http://www.taliskerresources.com
+321,2423B,Canada,Talmora Diamond Inc.,http://www.talmoradiamond.com
+322,2509,Canada,Teck Resources Limited,http://www.teck.com
+323,2752,Canada,Tempus Resources Limited,http://www.tempusresources.com.au
+324,2917,Canada,Toronto Stock Exchange,http://www.tsx.com
+325,2126,Canada,Transition Metals Corp.,http://www.transitionmetalscorp.com
+326,2104,Canada,Treasury Metals Inc.,http://www.treasurymetals.com
+327,2233,Canada,Tres-Or Resources Ltd.,http://www.tres-or.com
+328,2118,Canada,Trevali Mining Corporation,http://www.trevali.com
+329,2503,Canada,Tri Origin Exploration Ltd.,http://www.triorigin.com
+330,2510,Canada,Triumph Gold Corp.,http://www.triumphgoldcorp.com
+331,2553,Canada,Troilus Gold Corp.,http://www.troilusgold.com
+332,3330,Canada,Tudor Gold Corp.,http://www.tudor-gold.com
+333,2416B,Canada,Ubique Minerals Ltd.,http://www.ubiqueminerals.com
+334,2110,Canada,Ucore Rare Metals Inc.,http://www.ucore.com
+335,2429,Canada,UEX Corporation,http://www.uexcorp.com
+336,"2307, 3318",Canada,Vale Canada Limited,http://www.vale.com
+337,2842,Canada,VanadiumCorp Resource Inc.,http://www.vanadiumcorp.com
+338,2221A,Canada,Victory Nickel Inc.,http://www.victorynickel.ca
+339,2613A,Canada,Vior Inc.,http://www.vior.ca
+340,3312,Canada,Vista Energy Resources,http://www.vistaenergyresources.ca
+341,3136,Canada,Vizsla Resources Corp.,http://www.vizslaresources.com
+342,2337,Canada,Vulcan Minerals Inc.,http://www.vulcanminerals.ca
+343,2442,Canada,Wallbridge Mining Company Limited,http://www.wallbridgemining.com
+344,2412A,Canada,Wesdome Gold Mines,http://www.wesdome.com
+345,3122,Canada,West Red Lake Gold Mines Inc.,http://www.westredlakegold.com
+346,2344,Canada,Western Atlas Resources Inc.,http://www.westernar.com
+347,2133,Canada,Western Copper and Gold Corporation,http://www.westerncopperandgold.com
+348,2623B,Canada,Westhaven Ventures Inc.,http://www.westhavenventures.com
+349,2311,Canada,Wheaton Precious Metals Corp.,http://www.wheatonpm.com
+350,3028,Canada,White Gold Corp.,http://www.whitegoldcorp.ca
+351,3009,Canada,Wildsky Resources Inc.,http://www.wildskyresources.com
+352,2149,Canada,Windfall Geotek Inc.,http://www.windfallgeotek.com
+353,2612A,Canada,Wolfden Resources Corporation,http://www.wolfdenresources.com
+354,2903,Canada,Ximen Mining Corp.,http://www.ximenminingcorp.com
+355,2406,Canada,X-Terra Resources,http://www.xterraresorces.com
+356,2715,Canada,Yamana Gold Inc.,http://www.yamana.com
+357,2525,Canada,Yorbeau Resources Inc.,http://www.yorbeauresources.com
+358,3321,Canada,Yukon Mining Alliance,http://www.yukonminingalliance.ca
+359,2619A,Canada,Zen Graphene Solutions,http://www.zengraphene.com
+360,2819,Canada,Zimtu Capital Corp.,http://www.zimtu.com
+361,2317,Canada,ZincX Resources Corp.,http://www.zincxresources.com
+362,2215B,Chile,AbraPlata Resource Corp. ,http://www.aethonminerals.com
+363,2435,Chile,Altius Minerals Corp.,http://www.altiusminerals.com
+364,2123,Chile,Amerigo Resources Ltd.,http://www.amerigoresources.com
+365,2325,Chile,Anglo American,http://www.angloamerican.com
+366,2209,Chile,AURYN Mining Corp.,http://www.aurynmining.com
+367,2434,Chile,Barrick Gold Corporation,http://www.barrick.com
+368,3123,Chile,BHP,http://www.bhp.com
+369,2551,Chile,Cornerstone Capital Resources Inc.,http://www.cornerstoneresources.com
+370,3216,Chile,Equus Mining Limited,http://www.equusmining.com
+371,2924,Chile,Golden Arrow Resources,http://www.goldenarrowresources.com
+372,2341,Chile,Kingsgate Consolidated Limited,http://www.kingsgate.com.au
+373,2913,Chile,Kinross Gold Corporation,http://www.kinross.com
+374,2515,Chile,Lundin Group ,http://www.thelundingroup.com
+375,2709,Chile,Metals Group Inc.,http://www.metalsgroup.com
+376,2420B,Chile,Minera Tres Valles,http://www.mineratresvalles.com
+377,2219A,Chile,Mirasol Resources Ltd.,http://www.mirasolresources.com
+378,2647,Chile,Montero Mining & Exploration Ltd.,http://www.monteromining.com
+379,2350,Chile,Newcrest Mining Ltd.,http://www.newcrest.com.au
+380,2912,Chile,Newmont Corporation,http://www.newmont.com
+381,2138,Chile,Orestone Mining Corp,http://www.orestone.ca
+382,2113,Chile,Pacific Trends Resources Pty Ltd,http://www.pacifictrendsresources.com.au
+383,2538,Chile,Red Metal Resources Ltd.,http://www.redmetalresources.com
+384,2644,Chile,Revelo Resources Corp.,http://www.reveloresources.com
+385,2100,Chile,Rio Tinto,http://www.riotinto.com
+386,2850,Chile,Sandstorm Gold Royalties,http://www.sandstormgold.com
+387,2840,Chile,SQM,http://www.sqm.com
+388,2509,Chile,Teck Resources Limited,http://www.teck.com
+389,3141,Chile,Wealth Minerals Ltd.,http://www.wealthminerals.com
+390,2311,Chile,Wheaton Precious Metals Corp.,http://www.wheatonpm.com
+391,2139,Chile,Xiana Mining Inc.,http://www.xianamining.com
+392,2715,Chile,Yamana Gold Inc.,http://www.yamana.com
+393,2431,China,China Gold International Resources Corp. Ltd.,http://www.chinagoldintl.com
+394,2100,China,Rio Tinto,http://www.riotinto.com
+395,2834,China,Silvercorp Metals Inc.,http://www.silvercorp.ca
+396,2326,Colombia,Andino Commodities S.A.S,
+397,3212,Colombia,Artisanal Gold Council,http://www.artisanalgold.org
+398,2731,Colombia,B2Gold Corp.,http://www.b2gold.com
+399,2107,Colombia,Continental Gold Inc.,http://www.continentalgold.com
+400,2526,Colombia,GoldMining Inc.,http://www.goldmining.com
+401,2310,Colombia,Gran Colombia Gold Corp.,http://www.grancolombiagold.com
+402,2416A,Colombia,High Power Exploration,http://www.hpxploration.com
+403,2522,Colombia,IAMGOLD Corporation,http://www.iamgold.com
+404,2700,Colombia,Lara Exploration Ltd.,http://www.laraexploration.com
+405,2508,Colombia,Libero Copper,http://www.liberocopper.com
+406,3235,Colombia,Morocota Gold SAS,http://www.morocotagold.com
+407,2912,Colombia,Newmont Corporation,http://www.newmont.com
+408,2415A,Colombia,Newrange Gold Corp.,http://www.newrangegold.com
+409,2342,Colombia,Royal Road Minerals,http://www.royalroadminerals.com
+410,3250,Colombia,Rugby Mining Limited,http://www.rugbymining.com
+411,3246,Colombia,South32 Limited,http://www.south32.net
+412,2944,"Congo, Democratic Republic Of",AJN Resources Inc.  ,http://www.ajnresources.com
+413,2414A,"Congo, Democratic Republic Of",Ivanhoe Mines,http://www.ivanhoemines.com
+414,2105,"Congo, Democratic Republic Of",MANAGEM Group,http://www.managemgroup.com
+415,2708,Cote D'ivoire,Awale Resources Ltd.,http://www.awaleresources.com
+416,2416A,Cote D'ivoire,High Power Exploration,http://www.hpxploration.com
+417,2105,Cote D'ivoire,MANAGEM Group,http://www.managemgroup.com
+418,2635,Cote D'ivoire,Roxgold Inc.,http://www.roxgold.com
+419,2540,Cote D'ivoire,Teranga Gold Corporation,http://www.terangagold.com
+420,"948, 2312",Cuba,Sherritt International Corporation,http://www.sherritt.com
+421,2516,Dominican Republic,Energold Corp.,http://www.energold.com
+422,2844,Dominican Republic,GoldQuest Mining Corp.,http://www.goldquestcorp.com
+423,2912,Dominican Republic,Newmont Corporation,http://www.newmont.com
+424,2440,Dominican Republic,Unigold Inc.,http://www.unigoldinc.com
+425,2613B,Ecuador,Adventus Mining Corporation,http://www.adventusmining.com
+426,2325,Ecuador,Anglo American,http://www.angloamerican.com
+427,2905,Ecuador,Aurania Resources Ltd.,http://www.aurania.com
+428,3123,Ecuador,BHP,http://www.bhp.com
+429,2551,Ecuador,Cornerstone Capital Resources Inc.,http://www.cornerstoneresources.com
+430,2704,Ecuador,"Lumina Group, The",http://www.luminagold.com
+431,2515,Ecuador,Lundin Group ,http://www.thelundingroup.com
+432,2350,Ecuador,Newcrest Mining Ltd.,http://www.newcrest.com.au
+433,2945,Ecuador,Salazar Resources Limited,http://www.salazarresources.com
+434,2745,Ecuador,SolGold,http://www.solgold.com.au
+435,2752,Ecuador,Tempus Resources Limited,http://www.tempusresources.com.au
+436,2105,Ethiopia,MANAGEM Group,http://www.managemgroup.com
+437,2912,Ethiopia,Newmont Corporation,http://www.newmont.com
+438,3138,Ethiopia,Sun Peak Metals,http://www.sunpeakmetals.com
+439,3218,Fiji,Kalo Exploration Ltd,http://www.kaloexploration.com
+440,3021,Fiji,Lion One Metals,http://www.liononemetals.com
+441,2325,Finland,Anglo American,http://www.angloamerican.com
+442,2103,Finland,Arctic Star Exploration Corp.,http://www.arcticstar.ca
+443,2148,Finland,Centerra Gold Inc.,http://www.centerragold.com
+444,3139,Finland,FireFox Gold Corp.,http://www.firefoxgold.com
+445,2939,Finland,Mawson Resources Limited,http://www.mawsonresources.com
+446,2552,Finland,Otso Gold Corp.,http://www.otsogold.com
+447,2205,Finland,Palladium One,http://www.palladiumoneinc.com
+448,2100,Finland,Rio Tinto,http://www.riotinto.com
+449,2922,Finland,S2 Resources Ltd.,http://www.s2resources.com.au
+450,3338,France,Columbus Gold Corp.,http://www.columbusgold.com
+451,2515,France,Lundin Group ,http://www.thelundingroup.com
+452,3338,French Guiana,Columbus Gold Corp.,http://www.columbusgold.com
+453,2912,French Guiana,Newmont Corporation,http://www.newmont.com
+454,2142,French Guiana,Reunion Gold Corporation,http://www.reuniongold.com
+455,2105,Gabon,MANAGEM Group,http://www.managemgroup.com
+456,2718,Germany,Globex Mining Enterprises Inc.,http://www.globexmining.com
+457,3005,Germany,Panthera Resources Plc,http://www.pantheraresources.com
+458,2418A,Ghana,Asante Gold Corporation,http://www.asantegold.com
+459,3129,Ghana,Cardinal Resources Ltd.,http://www.cardinalresources.com.au
+460,2305,Ghana,Golden Star Resources Limited,http://www.gsr.com
+461,2913,Ghana,Kinross Gold Corporation,http://www.kinross.com
+462,2532,Ghana,Moydow Resources Limited,http://www.moydow.com
+463,2912,Ghana,Newmont Corporation,http://www.newmont.com
+464,2237,Ghana,Pelangio Exploration Inc.,http://www.pelangio.com
+465,2850,Ghana,Sandstorm Gold Royalties,http://www.sandstormgold.com
+466,3141,Ghana,Wealth Minerals Ltd.,http://www.wealthminerals.com
+467,2732,Greece,Eldorado Gold Corporation,http://www.eldoradogold.com
+468,2311,Greece,Wheaton Precious Metals Corp.,http://www.wheatonpm.com
+469,2325,Greenland,Anglo American,http://www.angloamerican.com
+470,2648,Greenland,Hudson Resources Inc.,http://www.hudsonresourcesinc.com
+471,3342,Greenland,Longland Resources Ltd,http://www.longlandresources.com
+472,3212,Guinea,Artisanal Gold Council,http://www.artisanalgold.org
+473,2105,Guinea,MANAGEM Group,http://www.managemgroup.com
+474,2449,Guyana,Goldsource Mines Inc.,http://www.goldsourcemines.com
+475,2142,Guyana,Reunion Gold Corporation,http://www.reuniongold.com
+476,2643,Honduras,Ascendant Resources Inc.,http://www.ascendantresources.com
+477,2850,Honduras,Sandstorm Gold Royalties,http://www.sandstormgold.com
+478,3005,India,Panthera Resources Plc,http://www.pantheraresources.com
+479,3212,Indonesia,Artisanal Gold Council,http://www.artisanalgold.org
+480,2515,Iraq,Lundin Group ,http://www.thelundingroup.com
+481,2435,Ireland,Altius Minerals Corp.,http://www.altiusminerals.com
+482,3326,Ireland,Aurum Discovery,http://www.aurumdiscovery.com
+483,2132,Ireland,Conroy Gold and Natural Resources plc,http://www.conroygold.com
+484,2509,Ireland,Teck Resources Limited,http://www.teck.com
+485,2711,Jamaica,Carube Copper Corp.,http://www.carubecopper.com
+486,3310,Jamaica,Geophysx Jamaica Ltd,http://www.geophysx.com
+487,2606,Japan,Japan Gold Corp.,http://www.japangold.com
+488,2515,Japan,Lundin Group ,http://www.thelundingroup.com
+489,2907,Kazakhstan,Aurora Minerals Group LLP,http://www.aurora.kz
+490,3316,Kazakhstan,Globmine LLP,http://tks.kz
+491,2100,Kazakhstan,Rio Tinto,http://www.riotinto.com
+492,2515,Kenya,Lundin Group ,http://www.thelundingroup.com
+493,2343,Kenya,Spirit Mining LLC,http://www.spiritmining.us
+494,2907,Kyrgyzstan,Aurora Minerals Group LLP,http://www.aurora.kz
+495,2148,Kyrgyzstan,Centerra Gold Inc.,http://www.centerragold.com
+496,2100,Laos,Rio Tinto,http://www.riotinto.com
+497,"948, 2312",Madagascar,Sherritt International Corporation,http://www.sherritt.com
+498,3304,Malawi,Mkango Resources,http://www.mkango.ca
+499,3050,Malaysia,Monument Mining Limited,http://www.monumentmining.com
+500,2731,Mali,B2Gold Corp.,http://www.b2gold.com
+501,2522,Mali,IAMGOLD Corporation,http://www.iamgold.com
+502,2105,Mali,MANAGEM Group,http://www.managemgroup.com
+503,2532,Mali,Moydow Resources Limited,http://www.moydow.com
+504,3132,Mali,Roscan Gold Corporation,http://www.roscan.ca
+505,3141,Mali,Wealth Minerals Ltd.,http://www.wealthminerals.com
+506,2913,Mauritania,Kinross Gold Corporation,http://www.kinross.com
+507,2722,Mexico,Alamos Gold Inc.,http://www.alamosgold.com
+508,2829,Mexico,Almaden Minerals Ltd.,http://www.almadenminerals.com
+509,2616B,Mexico,Americas Gold and Silver,http://www.americas-gold.com
+510,2947,Mexico,Argonaut Gold Inc.,http://www.argonautgold.com
+511,2445,Mexico,Avino Silver & Gold Mines Ltd.,http://www.avino.com
+512,2940,Mexico,Azure Minerals Limited,http://www.azureminerals.com.au
+513,2148,Mexico,Centerra Gold Inc.,http://www.centerragold.com
+514,2422B,Mexico,Chesapeake Gold Corporation,http://www.chesapeakegold.com
+515,2141,Mexico,Commander Resources Ltd.,http://www.commanderresources.com
+516,2703,Mexico,Defiance Silver Corp.,http://www.defiancesilver.com
+517,3040,Mexico,Evrim Resources Corp.,http://www.evrimresources.com
+518,2501,Mexico,First Majestic Silver Corp. ,http://www.firstmajestic.com
+519,2108,Mexico,Gold Group Management Inc.,http://www.goldgroup.com
+520,2543,Mexico,Golden Goliath Resources Ltd.,http://www.goldengoliath.com
+521,2706,Mexico,Golden Minerals Company,http://www.goldenminerals.com
+522,2348,Mexico,GR Sliver Mining Ltd.,http://www.grsilvermining.com
+523,2437,Mexico,Hecla Mining Company,http://www.hecla-mining.com
+524,2505,Mexico,Impact Silver Corp.,http://www.impactsilver.com
+525,3148,Mexico,Kootenay Silver Inc.,http://www.kootenaysilver.com
+526,2843,Mexico,Leagold Mining Corporation,http://www.leagold.com
+527,2710,Mexico,Mako Mining Corp.,http://www.makominingcorp.com
+528,2451,Mexico,Manex Resource Group Inc.,http://www.manexresourcegroup.com
+529,2849,Mexico,McEwen Mining Inc.,http://www.mcewenmining.com
+530,2637,Mexico,Minaurum Gold Inc.,http://www.minaurum.com
+531,2423A,Mexico,Minera Alamos Inc.,http://www.mineraalamos.com
+532,2314,Mexico,New Gold Inc.,http://www.newgold.com
+533,2912,Mexico,Newmont Corporation,http://www.newmont.com
+534,3046,Mexico,Orla Mining Ltd.,http://www.orlamining.com
+535,2413A,Mexico,Riverside Resources Inc.,http://www.rivres.com
+536,3153,Mexico,ROKMASTER Resources Corp.,http://www.rokmaster.com
+537,2850,Mexico,Sandstorm Gold Royalties,http://www.sandstormgold.com
+538,2441,Mexico,Sierra Metals Inc.,http://www.sierrametals.com
+539,2930,Mexico,Silver One Resources,http://www.silverone.com
+540,2448,Mexico,SilverCrest Metals Inc.,http://www.silvercrestmetals.com
+541,2328,Mexico,Sonoro Metals Corp.,http://www.sonorometals.com
+542,2846,Mexico,Starcore International Mines Ltd.,http://www.starcore.com
+543,2231,Mexico,Telson Mining Corporation,http://www.telsonmining.com
+544,3136,Mexico,Vizsla Resources Corp.,http://www.vizslaresources.com
+545,2311,Mexico,Wheaton Precious Metals Corp.,http://www.wheatonpm.com
+546,3212,Mongolia,Artisanal Gold Council,http://www.artisanalgold.org
+547,2907,Mongolia,Aurora Minerals Group LLP,http://www.aurora.kz
+548,2712,Mongolia,Entrée Resources Ltd.,http://www.entreeresourcesltd.com
+549,2112,Mongolia,Erdene Resource Development Corp.,http://www.erdene.com
+550,2739,Mongolia,Five Star Diamond Limited,http://www.ionenergy.ca
+551,3306,Mongolia,Prophecy Development Corp.,http://www.prophecydev.com
+552,2100,Mongolia,Rio Tinto,http://www.riotinto.com
+553,2850,Mongolia,Sandstorm Gold Royalties,http://www.sandstormgold.com
+554,2725,Mongolia,Steppe Gold Limited,http://www.steppegold.com
+555,3326,Morocco,Aurum Discovery,http://www.aurumdiscovery.com
+556,2105,Morocco,MANAGEM Group,http://www.managemgroup.com
+557,2450,Morocco,Maya Gold & Silver Inc.,http://www.mayagoldsilver.com
+558,2113,Myanmar (Burma),Pacific Trends Resources Pty Ltd,http://www.pacifictrendsresources.com.au
+559,2731,Namibia,B2Gold Corp.,http://www.b2gold.com
+560,3036,Namibia,Copperzone Resources Limited,http://www.copperzone-resources.com
+561,3332,Namibia,E-Tech Metals,http://www.etechmetals.com
+562,2332,Namibia,Lepidico Ltd.,http://www.lepidico.com
+563,2515,Namibia,Lundin Group ,http://www.thelundingroup.com
+564,2647,Namibia,Montero Mining & Exploration Ltd.,http://www.monteromining.com
+565,3015,Namibia,Osino Resources Corp.,http://www.osinoresources.com
+566,2118,Namibia,Trevali Mining Corporation,http://www.trevali.com
+567,2841,New Zealand,OceanaGold Corporation,http://www.oceanagold.com
+568,2946,Nicaragua,Condor Gold Plc,http://www.condorgold.com
+569,2522,Nicaragua,IAMGOLD Corporation,http://www.iamgold.com
+570,2710,Nicaragua,Mako Mining Corp.,http://www.makominingcorp.com
+571,2342,Nicaragua,Royal Road Minerals,http://www.royalroadminerals.com
+572,2515,Nigeria,Lundin Group ,http://www.thelundingroup.com
+573,2532,Nigeria,Moydow Resources Limited,http://www.moydow.com
+574,2823,Norway,ALX Resources Corp.,http://www.alxresources.com
+575,2651,Norway,EMX Royalty Corp.,http://www.emxroyalty.com
+576,2515,Norway,Lundin Group ,http://www.thelundingroup.com
+577,2353,Norway,Playfair Mining Ltd.,http://www.playfairmining.com
+578,3146,NULL,Jamaica Stock Exchange,http://www.jamstockex.com
+579,3046,Panama,Orla Mining Ltd.,http://www.orlamining.com
+580,3033,Papua New Guinea,K92 Mining Inc.,http://www.k92mining.com
+581,2100,Papua New Guinea,Rio Tinto,http://www.riotinto.com
+582,2924,Paraguay,Golden Arrow Resources,http://www.goldenarrowresources.com
+583,2850,Paraguay,Sandstorm Gold Royalties,http://www.sandstormgold.com
+584,2528,Paraguay,Uranium Energy Corp.,http://www.uraniumenergy.com
+585,2325,Peru,Anglo American,http://www.angloamerican.com
+586,3212,Peru,Artisanal Gold Council,http://www.artisanalgold.org
+587,2209,Peru,AURYN Mining Corp.,http://www.aurynmining.com
+588,2421A,Peru,Auryn Resources Inc.,http://www.aurynresources.com
+589,2434,Peru,Barrick Gold Corporation,http://www.barrick.com
+590,3123,Peru,BHP,http://www.bhp.com
+591,3031,Peru,Candente Copper Corp.,http://www.candentecopper.com
+592,2711,Peru,Carube Copper Corp.,http://www.carubecopper.com
+593,2628,Peru,Cerro de Pasco Resources Inc.,http://www.pascoresources.com
+594,3325,Peru,Chakana Copper Corporation,http://www.chakanacopper.com
+595,3208,Peru,Consulting & Mining Sevices SRL,http://www.consultingmining.com
+596,2632,Peru,Dynacor Gold Mines Inc.,http://www.dynacor.com
+597,2949,Peru,Globe Trotters Resource Group Inc.,http://www.globetrottersresources.ca
+598,2108,Peru,Gold Group Management Inc.,http://www.goldgroup.com
+599,2526,Peru,GoldMining Inc.,http://www.goldmining.com
+600,2416A,Peru,High Power Exploration,http://www.hpxploration.com
+601,2522,Peru,IAMGOLD Corporation,http://www.iamgold.com
+602,3035,Peru,Inca One Gold Corp.,http://www.incaone.com
+603,2700,Peru,Lara Exploration Ltd.,http://www.laraexploration.com
+604,2709,Peru,Metals Group Inc.,http://www.metalsgroup.com
+605,2912,Peru,Newmont Corporation,http://www.newmont.com
+606,3322,Peru,Nexa Resources S.A.,http://www.nexaresources.com
+607,2723,Peru,Palamina Corp.,http://www.palamina.com
+608,2506,Peru,Panoro Minerals Ltd.,http://www.panoro.com
+609,3127,Peru,Plateau Energy Metals Inc. ,http://www.plateauenergymetals.com
+610,3019,Peru,PPX Mining Corp.,http://www.ppxmining.com
+611,2215A,Peru,Pucara Resources,http://www.pucararesources.com
+612,2925,Peru,Regulus Resources Inc.,http://www.regulusresources.com
+613,2100,Peru,Rio Tinto,http://www.riotinto.com
+614,3153,Peru,ROKMASTER Resources Corp.,http://www.rokmaster.com
+615,2850,Peru,Sandstorm Gold Royalties,http://www.sandstormgold.com
+616,2441,Peru,Sierra Metals Inc.,http://www.sierrametals.com
+617,2422A,Peru,Solitario Zinc Corp.,http://www.solitariozinc.com
+618,2509,Peru,Teck Resources Limited,http://www.teck.com
+619,2937,Peru,Tinka Resources Limited,http://www.tinkaresources.com
+620,2118,Peru,Trevali Mining Corporation,http://www.trevali.com
+621,2311,Peru,Wheaton Precious Metals Corp.,http://www.wheatonpm.com
+622,2942,Peru,Zinc One Resources Inc.,http://www.zincone.com
+623,3212,Philippines,Artisanal Gold Council,http://www.artisanalgold.org
+624,2731,Philippines,B2Gold Corp.,http://www.b2gold.com
+625,2841,Philippines,OceanaGold Corporation,http://www.oceanagold.com
+626,3250,Philippines,Rugby Mining Limited,http://www.rugbymining.com
+627,2643,Portugal,Ascendant Resources Inc.,http://www.ascendantresources.com
+628,2136,Portugal,"EDM-Empresa de Desenvolvimento Mineiro, SA",http://www.edm.pt
+629,2332,Portugal,Lepidico Ltd.,http://www.lepidico.com
+630,2515,Portugal,Lundin Group ,http://www.thelundingroup.com
+631,2732,Romania,Eldorado Gold Corporation,http://www.eldoradogold.com
+632,2907,Russian Federation,Aurora Minerals Group LLP,http://www.aurora.kz
+633,2913,Russian Federation,Kinross Gold Corporation,http://www.kinross.com
+634,2302,Russian Federation,Kopy Goldfields AB,http://www.kopygoldfields.com
+635,2500,Russian Federation,Orsu Metals Corporation,http://www.orsumetals.com
+636,2531,Russian Federation,Silver Bear Resources Plc.,http://www.silverbearresources.com
+637,2632,Senegal,Dynacor Gold Mines Inc.,http://www.dynacor.com
+638,2522,Senegal,IAMGOLD Corporation,http://www.iamgold.com
+639,2540,Senegal,Teranga Gold Corporation,http://www.terangagold.com
+640,2732,Serbia,Eldorado Gold Corporation,http://www.eldoradogold.com
+641,2108,Serbia,Gold Group Management Inc.,http://www.goldgroup.com
+642,2530,Serbia,Mundoro Capital Inc.,http://www.mundoro.com
+643,2100,Serbia,Rio Tinto,http://www.riotinto.com
+644,3241,Serbia,Tethyan Resource Corp.,http://www.tethyan-resources.com
+645,2745,Solomon Islands,SolGold,http://www.solgold.com.au
+646,2325,South Africa,Anglo American,http://www.angloamerican.com
+647,2316,South Africa,Diamcor Mining Inc.,http://www.diamcormining.com
+648,2414A,South Africa,Ivanhoe Mines,http://www.ivanhoemines.com
+649,2515,South Africa,Lundin Group ,http://www.thelundingroup.com
+650,2647,South Africa,Montero Mining & Exploration Ltd.,http://www.monteromining.com
+651,2100,South Africa,Rio Tinto,http://www.riotinto.com
+652,2850,South Africa,Sandstorm Gold Royalties,http://www.sandstormgold.com
+653,3246,South Africa,South32 Limited,http://www.south32.net
+654,3326,Spain,Aurum Discovery,http://www.aurumdiscovery.com
+655,2243,Spain,Orvana Minerals Corp.,http://www.orvana.com
+656,2417B,Spain,Valoriza Mineria SL,http://www.valorizamineria.com
+657,2105,Sudan,MANAGEM Group,http://www.managemgroup.com
+658,3212,Suriname,Artisanal Gold Council,http://www.artisanalgold.org
+659,3338,Suriname,Columbus Gold Corp.,http://www.columbusgold.com
+660,2522,Suriname,IAMGOLD Corporation,http://www.iamgold.com
+661,2912,Suriname,Newmont Corporation,http://www.newmont.com
+662,3326,Sweden,Aurum Discovery,http://www.aurumdiscovery.com
+663,2148,Sweden,Centerra Gold Inc.,http://www.centerragold.com
+664,2651,Sweden,EMX Royalty Corp.,http://www.emxroyalty.com
+665,2941,Sweden,Leading Edge Materials Corp.,http://www.leadingedgematerials.com
+666,2515,Sweden,Lundin Group ,http://www.thelundingroup.com
+667,2301,Sweden,Mandalay Resources Corp.,http://www.mandalayresources.com
+668,2850,Sweden,Sandstorm Gold Royalties,http://www.sandstormgold.com
+669,2311,Sweden,Wheaton Precious Metals Corp.,http://www.wheatonpm.com
+670,2647,"Tanzania, United Republic Of",Montero Mining & Exploration Ltd.,http://www.monteromining.com
+671,2100,"Tanzania, United Republic Of",Rio Tinto,http://www.riotinto.com
+672,2341,Thailand,Kingsgate Consolidated Limited,http://www.kingsgate.com.au
+673,2621B,Togo,Keras Resources plc,http://www.kerasplc.com
+674,2339,Turkey,Alacer Gold Corp.,http://www.alacergold.com
+675,2722,Turkey,Alamos Gold Inc.,http://www.alamosgold.com
+676,2148,Turkey,Centerra Gold Inc.,http://www.centerragold.com
+677,3017,Turkey,CVK Mining Group,http://www.cvkgroups.com
+678,2732,Turkey,Eldorado Gold Corporation,http://www.eldoradogold.com
+679,2651,Turkey,EMX Royalty Corp.,http://www.emxroyalty.com
+680,2618B,Turkey,Mira Stone Ltd,http://www.mirastone.net
+681,2850,Turkey,Sandstorm Gold Royalties,http://www.sandstormgold.com
+682,2509,Turkey,Teck Resources Limited,http://www.teck.com
+683,3142,Uganda,Oro Verde Limited,http://www.oroverde.com.au
+684,3326,United Kingdom,Aurum Discovery,http://www.aurumdiscovery.com
+685,2545,United Kingdom,Strongbow Exploration Inc.,http://www.strongbowexploration.com
+686,2750,United States,Adamera Minerals Corp.,http://www.adamera.com
+687,2944,United States,AJN Resources Inc.  ,http://www.ajnresources.com
+688,2722,United States,Alamos Gold Inc.,http://www.alamosgold.com
+689,2435,United States,Altius Minerals Corp.,http://www.altiusminerals.com
+690,2616B,United States,Americas Gold and Silver,http://www.americas-gold.com
+691,2325,United States,Anglo American,http://www.angloamerican.com
+692,2614A,United States,Aquila Resources Inc.,http://www.aquilaresources.com
+693,2351,United States,Ares Strategic Mining Inc.,http://www.aresmining.com
+694,2329,United States,Ascot Resources Ltd.,http://www.ascotgold.com
+695,2106,United States,Aston Bay,http://www.astonbayholdings.com
+696,2608,United States,Avidian Gold Corp.,http://www.avidiangold.com
+697,2415B,United States,Barrian Mining Corp,
+698,2434,United States,Barrick Gold Corporation,http://www.barrick.com
+699,3047,United States,BeMetals Corp.,http://www.bemetalscorp.com
+700,3123,United States,BHP,http://www.bhp.com
+701,2419B,United States,BlackRock Gold Corp.,http://www.blackrockgoldcorp.com
+702,3228,United States,Brixton Metals Corporation,http://www.brixtonmetals.com
+703,3034,United States,Canarc Resource Corp.,http://www.canarc.net
+704,3151,United States,Cantex Mine Development Corp,http://www.cantex.ca
+705,2148,United States,Centerra Gold Inc.,http://www.centerragold.com
+706,2911,United States,Constantine Metal Resources Ltd.,http://www.constantinemetals.com
+707,2713,United States,Copper Fox Metals Inc.,http://www.copperfoxmetals.com
+708,2518,United States,Corvus Gold Inc.,http://www.corvusgold.com
+709,2845,United States,Desert Mountain Energy Corp.,http://www.desertmountainenergy.com
+710,2832,United States,Dynasty Gold Corp.,http://www.dynastygoldcorp.com
+711,2948,United States,Eclipse Gold Mining Corp,http://www.eclipsegoldmining.com
+712,2347,United States,Elim Mining Incorporated,http://www.elimmining.com
+713,3012,United States,Ely Gold Royalties Inc.,http://www.elygoldinc.com
+714,2651,United States,EMX Royalty Corp.,http://www.emxroyalty.com
+715,2622B,United States,Endurance Gold Corp,http://www.endurancegold.com
+716,2452,United States,Energy Fuels Inc.,http://www.energyfuels.com
+717,2333,United States,EnviroLeach Technologies Inc.,http://www.enviroleach.com
+718,3308,United States,Eros Resources Corp.,http://www.erosresourcescorp.com
+719,3040,United States,Evrim Resources Corp.,http://www.evrimresources.com
+720,2809,United States,Excelsior Mining Corp.,http://www.excelsiormining.com
+721,2950,United States,Fiore Gold,http://www.fioregold.com
+722,2825,United States,Forum Energy Metals Corp.,http://www.forumenergymetals.com
+723,3130,United States,GFG Resources Inc.,http://www.gfgresources.com
+724,2718,United States,Globex Mining Enterprises Inc.,http://www.globexmining.com
+725,2338,United States,GMV Minerals Inc.,http://www.gmvminerals.com
+726,2108,United States,Gold Group Management Inc.,http://www.goldgroup.com
+727,2928,United States,Gold Springs Resource Corp.,http://www.goldspringsresource.com
+728,2706,United States,Golden Minerals Company,http://www.goldenminerals.com
+729,2526,United States,GoldMining Inc.,http://www.goldmining.com
+730,3131,United States,Goldmoney Inc.,http://www.goldmoney.com
+731,2437,United States,Hecla Mining Company,http://www.hecla-mining.com
+732,3245,United States,HighGold Mining Inc,http://www.highgoldmining.com
+733,2741,United States,Independence Gold Corp.,http://www.ingold.ca
+734,2147,United States,Integra Resources Corp.,http://www.integraresources.com
+735,3128,United States,International Millennium Mining Corp.,http://www.immc.ca
+736,2109,United States,ioneer,http://www.ioneer.com
+737,2618A,United States,Kerr Mines Inc.,http://www.kerrmines.com
+738,2913,United States,Kinross Gold Corporation,http://www.kinross.com
+739,2508,United States,Libero Copper,http://www.liberocopper.com
+740,3206,United States,Liberty Gold Corp.,http://www.libertygold.ca
+741,2451,United States,Manex Resource Group Inc.,http://www.manexresourcegroup.com
+742,2849,United States,McEwen Mining Inc.,http://www.mcewenmining.com
+743,3024,United States,Metallic Group of Companies,http://www.metallicgroup.ca
+744,2413B,United States,Midas Gold Corp.,http://www.midasgoldcorp.com
+745,2812,United States,Mineral Mountain Resources Ltd.,http://www.mineralmtn.com
+746,3243,United States,"Morefield Gem Mine, Inc.",http://www.morefieldgemmine.com
+747,2532,United States,Moydow Resources Limited,http://www.moydow.com
+748,2410,United States,Nevada Copper Corp.,http://www.nevadacopper.com
+749,2527,United States,Nevada Exploration Inc.,http://www.nevadaexploration.com
+750,2619B,United States,New Age Metals,http://www.newagemetals.com
+751,2314,United States,New Gold Inc.,http://www.newgold.com
+752,2350,United States,Newcrest Mining Ltd.,http://www.newcrest.com.au
+753,2912,United States,Newmont Corporation,http://www.newmont.com
+754,2415A,United States,Newrange Gold Corp.,http://www.newrangegold.com
+755,3240,United States,Northern Dynasty Minerals Ltd.,http://www.northerndynastyminerals.com 
+756,2714,United States,Northern Vertex Mining Corp.,http://www.northernvertex.com
+757,2901,United States,Novagold Resources Inc.,http://www.novagold.com
+758,2841,United States,OceanaGold Corporation,http://www.oceanagold.com
+759,2529,United States,Orford Mining Corp.,http://www.orfordmining.com
+760,3010,United States,Pancontinental Resources Corporation,http://www.panconresources.com
+761,2633,United States,Peloton Minerals Corporation,http://www.pelotonminerals.com
+762,2705,United States,PolyMet Mining Corp.,http://www.polymetmining.com
+763,3344,United States,Prolific Mining Corp.,http://www.prolificutah.com/home
+764,3306,United States,Prophecy Development Corp.,http://www.prophecydev.com
+765,2331,United States,Quaterra Resources Inc.,http://www.quaterra.com
+766,2645,United States,Redstar Gold Corp.,http://www.redstargold.com
+767,2625A,United States,Renaissance Gold Inc.,http://www.rengold.com
+768,2507,United States,Revival Gold Inc.,http://www.revival-gold.com
+769,2100,United States,Rio Tinto,http://www.riotinto.com
+770,2131,United States,Romios Gold Resources Inc.,http://www.romios.com
+771,2922,United States,S2 Resources Ltd.,http://www.s2resources.com.au
+772,2850,United States,Sandstorm Gold Royalties,http://www.sandstormgold.com
+773,2930,United States,Silver One Resources,http://www.silverone.com
+774,2346,United States,Sitka Gold Corp,http://www.sitkagoldcorp.com
+775,2422A,United States,Solitario Zinc Corp.,http://www.solitariozinc.com
+776,3246,United States,South32 Limited,http://www.south32.net
+777,2343,United States,Spirit Mining LLC,http://www.spiritmining.us
+778,3124,United States,Strategic Exploration Group,http://www.strategicmetalsltd.com
+779,2512,United States,Talon Metals Corp.,http://www.talonmetals.com
+780,2509,United States,Teck Resources Limited,http://www.teck.com
+781,3229,United States,Tectonic Metals Inc.,http://www.tectonicmetals.com
+782,2848,United States,Timberline Resources Corporation,http://www.timberline-resources.com
+783,3041,United States,Trilogy Metals Inc.,http://www.trilogymetals.com
+784,2110,United States,Ucore Rare Metals Inc.,http://www.ucore.com
+785,2528,United States,Uranium Energy Corp.,http://www.uraniumenergy.com
+786,2443,United States,Ur-Energy Inc.,http://www.ur-energy.com
+787,2613A,United States,Vior Inc.,http://www.vior.ca
+788,3022,United States,Viva Gold Corp.,http://www.vivagoldcorp.com
+789,2223B,United States,VR Resources Ltd.,http://www.vrr.ca
+790,2943,United States,Western Alaska Copper and Gold,http://www.wacg.rocks
+791,3014,United States,Western Uranium & Vanadium Corp.,http://www.western-uranium.com
+792,2414B,United States,White Rock Minerals,http://www.whiterockminerals.com.au
+793,2836,United States,Zephyr Minerals Ltd.,http://www.zephyrminerals.com
+794,2418B,Viet Nam,Blackstone Minerals Ltd,http://www.blackstoneminerals.com.au
+795,3005,West Africa,Panthera Resources Plc,http://www.pantheraresources.com
+796,3151,Yemen,Cantex Mine Development Corp,http://www.cantex.ca
+797,2325,Zambia,Anglo American,http://www.angloamerican.com
+798,3047,Zambia,BeMetals Corp.,http://www.bemetalscorp.com
+799,3036,Zambia,Copperzone Resources Limited,http://www.copperzone-resources.com
+800,2100,Zambia,Rio Tinto,http://www.riotinto.com

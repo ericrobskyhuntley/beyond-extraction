@@ -1,0 +1,579 @@
+id,biz_type,booth,name,website
+0,Air Transportation Services,415,Air Greenland Charter,http://www.airgreenland.com
+1,Air Transportation Services,624,Avjet Holding Inc.,http://www.avjet.ca
+2,Air Transportation Services,917,Canadian Helicopters Limited,http://www.canadianhelicopters.ca
+3,Air Transportation Services,152,Custom Helicopters Ltd.,http://www.customheli.com
+4,Air Transportation Services,6724N,Drone Delivery Canada,http://www.dronedeliverycanada.com
+5,Air Transportation Services,626,Dynamic Aviation Group Inc.,http://www.dynamicaviation.com
+6,Air Transportation Services,1223,Expedition Helicopters Inc.,http://www.expeditionhelicopters.com
+7,Air Transportation Services,527,Heli Explore Inc.,http://www.heliexplore.ca
+8,Air Transportation Services,726,Helicopter Transport Services,http://www.htsc.ca
+9,Air Transportation Services,6403N,Kenn Borek Air,http://www.borekair.com
+10,Air Transportation Services,7514N,LATAM Airlines,http://www.latam.com
+11,Air Transportation Services,6506N,Nolinor Aviation,http://www.nolinor.com
+12,Air Transportation Services,6828N,STAR Alliance,http://www.staralliance.com
+13,Air Transportation Services,849,Summit Helicopters,http://www.summithelicopters.ca
+14,Air Transportation Services,1044,Universal Helicopters,http://www.uhgroup.ca
+15,Air Transportation Services,6930N,Voyages Lindberg Inc.,http://www.voyageslindberg.com
+16,Association,6500N,American Geosciences Institute,http://www.americangeosciences.org
+17,Association,6631N,ANMOPYC,http://www.anmopyc.es
+18,Association,1303,Brasil Pavilion,http://www.adimb.org.br/brasilpdac
+19,Association,215,"Canadian Institute of Mining, Metallurgy & Petroleum (CIM)",http://www.cim.org
+20,Association,6627N,Carpenters Union Local 2486,http://www.carpenterslocal2486.com
+21,Association,6401N,Geological Association of Canada (GAC),http://www.gac.ca
+22,Association,413,Greenland Business Association,http://www.ga.gl
+23,Association,6206N,International Airborne Geophysics Safety Association,http://www.iagsa.ca
+24,Association,6428N,Me Too Mining Association,http://www.metoomining.com
+25,Association,1215,Mexico Pavilion,http://www.geoimin.com.mx
+26,Association,6508N,Mining Industry Human Resources Council (MiHR),http://www.mihr.ca
+27,Association,919,Mining Suppliers Trade Association (MSTA Canada),http://www.mstacanada.ca
+28,Association,138,New Brunswick Prospectors & Developers Association,http://www.nbpda.org
+29,Association,1008,Northwest Territories & Nunavut Chamber of Mines,http://www.miningnorth.com
+30,Association,137,Nova Scotia Prospectors Association,http://www.prospectors.ns.ca
+31,Association,851,Professional Geoscientists Ontario (PGO),http://www.pgo.ca
+32,Association,218,"Society for Mining, Metallurgy & Exploration (SME) Inc.",http://www.smenet.org
+33,Association,718,Society of Economic Geologists,http://www.segweb.org
+34,Association,427,Yukon Chamber of Mines,http://www.yukonminers.org
+35,Consulting Services,1449,Aarhus Geophysics ApS,http://www.aarhusgeo.com
+36,Consulting Services,448,AMC Consultants,http://www.amcconsultants.com
+37,Consulting Services,605,Arethuse Geology,http://www.arethusegeology.com
+38,Consulting Services,1023,Argentine Mining Industry Pavilion,http://www.altoamericas.com.ar
+39,Consulting Services,716,Aurum Exploration Services,http://www.aurumexploration.com
+40,Consulting Services,724,BBA Inc.,http://www.bba.ca
+41,Consulting Services,915,Beak Consultants GmbH,http://www.beak.de
+42,Consulting Services,6215N,BGC Engineering Inc,http://www.bgcengineering.ca
+43,Consulting Services,7307N,Brunel,http://www.brunelcanada.ca
+44,Consulting Services,1229,Business Consultants Mexico,http://www.businessconsultantsmex.com
+45,Consulting Services,7404N,Capital Street Media,http://www.capitalstreetmedia.com
+46,Consulting Services,"203, 7523N",CGG,http://www.cgg.com
+47,Consulting Services,7316N,CH Engineering & Consultants,http://www.chconsultants.com
+48,Consulting Services,210,Complete MT Solutions,http://www.complete-mt-solutions.com
+49,Consulting Services,6400N,"Condor Consulting, Inc.",http://www.condorconsult.com
+50,Consulting Services,845,Corporate Traveller,http://www.corporatetraveller.ca
+51,Consulting Services,1336,Cypher Environmental Ltd.,http://www.cypherenvironmental.com
+52,Consulting Services,423,DRA Americas Inc.,http://www.draglobal.com
+53,Consulting Services,6217N,Equity Exploration Consultants Ltd.,http://www.equityexploration.com
+54,Consulting Services,326,ERM,http://www.erm.com
+55,Consulting Services,703,Fladgate Exploration Consulting Corporation,http://www.fladgateexploration.com
+56,Consulting Services,1129,"Foth Infrastructure & Environment, LLC",http://www.foth.com
+57,Consulting Services,344,Fracflow Consultants Inc.,http://www.fracflow.com
+58,Consulting Services,1238,G Mining Services Inc.,http://www.gmining.com
+59,Consulting Services,333,Geologica Inc.,http://www.geologica.qc.ca
+60,Consulting Services,1004,Geophysics GPR International Inc.,http://www.geophysicsgpr.com
+61,Consulting Services,342,Golder,http://www.golder.com
+62,Consulting Services,253,IGS International Geoscience Services Ltd.,http://www.igsint.com
+63,Consulting Services,7315N,iMotion,http://www.imotion.ca
+64,Consulting Services,719,"Independent Mining Consultants, Inc.",http://www.imctucson.com
+65,Consulting Services,239,InnovExplo Inc.,http://www.innovexplo.com
+66,Consulting Services,7128N,INR Engineering & Consulting Inc.,http://www.inr.com.tr
+67,Consulting Services,1407,Jacobs,http://www.jacobs.com
+68,Consulting Services,1131,"Kappes, Cassiday & Associates",http://www.kcareno.com
+69,Consulting Services,119,Kingston Process Metallurgy Inc.,http://www.kpm.ca
+70,Consulting Services,1041,Knight Piésold Ltd.,http://www.knightpiesold.com
+71,Consulting Services,6431N,Lantern,http://www.drillwithlantern.com
+72,Consulting Services,6201N,LGL Limited,http://www.lgl.com
+73,Consulting Services,6323N,Major Reclaim Corp.,http://www.majorreclaim.com
+74,Consulting Services,1106,Matrix GeoTechnologies Ltd.,http://www.matrixgt.com
+75,Consulting Services,424,Maxwell GeoServices,http://www.maxgeo.com
+76,Consulting Services,440,Mercator Geological Services Limited,http://www.mercatorgeo.com
+77,Consulting Services,923,MineAfrica Inc.,http://www.mineafrica.com
+78,Consulting Services,1228,MineHutte,http://www.minehutte.com
+79,Consulting Services,6310N,Mining Finland,http://www.miningfinland.com
+80,Consulting Services,7406N,Mining Footprint Ltd.,http://www.miningfootprint.com
+81,Consulting Services,1123,Montt Group SpA,http://www.monttgroup.com
+82,Consulting Services,338,Natural History Museum Consulting,http://www.nhm.ac.uk/business-services/consulting
+83,Consulting Services,6823N,Nordmin Group of Companies,http://www.nordmin.com
+84,Consulting Services,1053,Objectivity,http://www.objectivity.ca
+85,Consulting Services,353,Orix Geoscience Inc.,http://www.orixgeo.com
+86,Consulting Services,522,"Paterson, Grant & Watson Limited",http://www.pgw.ca
+87,Consulting Services,523,Piteau Associates Engineering Ltd.,http://www.piteau.com
+88,Consulting Services,1202,Promer Consultancy Engineering Inc.,http://www.promerengineering.com.tr
+89,Consulting Services,617,R.T. Boyd Limited,http://www.rtboydlimited.com
+90,Consulting Services,7318N,Risk Assistance Group,http://www.riskassistancegroup.com
+91,Consulting Services,316,Roscoe Postle Associates Inc.,http://www.rpacan.com
+92,Consulting Services,708,RPMGlobal Canada Ltd.,http://www.rpmglobal.com
+93,Consulting Services,502,RWDI,http://www.rwdi.com
+94,Consulting Services,6826N,SAXUM Engineered Solutions,http://www.saxum.us
+95,Consulting Services,7306N,SimWell,http://www.simwell.ca
+96,Consulting Services,7217N,SolidCAD,http://www.solidcad.ca
+97,Consulting Services,113,SRK Consulting Canada Inc.,http://www.srk.com
+98,Consulting Services,609,Stantec,http://spotlight.stantec.com
+99,Consulting Services,1133,Story Environmental Inc.,http://www.storyenvironmental.com
+100,Consulting Services,1324,TerraCore,http://www.terracoregeo.com
+101,Consulting Services,1136,Terrane Geoscience Inc.,http://www.terranegeoscience.com
+102,Consulting Services,908,Tetra Tech,http://www.tetratech.com
+103,Consulting Services,1111,The Claim Group Inc.,http://www.theclaimgroup.com
+104,Consulting Services,623,TransPerfect Translations,http://www.transperfect.com
+105,Consulting Services,524,Tulloch Engineering,http://www.tulloch.ca
+106,Consulting Services,6306N,UpDeep Project,http://newprojects.gtk.fi/updeep
+107,Consulting Services,452,Vektore Exploration Consulting Corporation,http://www.vektore.com
+108,Consulting Services,901,"Watts, Griffis and McOuat Limited",http://www.wgm.ca
+109,Consulting Services,1100,Wood,http://www.woodplc.com
+110,Consulting Services,6929N,Workplace Safety North,http://www.workplacesafetynorth.ca
+111,Consulting Services,1216,WSP Canada Inc.,http://www.wsp.com
+112,Consulting Services,615,XPS ,http://www.xps.ca
+113,Drill Equip/Serv & Compressors,512,Acker Drill Company,http://www.ackerdrill.com
+114,Drill Equip/Serv & Compressors,323,AMC North America Limited,http://www.amcmud.com
+115,Drill Equip/Serv & Compressors,7231N,AVD Drill rigs - Atelier Val d'Or,http://www.ateliervd.qc.ca
+116,Drill Equip/Serv & Compressors,809,Baroid Industrial Drilling Products,http://www.baroididp.com
+117,Drill Equip/Serv & Compressors,515,BAUER Maschinen GmbH,http://www.bauer.de
+118,Drill Equip/Serv & Compressors,112,Bg Drilling Solutions,http://www.bg-drilling.com
+119,Drill Equip/Serv & Compressors,101,Boart Longyear,http://www.boartlongyear.com
+120,Drill Equip/Serv & Compressors,430,Cabo Drilling Corp.,http://www.cabo.ca
+121,Drill Equip/Serv & Compressors,6723N,Comacchio Srl,http://www.comacchio.com
+122,Drill Equip/Serv & Compressors,1142,Control Chemical 1989 Corporation,http://www.matexdrillingfluids.ca
+123,Drill Equip/Serv & Compressors,6307N,DBC Makina,http://www.dbcmakina.com
+124,Drill Equip/Serv & Compressors,1251,Discovery Drill Manufacturer DDM Ltd.,http://www.discoverydrills.com
+125,Drill Equip/Serv & Compressors,447,Duralite Diamond Drills Ltd.,http://www.duralitediamonddrills.com
+126,Drill Equip/Serv & Compressors,6931N,Eijkelkamp North America,http://www.eijkelkamp-usa.com
+127,Drill Equip/Serv & Compressors,1141,Foraco International SA,http://www.foraco.com
+128,Drill Equip/Serv & Compressors,6522N,Forage FTE Drilling,http://www.foragefte.com
+129,Drill Equip/Serv & Compressors,240,Forage Orbit Garant Drilling,http://www.orbitgarant.com
+130,Drill Equip/Serv & Compressors,7211N,G4 Drilling Ltd.,http://www.g4drilling.com
+131,Drill Equip/Serv & Compressors,7308N,Geops-Bolkan Drilling Services Ltd.,http://www.geopsbg.com
+132,Drill Equip/Serv & Compressors,100,Geotech Drilling Services Ltd.,http://www.geotechdrilling.com
+133,Drill Equip/Serv & Compressors,6313N,Hole Products Corporation,http://www.holeproducts.com
+134,Drill Equip/Serv & Compressors,6926N,Hydracore Drills Ltd.,http://www.hydracore.com
+135,Drill Equip/Serv & Compressors,351,Hy-Tech Drilling Ltd.,http://www.hy-techdrilling.com
+136,Drill Equip/Serv & Compressors,7426N,KEMAICO USA CORP.,http://WWW.KEMAICO.COM
+137,Drill Equip/Serv & Compressors,1337,Machines Roger International,http://www.machines-roger.com
+138,Drill Equip/Serv & Compressors,330,Major Drilling,http://www.majordrilling.com
+139,Drill Equip/Serv & Compressors,6434N,MARL Technologies Inc.,http://www.marltechnologies.com
+140,Drill Equip/Serv & Compressors,401,Maxidrill Inc.,http://www.maxidrill.com
+141,Drill Equip/Serv & Compressors,1332,Mud Bay Drilling,http://www.mudbaydrilling.com
+142,Drill Equip/Serv & Compressors,1151,Multi-Power Products Ltd.,http://www.multipowerproducts.com
+143,Drill Equip/Serv & Compressors,518,National Compressed Air Canada Ltd.,http://www.nationalcompressedair.com
+144,Drill Equip/Serv & Compressors,6405N,Northspan Explorations Ltd.,http://www.northspan.ca
+145,Drill Equip/Serv & Compressors,651,Northwest Drills,http://www.nwdrills.com
+146,Drill Equip/Serv & Compressors,1231,PHQGlobal,http://www.phqglobal.com
+147,Drill Equip/Serv & Compressors,1250,Pozitif Drilling Canada Ltd.,http://www.pozitifdrilling.com
+148,Drill Equip/Serv & Compressors,1149,Priority Drilling Ltd.,http://www.prioritydrilling.ie
+149,Drill Equip/Serv & Compressors,327,Reflex Instruments N.A.,http://www.reflexnow.com
+150,Drill Equip/Serv & Compressors,6300N,RNP MEXICO,http://www.rnpsa.com
+151,Drill Equip/Serv & Compressors,829,Sandvik Mining,http://www.sandvik.com
+152,Drill Equip/Serv & Compressors,322,"Schramm, Inc.",http://www.schramminc.com
+153,Drill Equip/Serv & Compressors,1015,Spektra Drilling,http://www.spektra.com.tr
+154,Drill Equip/Serv & Compressors,1048,Swick Drilling North America,http://www.swickmining.com
+155,Drill Equip/Serv & Compressors,1246,Team Drilling LP,http://www.teamdrilling.com
+156,Drill Equip/Serv & Compressors,751,VersaDrill Canada,http://www.versadrillcanada.com
+157,Drill Equip/Serv & Compressors,1139,Wink Vibracore Drill Company Ltd.,http://www.vibracorer.com
+158,Expl/Mining Equipment/Supplies,6327N,ABEL Pumps LP,http://www.abelpumps.com
+159,Expl/Mining Equipment/Supplies,432,AGT Systems,http://www.agtsys.ca
+160,Expl/Mining Equipment/Supplies,710,AIL Mining,http://www.ailmining.com
+161,Expl/Mining Equipment/Supplies,6530N,Atom Bits,http://www.atombits.ca
+162,Expl/Mining Equipment/Supplies,6409N,Aziwell AS,http://www.aziwell.com
+163,Expl/Mining Equipment/Supplies,6925N,BESTECH,http://www.bestech.com
+164,Expl/Mining Equipment/Supplies,1453,Bme,http://www.bme.co.za
+165,Expl/Mining Equipment/Supplies,6324N,BPQ,http://www.bpq.ca
+166,Expl/Mining Equipment/Supplies,6526N,Canpipe,http://www.canpipe.com
+167,Expl/Mining Equipment/Supplies,1227,CDN Resource Laboratories Ltd.,http://www.cdnlabs.com
+168,Expl/Mining Equipment/Supplies,128,Chemours,http://www.chemours.com
+169,Expl/Mining Equipment/Supplies,1147,Core Case,http://www.corecase.com
+170,Expl/Mining Equipment/Supplies,6825N,Core Tech,http://www.coretech.com.pe
+171,Expl/Mining Equipment/Supplies,1244,CoreSafe Core Trays,http://www.coresafecoretrays.ca
+172,Expl/Mining Equipment/Supplies,7331N,Cryopeak LNG Solutions Corporation,http://www.cryopeak.com
+173,Expl/Mining Equipment/Supplies,6335N,CyanoGuard AG,http://www.cyanoguard.com
+174,Expl/Mining Equipment/Supplies,937,DATC,http://www.datc-group.com
+175,Expl/Mining Equipment/Supplies,6304N,De Beers Group Services,http://www.debtech.com
+176,Expl/Mining Equipment/Supplies,1212,Deakin Industries,http://www.deakin.com
+177,Expl/Mining Equipment/Supplies,1019,Derrick Corporation,http://www.derrick.com
+178,Expl/Mining Equipment/Supplies,517,Devico Directional Drilling,http://www.devico.com
+179,Expl/Mining Equipment/Supplies,1328,Diamantina Christensen Trading Inc.,http://www.diamantinachristensen.com
+180,Expl/Mining Equipment/Supplies,426,Di-Corp,http://www.di-corp.com
+181,Expl/Mining Equipment/Supplies,7325N,Displasac,http://www.displasacperu.com
+182,Expl/Mining Equipment/Supplies,1403,Doppelmayr,http://www.doppelmayr-mts.com
+183,Expl/Mining Equipment/Supplies,1000,Dynamik Drilling Products,http://www.dynamik.com
+184,Expl/Mining Equipment/Supplies,6824N,Enterprise Holdings Ottawa,http://www.enterprisetrucks.com
+185,Expl/Mining Equipment/Supplies,1146,Equipment Jexplore Inc.,http://www.jexploreinc.com
+186,Expl/Mining Equipment/Supplies,1140,ERIEZ,http://www.eriez.com
+187,Expl/Mining Equipment/Supplies,6411N,Eutectic Canada Inc.,http://www.eutectic.ca
+188,Expl/Mining Equipment/Supplies,947,F.F.P. Systems Inc.,http://www.ffpsystems.com
+189,Expl/Mining Equipment/Supplies,433,Foremost Industries,http://www.foremost.ca
+190,Expl/Mining Equipment/Supplies,314,FWS Group of Companies,http://www.fwsgroup.com
+191,Expl/Mining Equipment/Supplies,305,Gekko Systems,http://www.gekkos.com
+192,Expl/Mining Equipment/Supplies,6635N,GeoMinera S.A.,http://www.gmsa.cu
+193,Expl/Mining Equipment/Supplies,6127N,Geotek Ltd.,http://www.geotek.co.uk
+194,Expl/Mining Equipment/Supplies,7209N,GMS Mine Repair & Maintenance,http://www.gmsminerepair.com
+195,Expl/Mining Equipment/Supplies,108,Halltech Exploration Outfitters,http://www.htex.com
+196,Expl/Mining Equipment/Supplies,6510N,Inertial Sensing,http://www.inertialsensing.com
+197,Expl/Mining Equipment/Supplies,713,Ingetrol Group,http://www.ingetrol.com
+198,Expl/Mining Equipment/Supplies,608,IRL Supplies Ltd.,http://www.irlsupplies.com
+199,Expl/Mining Equipment/Supplies,6315N,"Jinshi Drilltech Co., Ltd.",http://www.jsexplo.com
+200,Expl/Mining Equipment/Supplies,6322N,Kovatera,http://www.minecat.com
+201,Expl/Mining Equipment/Supplies,6205N,Kuvawala Core Drill Eqpt. Pvt. Ltd.,http://www.kuvawalacoredrill.com
+202,Expl/Mining Equipment/Supplies,1110,Levanto Canada Inc.,http://www.levanto.fi/en
+203,Expl/Mining Equipment/Supplies,7410N,Loesche South Africa,http://www.loesche.com
+204,Expl/Mining Equipment/Supplies,216,MacLean Engineering,http://www.macleanengineering.com
+205,Expl/Mining Equipment/Supplies,441,Manufacture Adria inc.,http://www.adria-corp.com
+206,Expl/Mining Equipment/Supplies,1112,Matrix Helicopter Solutions Inc.,http://www.matrixco.ca
+207,Expl/Mining Equipment/Supplies,1322,MBI Drilling Products,http://www.mbidrillingproducts.com
+208,Expl/Mining Equipment/Supplies,503,McDowell B. Equipment,http://www.bmcdowell.com
+209,Expl/Mining Equipment/Supplies,613,Megadome Buildings,http://www.megadomebuildings.com
+210,Expl/Mining Equipment/Supplies,6413N,Meglab,http://www.meglab.ca
+211,Expl/Mining Equipment/Supplies,7530N,Metso,http://www.metso.com
+212,Expl/Mining Equipment/Supplies,1302,"M-I SWACO, A Schlumberger Co. ",http://www.slb.com
+213,Expl/Mining Equipment/Supplies,853,Minalyze AB,http://www.minalyze.com
+214,Expl/Mining Equipment/Supplies,913,Mincon Group PLC,http://www.mincon.com
+215,Expl/Mining Equipment/Supplies,249,Mineral Technologies,http://www.mineraltechnologies.com
+216,Expl/Mining Equipment/Supplies,6229N,MMD Mineral Sizing Canada Inc.,http://www.mmdsizers.com
+217,Expl/Mining Equipment/Supplies,6435N,Northern Light Technologies,http://www.nltinc.com
+218,Expl/Mining Equipment/Supplies,6501N,Northern Ontario Mining Showcase,http://www.northernontariomining.com
+219,Expl/Mining Equipment/Supplies,513,NSS Canada,http://www.nsscanada.com
+220,Expl/Mining Equipment/Supplies,1113,NTT CORESAW,http://www.nttcoresaw.com
+221,Expl/Mining Equipment/Supplies,914,Olympus,http://www.olympus-ims.com
+222,Expl/Mining Equipment/Supplies,803,Outotec,http://www.outotec.com
+223,Expl/Mining Equipment/Supplies,6223N,Petro-Canada Fuels,http://www.petro-canada.ca/business
+224,Expl/Mining Equipment/Supplies,7030N,Pilot Diamond Tools,http://www.pilotdiamondtools.ca
+225,Expl/Mining Equipment/Supplies,1127,PowerTraxx Vehicles Inc.,http://www.powertraxx.com
+226,Expl/Mining Equipment/Supplies,6628N,Prolenc Mfg Inc,http://www.prolenc.com
+227,Expl/Mining Equipment/Supplies,7314N,PumpEng,http://www.jetguard.com.au
+228,Expl/Mining Equipment/Supplies,938,Quarry and Mining Equipment Ltd.,http://www.qme.ie
+229,Expl/Mining Equipment/Supplies,943,RBL-REI,http://www.rblrei-france.com
+230,Expl/Mining Equipment/Supplies,437,RDH Mining Equipment,http://www.rdhscharf.com
+231,Expl/Mining Equipment/Supplies,1036,ROCK-TECH,http://www.rock-tech.com
+232,Expl/Mining Equipment/Supplies,6203N,SafeSight Exploration Inc.,http://www.safesightxp.com
+233,Expl/Mining Equipment/Supplies,6303N,Saskatchewan Trade and Export Partnership,http://www.sasktrade.com
+234,Expl/Mining Equipment/Supplies,7311N,"SciAps, Inc.",http://www.sciaps.com
+235,Expl/Mining Equipment/Supplies,807,SEI Industries Ltd.,http://www.sei-ind.com
+236,Expl/Mining Equipment/Supplies,1222,Sepro Systems,http://www.seprosystems.com
+237,Expl/Mining Equipment/Supplies,7516N,Silicon Sensing Systems,http://www.sssj.co.jp
+238,Expl/Mining Equipment/Supplies,6103N,"SmithCo Mfg, Inc",http://www.sidedump.com
+239,Expl/Mining Equipment/Supplies,6202N,SNF Canada,http://www.snfcanada.com
+240,Expl/Mining Equipment/Supplies,6726N,Son-Mak,http://www.son-mak.com.tr
+241,Expl/Mining Equipment/Supplies,1411,Spectral Evolution,http://www.spectralevolution.com
+242,Expl/Mining Equipment/Supplies,6422N,Stockholm Precision Tools AB,http://www.sptab.com
+243,Expl/Mining Equipment/Supplies,6318N,SUNDRIL,http://www.sundril.com
+244,Expl/Mining Equipment/Supplies,1436,Technidrill,http://www.technidrill.com
+245,Expl/Mining Equipment/Supplies,6730N,Tema Isenmann Inc.,http://www.temaisenmann.com
+246,Expl/Mining Equipment/Supplies,804,Terraplus Inc.,http://www.terraplus.ca
+247,Expl/Mining Equipment/Supplies,7319N,The Thyssen Mining Group of Companies,http://www.thyssenmining.com
+248,Expl/Mining Equipment/Supplies,504,Thermo Fisher Scientific,http://www.thermofisher.com
+249,Expl/Mining Equipment/Supplies,6924N,Thor Global Enterprises Ltd.,http://www.thorglobal.ca
+250,Expl/Mining Equipment/Supplies,6922N,Tioga Air Heaters,http://www.tiogaairheaters.com
+251,Expl/Mining Equipment/Supplies,750,Tretan Inc.,http://www.tretan.com
+252,Expl/Mining Equipment/Supplies,7223N,Vancon Core Saw Inc.,http://www.vanconcoresaw.com
+253,Expl/Mining Equipment/Supplies,940,Wajax ,http://www.wajax.com
+254,Expl/Mining Equipment/Supplies,1152,"Walden Group, The",http://www.waldengroup.ca
+255,Expl/Mining Equipment/Supplies,700,Weatherhaven,http://www.weatherhaven.com
+256,Expl/Mining Equipment/Supplies,6734N,West End Radiators,http://www.westendrad.ca
+257,Expl/Mining Equipment/Supplies,6634N,Westpro Machinery Inc.,http://www.westpromachinery.com
+258,Expl/Mining Equipment/Supplies,6317N,Xploration Services Greenland A/S,http://www.xplorationservices.com
+259,Expl/Mining Equipment/Supplies,6230N,Yesti Insaat ve Tic. Ltd. Sti.,http://www.yestigroup.com
+260,Exploration/Mining Company,6525N,Amis,http://www.amis.co.za
+261,Exploration/Mining Company,953,Bag Supplies Canada Ltd.,http://www.bagsupplies.ca
+262,Exploration/Mining Company,604,DMC Mining Services,http://www.dmcmining.com
+263,Exploration/Mining Company,507,Dumas Contracting Ltd.,http://www.dumasmining.com
+264,Exploration/Mining Company,723,Fordia Powered by Epiroc,http://www.epiroc.com
+265,Exploration/Mining Company,7412N,More Core Diamond Drilling Services Ltd.,http://www.morecore.ca
+266,Exploration/Mining Company,7031N,SCR Mining and Tunnelling L.P.,http://www.scrmines.com
+267,Exploration/Mining Company,6923N,Sigfusson Northern Ltd.,http://www.sigfusson.ca
+268,Exploration/Mining Company,6731N,Star Trace Private Ltd.,http://www.startraceltd.com
+269,Finance Division/Institution,115,S&P Global Market Intelligence,http://www.marketintelligence.spglobal.com
+270,Financial/Insurance Company,346,Davidson & Company LLP,http://www.davidson-co.com
+271,Financial/Insurance Company,7414N,GoldFinX PTE Ltd.,http://www.goldfinx.com
+272,Financial/Insurance Company,340,PDAC Partnered Insurance Program,https://www.pdac.ca/members/insurance
+273,Financial/Insurance Company,6107N,TFG Global Insurance Solutions Ltd.,http://www.tfgglobal.com
+274,Financial/Insurance Company,349,Thomas O'Neill & Associates Inc.,http://www.oneill-inc.com
+275,Geological Survey,7413N,BRGM,http://www.brgm.fr
+276,Geological Survey,631,"British Columbia, Ministry of Energy, Mines and Petroleum Resources",http://www.gov.bc.ca/ener
+277,Geological Survey,1014,Canada-Nunavut Geoscience Office,http://www.cngo.ca
+278,Geological Survey,409,"Finland, Geological Survey of",http://geologicalsurveyfinland.com
+279,Geological Survey,317,Geological Survey of New South Wales (Australia Minerals),http://www.australiaminerals.gov.au
+280,Geological Survey,412,Geological Survey of Victoria (Australia Minerals),http://www.australiaminerals.gov.au
+281,Geological Survey,313,Geoscience Australia (Australia Minerals),http://www.australiaminerals.gov.au
+282,Geological Survey,315,Mineral Resources Tasmania (Australia Minerals),http://www.australiaminerals.gov.au
+283,Geological Survey,712,Namibia Geological Survey,http://www.gsn.gov.na
+284,Geological Survey,904,New Zealand Government,http://www.nzpam.govt.nz
+285,Geological Survey,414,Northern Territory Geological Survey (Australia Minerals),http://www.australiaminerals.gov.au
+286,Geological Survey,815,"Norway, Geological Survey of",http://www.ngu.no
+287,Geological Survey,6822N,Precision GeoSurveys Inc.,http://www.precisiongeosurveys.com
+288,Geological Survey,319,Queensland Government (Australia Minerals),http://www.australiaminerals.gov.au
+289,Geological Survey,416,"South Australia, Government of (Australia Minerals)",http://www.australiaminerals.gov.au
+290,Geological Survey,405,"Sweden, Geological Survey of",http://www.sgu.se
+291,Geological Survey,1009,U.S. Geological Survey,http://www.minerals.usgs.gov
+292,Geological Survey,418,"Western Australia, Department of Mines, Industry Regulation and Safety (Australia Minerals)",http://www.australiaminerals.gov.au
+293,Geophysical Services & Equip,1329,Abitibi Geophysics Inc.,http://www.ageophysics.com
+294,Geophysical Services & Equip,1007,Advanced Geophysical Operations and Services Inc. (AGCOS),http://www.agcos.ca
+295,Geophysical Services & Equip,526,Advanced Geosciences Inc.,http://www.agiusa.com
+296,Geophysical Services & Equip,1415,Advanced Logic Technology (ALT),http://www.alt.lu
+297,Geophysical Services & Equip,422,Aerogeophysica Inc.,http://www.aerogeo.ru
+298,Geophysical Services & Equip,516,AeroGeophysical Surveys,http://www.aerosurveys.ru
+299,Geophysical Services & Equip,611,"Allegheny Instruments, Inc.",http://www.alleghenyinstruments.com
+300,Geophysical Services & Equip,122,"Basler Turbo Conversions, LLC",http://www.baslerturbo.com
+301,Geophysical Services & Equip,902,ClearView Geophysics Inc.,http://www.geophysics.ca
+302,Geophysical Services & Equip,6625N,"CRM GeoTomography Technologies, Inc.",http://www.crmgtm.com
+303,Geophysical Services & Equip,800,Crone Geophysics & Exploration Ltd.,http://www.cronegeophysics.com
+304,Geophysical Services & Equip,6830N,Datarock Pty Ltd.,http://www.datarock.com.au
+305,Geophysical Services & Equip,842,DGI Geoscience Inc.,http://www.dgigeoscience.com
+306,Geophysical Services & Equip,643,Dias Geophysical Limited,http://www.diasgeo.com
+307,Geophysical Services & Equip,1042,Discovery International Geophysics Inc.,http://www.discogeo.com
+308,Geophysical Services & Equip,622,DMT Group,http://www.dmt-group.com
+309,Geophysical Services & Equip,847,ElectroMagnetic Imaging Technology,http://www.electromag.com.au
+310,Geophysical Services & Equip,312,EON Geosciences Inc.,http://www.eongeosciences.com
+311,Geophysical Services & Equip,717,Expert Geophysics Limited,http://www.expertgeophysics.com
+312,Geophysical Services & Equip,6225N,Gap - Discovery HeliSAM Ltd.,http://www.discogeo.com
+313,Geophysical Services & Equip,"705, 802",GEM Systems Advanced Magnetometers,http://www.gemsystems.ca
+314,Geophysical Services & Equip,818,Geo Data Solutions Inc.,http://www.geodatasolutions.ca
+315,Geophysical Services & Equip,1206,GEODEVICE,http://www.geodevice.co
+316,Geophysical Services & Equip,1242,Geometrics,http://www.geometrics.com
+317,Geophysical Services & Equip,811,Geonics Limited,http://www.geonics.com
+318,Geophysical Services & Equip,6729N,Geoscan,https://www.geoscan.aero
+319,Geophysical Services & Equip,7429N,GeoSight Inc.,http://www.geosight.ca
+320,Geophysical Services & Equip,1209,Geotech Ltd.,http://www.geotech.ca
+321,Geophysical Services & Equip,444,Geotechnologies,http://www.geotechnologies-rus.com
+322,Geophysical Services & Equip,1439,Geovista,http://www.geovista.co.uk
+323,Geophysical Services & Equip,6108N,GF Instruments,http://www.gfinstruments.cz
+324,Geophysical Services & Equip,702,Groundradar Inc.,http://www.groundradar.com
+325,Geophysical Services & Equip,406,HiSeis Pty Ltd.,http://www.hiseis.com
+326,Geophysical Services & Equip,310,IFG Corporation,http://www.ifgcorp.com
+327,Geophysical Services & Equip,7130N,Initial Exploration Services Inc.,http://www.initialexploration.com
+328,Geophysical Services & Equip,706,Instrumentation GDD Inc.,http://www.gdd.ca
+329,Geophysical Services & Equip,337,International Directional Services,http://www.idsdrill.com
+330,Geophysical Services & Equip,514,Kroum VS Instruments Limited,http://www.kroumvs.com
+331,Geophysical Services & Equip,508,Lake Central Air Services Inc.,http://www.lakecentral.com
+332,Geophysical Services & Equip,1103,Lamontagne Geophysics Ltd.,http://www.lamontagnegeophysics.com
+333,Geophysical Services & Equip,442,LIM Logging,http://www.lim.eu
+334,Geophysical Services & Equip,446,Medusa Radiometrics BV,http://www.medusa-radiometrics.com
+335,Geophysical Services & Equip,6523N,Minewise Technology,http://www.minewise.com
+336,Geophysical Services & Equip,1417,Mount Sopris Instruments,http://www.mountsopris.com
+337,Geophysical Services & Equip,805,MPX Geophysics Ltd.,http://www.mpxgeophysics.com
+338,Geophysical Services & Equip,1108,New Resolution Geophysics,http://www.airbornegeophysics.com
+339,Geophysical Services & Equip,212,New-Sense Geophysics Limited,http://www.new-sense.com
+340,Geophysical Services & Equip,1037,Nuvia Dynamics,http://www.nuvia-dynamics.com
+341,Geophysical Services & Equip,211,Phoenix Geophysics Limited,http://www.phoenix-geophysics.com
+342,Geophysical Services & Equip,118,Pioneer Aerial Surveys Inc.,http://www.pioneeraerialsurveys.com
+343,Geophysical Services & Equip,1323,Quantec Geoscience,http://www.quantecgeoscience.com
+344,Geophysical Services & Equip,808,Radiation Solutions Inc.,http://www.radiationsolutions.ca
+345,Geophysical Services & Equip,208,RMS Instruments,http://www.rmsinst.com
+346,Geophysical Services & Equip,1210,"Robertson Geologging USA, Inc.",http://www.robertson-geo.com
+347,Geophysical Services & Equip,131,Sander Geophysics,http://www.sgl.com
+348,Geophysical Services & Equip,1001,Scintrex,http://www.scintrexltd.com
+349,Geophysical Services & Equip,722,Scott Hogg & Associates Ltd.,http://www.shageophysics.com
+350,Geophysical Services & Equip,1409,Semm Logging,http://www.semmlogging.com
+351,Geophysical Services & Equip,616,Simcoe Geoscience Limited,http://www.simcoegeoscience.com
+352,Geophysical Services & Equip,217,Sisprobe,http://www.sisprobe.com
+353,Geophysical Services & Equip,911,SkyTEM Canada Inc.,http://www.skytem.com
+354,Geophysical Services & Equip,627,SODERN,http://www.sodern.com
+355,Geophysical Services & Equip,7518N,Southern Geoscience Consultants Pty Ltd,http://www.sgc.com.au
+356,Geophysical Services & Equip,6235N,Stratus Aeronautics Inc.,http://www.stratusaeronautics.com
+357,Geophysical Services & Equip,1237,SurveyTECH Instruments,http://www.surveytechinstruments.com
+358,Geophysical Services & Equip,114,Terraquest Ltd.,http://www.terraquest.ca
+359,Geophysical Services & Equip,307,Wireline Services Group,http://www.wirelineservices.com.au
+360,Geophysical Services & Equip,450,Xcalibur Airborne Geophysics,http://www.groupxcalibur.com
+361,Geophysical Services & Equip,1038,Zonge International Inc.,http://www.zonge.com
+362,Government,7528N,Afghanistan Embassy Ottawa,http://www.afghanembassy.ca
+363,Government,950,"Argentina, Federal and provincial governments",http://www.minem.gob.ar
+364,Government,6219N,Barbados,http://www.investbarbados.org
+365,Government,539,"Canada, Government of",http://www.canada.ca
+366,Government,7105N,Canadian Northern Economic Development Agency CanNor,http://www.cannor.gc.ca
+367,Government,1349,"Chile, Trade Commission of",http://www.prochile.gob.cl
+368,Government,7001N,"Colombia, Government of – National Mining Agency",http://www.anm.gov.co
+369,Government,7328N,Cornwall Development Company,http://cornwallti.com
+370,Government,6529N,Czech Republic,http://www.mzv.cz/toronto
+371,Government,6209N,Egyptian Ministry of Petroleum and Mineral Resources (MOP),http://www.emra.gov.eg
+372,Government,7123N,European Union,http://www.europa.eu/european-union
+373,Government,552,Export Development Canada,http://www.edc.ca
+374,Government,"6114N, 6115N",German Pavilion - Federal Ministry for Economic Affairs and Energy (BMWi),https://www.bmwi.de
+375,Government,417,"Greenland, Government of",http://www.govmin.gl
+376,Government,7009N,Guyana ,http://www.ggmc.gov.gy
+377,Government,1241,"India, Government of, Ministry of Mines",http://www.mines.nic.in
+378,Government,7115N,Ireland Pavilion,http://www.gesocience.ie
+379,Government,903,"Ireland, Department of Communications, Climate Action & Environment",http://www.dccae.gov.ie
+380,Government,1047,"Japan Oil, Gas and Metals National Corporation",http://www.jogmec.go.jp
+381,Government,731,Manitoba Pavilion,http://www.manitoba.ca/minerals
+382,Government,1451,Minerals Commission Ghana,http://www.mincom.gov.gh
+383,Government,1043,Minnesota Department of Natural Resources,http://www.mcc.mn.gov
+384,Government,6829N,"Mongolia, Government of",http://www.mmhi.gov.mn
+385,Government,126,Moroccan National Office of Hydrocarbons and Mines (ONHYM),http://www.onhym.com
+386,Government,7017N,Nevada ,http://www.minerals.nv.gov
+387,Government,136,New Brunswick Department of Natural Resources and Energy Development,http://www.gnb.ca/minerals
+388,Government,149,Newfoundland and Labrador: Explore the opportunities,http://www.nr.gov.nl.ca/nr
+389,Government,907,"Northern Ireland, Department for the Economy",http://www.bgs.ac.uk/gsni
+390,Government,1107,"Northwest Territories, Government of",http://www.nwtmining.com
+391,Government,145,Nova Scotia Department of Energy and Mines ,http://www.gov.ns.ca
+392,Government,7524N,Nunatsiavut Government,http://www.nunatsiavut.com
+393,Government,1016,"Nunavut, Government of",http://www.gov.nu.ca/edt
+394,Government,637,"Ontario Ministry of Energy, Northern Development and Mines",http://www.mndm.gov.on.ca
+395,Government,7411N,Opportunities New Brunswick,http://www.onbcanada.ca
+396,Government,1423,Peru,http://www.canadaperu.org
+397,Government,"222, 223","Québec, Gouvernement",http://www.mern.gouv.qc.ca
+398,Government,752,"Red Lake, Municipality of",http://www.redlake.ca
+399,Government,531,"Saskatchewan, Government of",http://www.saskatchewan.ca
+400,Government,1343,"South Africa, Department of Mineral Resources",http://www.dmr.gov.za
+401,Government,653,Sudbury (Greater Sudbury),http://www.investsudbury.ca
+402,Government,7312N,Tanzania High Commission,http://www.tzrepottawa.ca
+403,Government,946,"Thunder Bay, Mining in Northwestern Ontario",http://www.thunderbaycedc.ca
+404,Government,6410N,Wabun Tribal Council,http://www.wabun.on.ca
+405,Government,528,"Yukon, Government of",http://www.yukon.ca
+406,Health Services,6207N,Cigna,http://www.cignaglobalhealth.com
+407,Health Services,6406N,Methapharm Inc.,http://www.methapharm.com
+408,Health Services,6423N,PLS Insoles Inc.,http://www.plsinsoles.ca
+409,Health Services,429,Sirius Wilderness Medicine Inc.,http://www.siriusmed.com
+410,Junior Exploration Company,7423N,Sixth Wave Innovations Inc.,http://www.sixthwave.com
+411,Labs/Lab Suppliers & Analytics,123,Activation Laboratories Ltd. (Actlabs),http://www.actlabs.com
+412,Labs/Lab Suppliers & Analytics,843,AGAT Laboratories Ltd.,http://www.agatlabs.com
+413,Labs/Lab Suppliers & Analytics,1125,Agilent Technologies,http://www.agilent.com
+414,Labs/Lab Suppliers & Analytics,125,ALS,http://www.alsglobal.com
+415,Labs/Lab Suppliers & Analytics,816,Anachemia Science,http://ca.vwr.com
+416,Labs/Lab Suppliers & Analytics,1138,Blue Coast Research,http://www.bluecoastresearch.ca
+417,Labs/Lab Suppliers & Analytics,6416N,Bruker Nano Analytics,http://www.bruker.com/hmp
+418,Labs/Lab Suppliers & Analytics,400,Bureau Veritas Commodities Canada Ltd.,http://www.bureauveritas.com/um
+419,Labs/Lab Suppliers & Analytics,6131N,Chrysos Corporation Limited,http://www.chrysos.com.au
+420,Labs/Lab Suppliers & Analytics,309,Corescan Pty Ltd.,http://www.corescan.com.au
+421,Labs/Lab Suppliers & Analytics,6329N,ELEMISSION Inc.,http://www.elemission.ca
+422,Labs/Lab Suppliers & Analytics,525,FLSmidth Ltd.,http://www.flsmidth.com
+423,Labs/Lab Suppliers & Analytics,6725N,Hi Tech PMR,http://www.hitechpmr.com
+424,Labs/Lab Suppliers & Analytics,1145,Independent Laboratory Supplies Pty Ltd.,http://www.indlabsupplies.com.au
+425,Labs/Lab Suppliers & Analytics,7205N,Intertek,http://www.intertek.com
+426,Labs/Lab Suppliers & Analytics,347,Klen International,http://www.klen.com.au
+427,Labs/Lab Suppliers & Analytics,1006,MS Analytical,http://www.msalabs.com
+428,Labs/Lab Suppliers & Analytics,404,OREAS,http://www.ore.com.au
+429,Labs/Lab Suppliers & Analytics,910,Overburden Drilling Management Limited,http://www.odm.ca
+430,Labs/Lab Suppliers & Analytics,1012,Romquest Technologies,http://www.romquest.com
+431,Labs/Lab Suppliers & Analytics,431,RPC,http://www.rpc.ca
+432,Labs/Lab Suppliers & Analytics,7213N,Scott Technology Ltd.,http://www.scottautomation.com
+433,Labs/Lab Suppliers & Analytics,1010,"Sepor, Inc.",http://www.sepor.com
+434,Labs/Lab Suppliers & Analytics,102,SGS ,http://www.sgs.com/mining
+435,Labs/Lab Suppliers & Analytics,839,Skyline Assayers & Laboratories,http://www.skylinelabs.com
+436,Labs/Lab Suppliers & Analytics,7029N,Small Modular Reactors & Mining,http://www.cnl.ca
+437,Labs/Lab Suppliers & Analytics,6623N,Systems for Research Corp.,http://www.sfr.ca
+438,Labs/Lab Suppliers & Analytics,500,TSL Laboratories Inc.,http://www.tsllabs.com
+439,Law Firm,7526N,AFRI-SYNERGIES Ltd.,http://www.afrisynergies.com
+440,Law Firm,951,BLP Law,http://www.blplaw.ca
+441,Law Firm,7416N,White & Case LLP,http://www.whitecase.com
+442,Other,1315,Alaska Structures,http://www.aks.com
+443,Other,7022N,Almazgeobur LLC,http://www.almazgeobur.ru
+444,Other,6630N,AMG Metals Inc.,http://www.amgmetals.com
+445,Other,6518N,Armtec Inc.,http://www.armtec.com
+446,Other,7534N,Avigilon Corporation,http://www.avigilon.com
+447,Other,743,Axis Mining Technology Pty Ltd.,http://www.axisminetech.com
+448,Other,6622N,Balsam Promotions,http://www.balsampromotions.com
+449,Other,6110N,"Barnard Construction Company, Inc",http://www.barnard-inc.com
+450,Other,7023N,Becker Mining Systems,http://www.becker-mining.com
+451,Other,6528N,Belt Conveyor Guarding,http://www.conveyorguarding.com
+452,Other,245,Bio-Mine Ltd.,http://www.biomine.ca
+453,Other,7305N,Budget Demolition,http://www.budgetdemolition.ca
+454,Other,6415N,Canadian Council for Aboriginal Business,http://www.ccab.com
+455,Other,6325N,DigiGeoData Inc.,http://www.digigeodata.com
+456,Other,1405,Dundee Sustainable Technologies Inc.,http://www.dundeetechnologies.com
+457,Other,6224N,dynaCERT Inc.,http://www.dynacert.com
+458,Other,6407N,E.S. Fox Limited,http://www.esfox.com
+459,Other,1248,ECO Technologies,http://www.ecotec.ca
+460,Other,6204N,EMS Bruel & Kjaer,http://www.emsbk.com
+461,Other,7529N,eSupply Canada Ltd.,http://www.esupplycanada.ca
+462,Other,331,Grenville Minerals,
+463,Other,6427N,Hitec Power Protection Inc.,http://www.hitec-ups.com
+464,Other,6504N,Horizon North Logistics Inc.,http://www.horizonnorth.ca
+465,Other,1441,ICOM Canada,http://www.icomcanada.com
+466,Other,944,Innu Development Limited Partnership,http://www.innudev.com
+467,Other,7510N,International SOS,https://www.internationalsos.com
+468,Other,649,Keller,http://www.kellerfoundations.ca
+469,Other,7028N,Kitco Metals (Precious Metals Division),http://www.online.kitco.com
+470,Other,1117,Kitikmeot Cementation Mining & Development Ltd.,http://www.kitikmeotcorp.ca
+471,Other,6234N,Komplete Modular Solutions Ltd.,http://www.komplete.ca
+472,Other,129,Langara Island Lodge,http://www.langara.com
+473,Other,6524N,Legacy Building Solutions,http://www.legacybuildingsolutions.com
+474,Other,6109N,Magnor,http://www.magnor.ca
+475,Other,748,Matawa First Nations,http://www.matawa.on.ca
+476,Other,1040,McCue Engineering Contractors,http://www.mccuecontracting.com
+477,Other,1240,Mining and Process Solutions Pty Ltd.,http://www.mpsinnovation.com.au
+478,Other,1443,Newterra Ltd.,http://www.newterra.com
+479,Other,111,Norseman Structures,http://www.norsemanstructures.com
+480,Other,6419N,Northern Mat & Bridge,http://www.northernmat.ca
+481,Other,1115,Nuna Logistics Partnership,http://www.nunalogistics.com
+482,Other,1114,Nunavut Tunngavik Incorporated,http://www.tunngavik.com
+483,Other,510,PhotoSat Information Ltd.,http://www.photosat.ca
+484,Other,7026N,Poly-Mor Canada Inc,http://www.poly-mor.ca
+485,Other,6516N,"ROCKMORE International, Inc.",http://www.rockmore-intl.com
+486,Other,509,"Russian Stone, The",http://www.therussianstone.com
+487,Other,7415N,SafeBox,http://www.safeboxsystems.com
+488,Other,6334N,Scott Steel Erectors Inc.,http://www.scottsteel.ca
+489,Other,7418N,Society of Exploration Geophysicists (SEG),http://www.seg.org
+490,Other,6430N,SPI Health and Safety,http://www.spi-s.com/en
+491,Other,7431N,Stebbins Engineering,http://www.stebbinseng.com
+492,Other,247,Stuart Olson,http://www.stuartolson.com
+493,Other,6408N,Summit Camps,http://www.summitcamps.ca
+494,Other,7512N,Technical Translation Services,http://www.techtranslation.com
+495,Other,7535N,Terrafix Geosynthetics Inc.,http://www.terrafixgeo.com
+496,Other,7227N,The Ivey Group,http://www.iveygroup.ca
+497,Other,345,The West Coast Fishing Club,http://www.westcoastfishingclub.com
+498,Other,7427N,Titan Environmental Containment,http://www.titanenviro.ca
+499,Other,7207N,UL,http://www.ul.com
+500,Other,7225N,"Valaurum, Inc.",http://www.valaurum.com
+501,Other,704,Varco Pruden Buildings (VP Buildings),http://www.vp.com
+502,Other,7531N,"VEGA Instruments, Canada Ltd.",http://www.vega.com
+503,Other,236,Veolia Water Technologies,http://www.veoliawatertech.com
+504,Other,301,VICTAULIC,http://www.victaulic.com
+505,Remote Sensing/Mapping,1051,Agnav Inc.,http://www.agnav.com
+506,Remote Sensing/Mapping,6125N,Applanix,http://www.applanix.com
+507,Remote Sensing/Mapping,1013,CartoCanada Inc.,http://www.cartocanada.ca
+508,Remote Sensing/Mapping,6735N,Challenger Geomatics Ltd.,http://www.challengergeomatics.com
+509,Remote Sensing/Mapping,7326N,"Descartes Labs, Inc.",http://www.descarteslabs.com
+510,Remote Sensing/Mapping,7219N,Exploration Mapping Group Inc.,http://www.explorationmapping.com
+511,Remote Sensing/Mapping,7419N,Exyn Technologies,http://www.exyn.com
+512,Remote Sensing/Mapping,7417N,GeoCue Group Inc.,http://www.geocue.com
+513,Remote Sensing/Mapping,607,Geosense,http://www.geosense.nl
+514,Remote Sensing/Mapping,7304N,HySpex,http://www.hyspex.com
+515,Remote Sensing/Mapping,6722N,HyVista Corporation Pty Ltd.,http://www.hyvista.com
+516,Remote Sensing/Mapping,6827N,ITRES Research Limited,http://www.itres.com
+517,Remote Sensing/Mapping,1204,Japosat Satellite Mapping,http://www.japosat.com
+518,Remote Sensing/Mapping,241,LiDAR Services International Inc.,http://www.lidarservices.ca
+519,Remote Sensing/Mapping,939,Malvern Panalytical Inc.,http://www.malvernpanalytical.com
+520,Remote Sensing/Mapping,625,McElhanney Ltd.,http://www.mcelhanney.com
+521,Remote Sensing/Mapping,614,Pacific Geomatics Ltd.,http://www.pacgeo.com
+522,Remote Sensing/Mapping,7425N,Skycatch Inc.,http://www.skycatch.com
+523,Remote Sensing/Mapping,341,Southern Mapping Company,http://www.southernmapping.com
+524,Remote Sensing/Mapping,1017,"SpecTIR, LLC",http://www.spectir.com
+525,Remote Sensing/Mapping,6927N,Taiga Robotics,http://www.taigarobotics.com
+526,Research Organization,709,COREM,http://www.corem.qc.ca
+527,Research Organization,6534N,"Courage Services, Inc.",http://www.courageservices.com
+528,Research Organization,408,CSIRO Mineral Resources,http://www.csiro.au/en/research/mrf
+529,Research Organization,6301N,Helmholtz Institute Freiberg for Resource Technology,http://www.hzdr.de/hif
+530,Research Organization,1052,Kemetco Research Inc.,http://www.kemetco.com
+531,Research Organization,311,Mineral Exploration Cooperative Research Centre,http://www.minexcrc.com.au
+532,Research Organization,1031,Russian Federation - Rosnedra,http://www.vims-geo.ru
+533,Research Organization,436,University of British Columbia,http://www.mdru.ubc.ca
+534,Research Organization,251,Verisk Maplecroft,https://maplecroft.com
+535,Satellite Communications,6404N,Coast Mountain Wireless Communications Ltd.,http://www.cmwireless.ca
+536,Satellite Communications,150,Galaxy Broadband Communications Inc.,http://www.galaxybroadband.ca
+537,Satellite Communications,6308N,Globalstar Canada Satellite Co.,http://www.globalstar.com/en-ca
+538,Satellite Communications,130,Infosat Communications LP,http://www.infosat.com
+539,Satellite Communications,602,ITC Global,http://www.itcglobal.com
+540,Satellite Communications,109,Network Innovations Inc.,http://www.networkinv.com
+541,Satellite Communications,343,Roadpost,http://www.roadpost.com
+542,Software Company,6727N,Aarhus GeoSoftware,http://www.aarhusgeosoftware.dk
+543,Software Company,823,acQuire Technology Solutions Pty Ltd.,http://www.acquire.com.au
+544,Software Company,7329N,Alastri,http://www.alastri.com
+545,Software Company,711,AssayNet Canada Inc.,http://www.assaynet.com
+546,Software Company,6417N,Beyond Limits,http://www.beyond.ai
+547,Software Company,443,Boréalis,http://www.boreal-is.com
+548,Software Company,453,Caron Business Solutions Inc.,http://www.caronminingsolutions.com
+549,Software Company,1203,Centric Mining Systems,http://www.centricminingsystems.com
+550,Software Company,146,Datamine Software Canada,http://www.dataminesoftware.com
+551,Software Company,6502N,Deswik,http://www.deswik.com
+552,Software Company,7324N,DroneDeploy,http://www.dronedeploy.com
+553,Software Company,6208N,Enersoft,http://www.enersoft.ca
+554,Software Company,701,Esri Canada,http://www.esri.ca
+555,Software Company,6311N,GEOREKA Software,http://www.georeka.com
+556,Software Company,124,Géotic Inc.,http://www.geotic.ca
+557,Software Company,1330,Geovariances,http://www.geovariances.com/en
+558,Software Company,1224,Hexagon Mining,http://www.hexagonmining.com
+559,Software Company,6412N,Imago Inc.,http://www.imago.live
+560,Software Company,7229N,Jambo,http://www.jambo.cloud
+561,Software Company,6425N,Krux Analytics,http://www.kruxanalytics.com
+562,Software Company,1039,Maptek,http://www.maptek.com
+563,Software Company,603,MICROMINE,http://www.micromine.com
+564,Software Company,601,Minerva Intelligence Inc.,http://www.minervaintelligence.com
+565,Software Company,814,Mira Geoscience Ltd.,http://www.mirageoscience.com
+566,Software Company,606,Promine,http://www.promine.com
+567,Software Company,"350, 931",Seequent,http://www.seequent.com
+568,Software Company,612,ThreeDify Inc.,http://www.threedify.com
+569,Software Company,243,Trimble,http://landadmin.trimble.com
+570,Software Company,6429N,Trueminer Software Inc.,http://www.trueminer.com
+571,University/College,1230,"Laurentian University, Harquail School of Earth Sciences ",http://www.hes.laurentian.ca
+572,University/College,6111N,Manitoba Geoscience Education,http://www.miningacademy.ca
+573,University/College,1046,"Queen's University, Department of Geology",http://www.queensu.ca/geol
+574,University/College,7310N,Schulich Executive Education Centre (SEEC),http://www.seec.schulich.yorku.ca
+575,University/College,1339,Université de Lorraine,http://www.univ-lorraine.fr
+576,University/College,120,University of Toronto,http://www.es.utoronto.ca
+577,University/College,945,"University of Waterloo, Department of Earth and Environmental Sciences",https://www.uwaterloo.ca/earth-environmental-sciences

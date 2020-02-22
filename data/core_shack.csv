@@ -1,0 +1,41 @@
+id,booth,name,proj,proj_loc,website
+0,3119A,Banyan Gold Corp.,Aurex-McQuesten gold project,"Mayo, Yukon, Canada",http://www.banyangold.com
+1,3100A,Barrick Gold Corporation,Fourmile Goldrush Camp,"Nevada, USA",http://www.barrick.com
+2,3115A,Benchmark Metals Inc.,Lawyers Au-Ag project,"Prince George, British Columbia, Canada",http://www.benchmarkmetals.com
+3,3118A,BHP,Oak Dam FeO-Cu-Au project,"Roxby Downs, South Australia",http://www.bhp.com
+4,3107A,Fireweed Zinc,Boundary Zone Zn-Pb-Ag project,"Ross River, Yukon Territory, Canada",http://www.fireweedzinc.com
+5,3102A,Forum Energy Metals,Janice Lake Cu-Ag project,"La Ronge, Saskatchewan, Canada",http://www.forumenergymetals.com
+6,3110A,Frontier Lithium,PAK Lithium project,"Red Lake, Ontario, Canada",http://www.frontierlithium.com
+7,3111A,Generation Mining Limited,Marathon palladium project,"Marathon, Ontario, Canada",http://www.genmining.com
+8,3103A,Imperial Mining Group Ltd.,The Crater Lake scandium-rare earth project,"Schefferville, Quebec, Canada",http://www.imperialmgp.com
+9,3113A,Luminex Resources,Camp Zone-Condor Au-Ag project,"Zamora, Chinchipe, Ecuador",http://www.luminexresources.com
+10,3106A,Minaurum Gold Inc.,Alamos silver project,"Alamos, Sonora, Mexico",http://www.minaurum.com
+11,3117A,Quebec Precious Metals Corporation,Sakami gold project,"Wemindji, Quebec, Canada",http://www.qpmcorp.ca
+12,3105A,Radisson Mining Resources Inc.,O'Brien gold project,"Rouyn-Noranda (Cadillac), Quebec, Canada",http://www.radissonmining.com
+13,3114A,Regulus Resources Inc.,AntaKori Cu-Au-Ag project,"Cajamarca, Hualgayoc, Perú",http://www.regulusresources.com
+14,3109A,Rockhaven Resources,Klaza Au-Ag project,"Carmacks, Yukon, Canada",http://www.rockhavenresources.com
+15,3104A,Sudbury Integrated Nickel Operations,Norman West Cu-Ni-PGE project,"Sudbury, Ontario, Canada",http://www.glencore.ca
+16,3112A,UEX Corporation,West Bear Co-Ni deposit,"Wollaston Lake, Saskatchewan, Canada",http://www.uexcorp.com
+17,3116A,Valoriza Mineria,Alconchel Cu-Au project,"Badajoz, Spain",http://www.valorizamineria.com
+18,3108A,Warrior Gold Inc.,Goodfish Kirana gold property,"Kirkland Lake, Ontario, Canada",http://www.warriorgoldinc.com
+19,3101A,Westhaven Ventures,Shovelnose gold discovery,"Merritt, British Columbia, Canada",http://www.westhavenventures.com
+20,3103B,Amex Exploration,Perron gold project,"Normetal, Quebec, Canada",http://www.amexexploration.com
+21,3108B,Anaconda Mining Inc.,Goldboro gold project,"Goldboro, Nova Scotia, Canada",http://www.anacondamining.com
+22,3118B,Azucar Minerals Ltd.,El Cobre Au-Cu Porphyry project,"Veracruz, Mexico",http://www.azucarminerals.com
+23,3112B,Balmoral Resources Ltd.,"Grasset ultramafic complex Ni, Cu, Co, PGE property","Matagami, Quebec, Canada",http://www.balmoralresources.com
+24,3104B,BeMetals Corp.,"South Mountain Zn, Ag, Au, Cu project","Boise, Idaho, USA",http://www.bemetalscorp.com
+25,3114B,Bonterra Resources Inc.,Moroy gold project,"Desmaraisville, Quebec, Canada",http://www.btrgold.com
+26,3109B,Chakana Copper Corporation,Soledad Cu-Au-Ag project,"Aija, Aija Province, Peru",http://www.chakanacopper.com
+27,3101B,Defense Metals Corp,Wicheeda rare earth element project,"Prince George, British Columbia, Canada",http://www.defensemetals.com
+28,3105B,Dore Copper,Corner Bay copper deposit,"Chibougamau, Quebec, Canada",http://www.dorecopper.com
+29,3100B,G2 Goldfields Inc.,Oko gold project,"Bartica, Cuyuni, Guyana",http://g2goldfields.com
+30,3107B,Great Bear Resources,Dixie gold project,"Red Lake, Ontario, Canada",http://www.greatbearresources.ca
+31,3102B,GT Gold,Tatogga Au-Cu project,"Golden Triangle, British Columbia, Canada",http://www.gtgoldcorp.ca
+32,3117B,Kirkland Lake Gold,Macassa gold project,"Kirkland Lake, Ontario, Canada",http://www.klgold.com
+33,3106B,Liberty Gold Corp.,Black Pine gold project,"Cassia County, Idaho, USA",http://www.libertygold.ca
+34,3116B,MacDonald Mines Exploration,"SPJ Au, Co, Cu, Ni property","Sudbury, Ontario, Canada",http://www.macdonaldmines.com
+35,3119B,Newrange Gold Corp.,Pamlico gold project,"Hawthorne, Nevada, USA",http://www.newrangegold.com
+36,3111B,Nighthawk Gold,Colomac gold project,"Yellowknife, Northwest Territories, Canada",http://www.nighthawkgold.com
+37,3115B,Serengeti Resources Inc.,Kwanika Cu-Au project,"Fort St. James, British Columbia, Canada",http://www.serengetiresources.com
+38,3110B,Triumph Gold Corp.,"Freegold Mountain Au, Ag, Cu, Mo project","Carmacks, Yukon Territory, Canada",http://www.triumphgoldcorp.com
+39,3113B,Turmalina Metals,San Francisco Au-Cu project,"Calingasta, San Juan, Argentina",http://www.turmalinametals.com
