@@ -6,6 +6,8 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 from argparse import ArgumentParser
+from opencage.geocoder import OpenCageGeocode
+from os import environ
 
 parser = ArgumentParser()
 parser.add_argument('-d', '--directory', help = 'Directory in which to write data.')
@@ -16,6 +18,29 @@ if args.directory:
 else: 
     print('Please supply directory in which to write data.')
     exit()
+
+def gc(row):
+    geocoder = OpenCageGeocode(environ['OPENCAGE'])
+    address = row['add'].strip()
+    print('Geocoding ' + address + '...')
+    c_code = row['country'].strip()
+    result = geocoder.geocode(address, countrycode=c_code)
+    if result and len(result):
+        row = pd.Series({
+            'lat': result[0]['geometry']['lat'],
+            'lng': result[0]['geometry']['lng']
+        })
+    else:
+        row = pd.Series({
+            'lat': None,
+            'lng': None
+        })
+    return(row)
+
+# reader = pd.read_csv('~/Desktop/data/becc/investors_exchange.csv', header=0, delimiter=';', encoding='utf-8')
+# reader = reader.merge(reader.apply(lambda add: gc(add), axis=1), left_index=True, right_index=True)
+# gdf = gpd.GeoDataFrame(reader, geometry=gpd.points_from_xy(reader.lng, reader.lat))
+# gdf.to_file('/Users/ehuntley/Desktop/data/becc/investors_exchange.json', driver="GeoJSON")
 
 def core_shack(urls):
     df = pd.DataFrame()
