@@ -6,8 +6,10 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 from argparse import ArgumentParser
+import unidecode
 from opencage.geocoder import OpenCageGeocode
 from os import environ
+import pycountry
 
 parser = ArgumentParser()
 parser.add_argument('-d', '--directory', help = 'Directory in which to write data.')
@@ -19,28 +21,20 @@ else:
     print('Please supply directory in which to write data.')
     exit()
 
-def gc(row):
+def gc(q, country):
     geocoder = OpenCageGeocode(environ['OPENCAGE'])
-    address = row['add'].strip()
-    print('Geocoding ' + address + '...')
-    c_code = row['country'].strip()
-    result = geocoder.geocode(address, countrycode=c_code)
+    print('Geocoding ' + q + '...')
+    result = geocoder.geocode(q.strip(), countrycode=country.strip())
     if result and len(result):
-        row = pd.Series({
+        return {
             'lat': result[0]['geometry']['lat'],
             'lng': result[0]['geometry']['lng']
-        })
+        }
     else:
-        row = pd.Series({
+       return {
             'lat': None,
             'lng': None
-        })
-    return(row)
-
-# reader = pd.read_csv('~/Desktop/data/becc/investors_exchange.csv', header=0, delimiter=';', encoding='utf-8')
-# reader = reader.merge(reader.apply(lambda add: gc(add), axis=1), left_index=True, right_index=True)
-# gdf = gpd.GeoDataFrame(reader, geometry=gpd.points_from_xy(reader.lng, reader.lat))
-# gdf.to_file('/Users/ehuntley/Desktop/data/becc/investors_exchange.json', driver="GeoJSON")
+        }
 
 def core_shack(urls):
     df = pd.DataFrame()
@@ -53,21 +47,36 @@ def core_shack(urls):
             if proj_elem:
                 proj = proj_elem.get_text().strip()[:-1]
             name = full_name.get_text().split(',', 1)[0].strip()
-            proj_loc = proj_elem.next_sibling.strip()
-            country_code = 
+            loc = unidecode.unidecode(proj_elem.next_sibling.strip())
+            for c in pycountry.countries:
+                if (" " + c.name in loc) or (" " + c.alpha_3 in loc) or (" " + c.alpha_2 in loc):
+                    country = c.alpha_2.lower()
+                    break
+                else:
+                    country = None
+            loc = ','.join(loc.split(',')[0:-1]).strip()
             booth = i.find('div', class_='sfitemBoothNumbers')
             if booth:
                 booth = booth.get_text().strip()
             website = i.find('div', class_='sfitemRichText')
             if website:
                 website = website.find('a').get('href').strip()
+            if loc and country:
+                coords = gc(loc, country)
+            else:
+                coords = {
+                        'lat': None,
+                        'lng': None
+                        }
             firm = pd.Series({
                     'name': name,
                     'proj': proj,
-                    'proj_loc': proj_loc,
-                    'country_code': ,
+                    'loc': loc,
+                    'country': country,
                     'booth': booth.replace('corpmember, ', ''),
                     'website': website,
+                    'lat': coords['lat'],
+                    'lng': coords['lng']
                     })
             df = df.append(firm, ignore_index=True)
     return(df)
@@ -159,11 +168,12 @@ def run(directory):
     
     # CORE SHACK
     
-    print("Scraping core shack exhibitors...")
+    print("Scraping core shack exhibitors and geocoding projects...")
     cs = core_shack(['https://www.pdac.ca/convention/exhibits/core-shack/session-a-exhibitors',
                      'https://www.pdac.ca/convention/exhibits/core-shack/session-b-exhibitors'])
     print("Writing to CSV...")
     cs.to_csv(directory + 'data/core_shack.csv', index_label='id')
+
 
 if __name__ == '__main__':
     run(DIR)
