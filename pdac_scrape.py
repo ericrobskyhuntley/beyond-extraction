@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Scrape PDAC site for vendor and prospector information.
+Scrape PDAC site for exhibitor information.
 """
 import requests
 from bs4 import BeautifulSoup
@@ -10,14 +10,14 @@ import unidecode
 from opencage.geocoder import OpenCageGeocode
 from os import environ
 import geopandas as gpd
-from shapely.geometry import Point
+from shapely.geometry import Points
 
 parser = ArgumentParser()
-parser.add_argument('-d', '--directory', help = 'Directory in which to write data.')
+parser.add_argument('-p', '--path', help = 'Directory in which to write data.')
 args = parser.parse_args()
 
-if args.directory:
-   DIR = args.directory + 'data/'
+if args.path:
+   DIR = args.path
 else: 
    print('Please supply directory in which to write data.')
    exit()
@@ -63,6 +63,25 @@ def country_locate(country_op):
             country_op['geometry'] = None
     return country_op
 
+def pros_tent(url):
+    prospectors = pd.DataFrame()
+    pros_soup = BeautifulSoup(requests.get(url).content, 'html.parser')
+    items = pros_soup.find_all('div', class_='sfitem')
+    for i in items:
+        full_name = i.find('p', class_='sfitemTitle')
+        name = full_name.find('strong').get_text()
+        if name:
+            name.strip()
+        booth = i.find('div', class_='sfitemBoothNumbers')
+        if booth:
+            booth = booth.get_text().strip()
+        f = pd.Series({
+                'name': name,
+                'booth': booth.replace('corpmember, ', '')
+                })
+        prospectors = prospectors.append(f, ignore_index=True)
+    return prospectors
+
 def core_shack(urls):
     df = pd.DataFrame()
     for l in urls:
@@ -101,18 +120,18 @@ def core_shack(urls):
     projects = df[['proj', 'loc', 'country', 'name']]
     return (firms, projects)
     
-def pdac_by_x(url, thing_id, thing_name, keep_thing = True):
+def pdac_by_x(url, x_id, x_name, x_keep = True):
     base_url = url
     base_page = requests.get(base_url)
     soup = BeautifulSoup(base_page.content, 'html.parser')
     
     links = []
-    for link in soup.find('div', id=thing_id).find_all('a'):
-        thing = {
-                'thing': link.get_text(),
+    for link in soup.find('div', id=x_id).find_all('a'):
+        x = {
+                'x': link.get_text(),
                 'link': base_url + link.get('href')
                 }
-        links.append(thing)
+        links.append(x)
     firms = pd.DataFrame()
     for l in links:
         link_soup = BeautifulSoup(requests.get(l['link']).content, 'html.parser')
@@ -127,12 +146,12 @@ def pdac_by_x(url, thing_id, thing_name, keep_thing = True):
             website = i.find('div', class_='sfitemRichText')
             if website:
                 website = website.find('a').get('href')
-            if keep_thing:
+            if x_keep:
                 firm = pd.Series({
                         'name': name,
                         'booth': booth.replace('corpmember, ', ''),
                         'website': website,
-                        thing_name: l['thing']
+                        x_name: l['x']
                         })
             else:
                 firm = pd.Series({
@@ -141,9 +160,9 @@ def pdac_by_x(url, thing_id, thing_name, keep_thing = True):
                         'website': website,
                         })
             firms = firms.append(firm, ignore_index=True)
-    if keep_thing:
-        things = firms.drop_duplicates(subset=thing_name).reset_index(drop=True)[[thing_name]]
-        return(things, firms[['name', thing_name]])
+    if x_keep:
+        xs = firms.drop_duplicates(subset=x_name).reset_index(drop=True)[[x_name]]
+        return(xs, firms[['name', x_name]])
     else:
         return firms
 
@@ -166,13 +185,14 @@ def clean_countries(df):
 
 def run_ix(directory):
     # INVESTORS EXCHANGE
-        
+    ix_url = 'https://www.pdac.ca/convention/exhibits/investors-exchange/'
     print("Scraping IX exhibitors alphabetically...")
-    firms =  pdac_by_x(url = 'https://www.pdac.ca/convention/exhibits/investors-exchange/exhibitors',
-                             thing_id = 'alphaChars', 
-                             thing_name = 'alpha',
-                             keep_thing=False
-                             )
+    firms =  pdac_by_x(
+        url = ix_url + 'exhibitors',
+        x_id = 'alphaChars', 
+        x_name = 'alpha',
+        x_keep=False
+        )
     print("Geocoding IX exhibitors...")
     firms = firms.merge(ADDRESSES, on='name', how='left')
     firms = gpd.GeoDataFrame(
@@ -181,29 +201,25 @@ def run_ix(directory):
         )
     print("Writing IX exhibitors to GeoJSON...")
     firms.to_file(directory + 'firms_ix.geojson', 
-        driver='GeoJSON',
-        index_label='id'
+        driver='GeoJSON'
         )
     
     print("Scraping investors exchange exhibitors by commodity...")
-    commodities, firms_by_commodity =  pdac_by_x(url = 'https://www.pdac.ca/convention/exhibits/investors-exchange/exhibitor-list-by-commodity',
-                                 thing_id = 'commodityTypes', 
-                                 thing_name = 'commodity'
-                                 )
+    commodities, firms_by_commodity =  pdac_by_x(
+        url = ix_url + 'exhibitor-list-by-commodity',
+        x_id = 'commodityTypes', 
+        x_name = 'commodity')
     print("Writing commodities to CSV...")
-    commodities.to_csv(directory + 'commodities.csv', 
-        index_label='id'
-        )
+    commodities.to_csv(directory + 'commodities.csv')
     print("Writing firm-commodity relationship to CSV...")
-    firms_by_commodity.to_csv(directory + 'firms_by_commodity.csv', 
-        index_label='id'
-        )
+    firms_by_commodity.to_csv(directory + 'firms_by_commodity.csv')
     
     print("Scraping investors exchange exhibitors by country of exploration...")
-    countries, firms_by_country = pdac_by_x(url = 'https://www.pdac.ca/convention/exhibits/investors-exchange/exhibitor-list-by-country-of-exploration',
-                              thing_id = 'countries', 
-                              thing_name = 'country'
-                              )
+    countries, firms_by_country = pdac_by_x(
+        url = ix_url + 'exhibitor-list-by-country-of-exploration',
+        x_id = 'countries',
+        x_name = 'country'
+        )
     countries = clean_countries(countries)
     print("Locating countries...")
     countries = gpd.GeoDataFrame(
@@ -214,24 +230,20 @@ def run_ix(directory):
         )
     countries = countries.dropna(subset=['geometry'])
     print("Writing countries to GeoJSON...")
-    countries.to_file(directory + 'countries.geojson',
-        driver='GeoJSON', 
-        index_label='id'
-        )
+    countries.to_file(directory + 'countries.geojson', driver='GeoJSON')
     print("Writing firm-country relationship to CSV...")
-    firms_by_country.to_csv(directory + 'firms_by_country.csv', 
-        index_label='id'
-        )
+    firms_by_country.to_csv(directory + 'firms_by_country.csv')
     
 def run_ts(directory):
     # TRADE SHOW
-    
+    ts_url = 'https://www.pdac.ca/convention/exhibits/trade-show/'
     print("Scraping trade show exhibitors alphabetically...")
-    firms = pdac_by_x(url = 'https://www.pdac.ca/convention/exhibits/trade-show/exhibitors',
-                            thing_id = 'alphaChars',
-                            thing_name = 'alpha',
-                            keep_thing = False
-                            )
+    firms = pdac_by_x(
+        url = ts_url + 'exhibitors',
+        x_id = 'alphaChars',
+        x_name = 'alpha',
+        x_keep = False
+    )
     print("Geocoding IX exhibitors...")
     firms = firms.merge(ADDRESSES, on='name', how='left')
     firms = gpd.GeoDataFrame(
@@ -239,52 +251,49 @@ def run_ts(directory):
         geometry='geometry'
     )
     print("Writing TS exhibitors to GeoJSON...")
-    firms.to_file(directory + 'firms_ts.geojson',
-                  driver='GeoJSON',
-                  index_label='id'
-                  )
+    firms.to_file(directory + 'firms_ts.geojson', driver='GeoJSON')
     
     print("Scraping trade show exhibitors by business type...")
-    biztypes, ts_by_biztype = pdac_by_x(url = 'https://www.pdac.ca/convention/exhibits/trade-show/exhibitor-list-by-business-type',
-                          thing_id = 'businessTypes',
-                          thing_name = 'biztype'
-                          )
+    biztypes, ts_by_biztype = pdac_by_x(
+        url = ts_url + 'exhibitor-list-by-business-type',
+        x_id = 'businessTypes',
+        x_name = 'biztype'
+    )
     print("Writing to CSV...")
-    biztypes.to_csv(directory + 'biztypes.csv', index_label='id')
-    ts_by_biztype.to_csv(directory + 'firms_by_biztype.csv', index_label='id')
+    biztypes.to_csv(directory + 'biztypes.csv')
+    ts_by_biztype.to_csv(directory + 'firms_by_biztype.csv')
     
 def run_cs(directory):
     # CORE SHACK
-    
-    # print("Scraping core shack exhibitors and geocoding projects...")
-    firms, projects = core_shack(['https://www.pdac.ca/convention/exhibits/core-shack/session-a-exhibitors',
-                                  'https://www.pdac.ca/convention/exhibits/core-shack/session-b-exhibitors'])
-    firms.to_csv(directory + 'firms_cs.csv', 
-        index_label='id'
-                 )
+    cs_urls = ['https://www.pdac.ca/convention/exhibits/core-shack/session-a-exhibitors',
+                'https://www.pdac.ca/convention/exhibits/core-shack/session-b-exhibitors']
+    print("Scraping Core Shack (CS) exhibitors and geocoding projects...")
+    firms, projects = core_shack(cs_urls)
     firms = firms.merge(ADDRESSES, on='name', how='left')
     firms = gpd.GeoDataFrame(
         firms.apply(lambda x: gc(x, 'add', 'country'), axis=1),
         geometry='geometry'
     )
     print("Writing CS exhibitors to GeoJSON...")
-    firms.to_file(directory + 'firms_ts.geojson',
-                  driver='GeoJSON',
-                  index_label='id'
-                  )
+    firms.to_file(directory + 'firms_ts.geojson', driver='GeoJSON')
     projects = gpd.GeoDataFrame(
         projects.apply(lambda x: gc(x, 'loc', 'country'), axis=1),
         geometry='geometry'
         )
-    print("Writing Core Shack projects to GeoJSON...")
-    projects.to_file(directory + 'firms_by_projects.geojson', 
-        driver='GeoJSON', 
-        index_label='id'
-        )
+    print("Writing CS projects to GeoJSON...")
+    projects.to_file(directory + 'firms_by_projects.geojson', driver='GeoJSON')
+
+def run_pt(directory):
+    pt_url = 'https://www.pdac.ca/convention/exhibits/prospectors-tent/exhibitors'
+    print("Scraping Prospectors Tent (PT) exhibitors...")
+    prospectors = pros_tent(pt_url)
+    print("Writing PT exhibitors to CSV...")
+    prospectors.to_csv(directory + 'prospectors.csv')
 
 
 if __name__ == '__main__':
-#    run_ix(DIR)
-#    run_ts(DIR)
+   run_ix(DIR)
+   run_ts(DIR)
    run_cs(DIR)
+   run_pt(DIR)
    print("Done.")
