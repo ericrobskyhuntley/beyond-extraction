@@ -23,12 +23,12 @@ else:
    exit()
 
 # Needed to modify Natural Earth Data---French Guiana depicted as a multipart geometry of France. (And not even distinguished.)
-COUNTRIES = gpd.read_file('/home/ericmhuntley/Desktop/beyond-extraction/data/countries-custom.geojson')
+COUNTRIES = gpd.read_file(DIR + 'countries-custom.geojson')
 COUNTRIES.columns = map(str.lower, COUNTRIES.columns)
 COUNTRIES = COUNTRIES[['name','name_long', 'iso_a2', 'iso_a3', 'geometry']]
 COUNTRIES['geometry'] = COUNTRIES.centroid
 
-ADDRESSES = pd.read_csv('/home/ericmhuntley/Desktop/beyond-extraction/data/addresses.csv')
+ADDRESSES = pd.read_csv(DIR + 'addresses.csv')
 GEOCODER = OpenCageGeocode(environ['OPENCAGE'])
 
 def gc(row, query, country):
