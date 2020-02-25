@@ -174,6 +174,7 @@ def pdac_by_x(url, x_id, x_name, x_keep = True):
         firms_by_booth = firms.set_index(['name','website'])
         firms_by_booth = firms_by_booth.apply(lambda x: x.str.split(', ').explode()).reset_index()
         firms = firms[['name', 'website']]
+        firms_by_booth = firms_by_booth[['name', 'booth']]
         return (firms, firms_by_booth)
 
 def clean_countries(df):
