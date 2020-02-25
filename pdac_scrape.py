@@ -8,9 +8,9 @@ import pandas as pd
 from argparse import ArgumentParser
 import unidecode
 from opencage.geocoder import OpenCageGeocode
-from os import environ
+from os import environ, path
 import geopandas as gpd
-from shapely.geometry import Points
+from shapely.geometry import Point
 
 parser = ArgumentParser()
 parser.add_argument('-p', '--path', help = 'Directory in which to write data.')
@@ -28,7 +28,6 @@ COUNTRIES.columns = map(str.lower, COUNTRIES.columns)
 COUNTRIES = COUNTRIES[['name','name_long', 'iso_a2', 'iso_a3', 'geometry']]
 COUNTRIES['geometry'] = COUNTRIES.centroid
 
-ADDRESSES = pd.read_csv(DIR + 'addresses.csv')
 GEOCODER = OpenCageGeocode(environ['OPENCAGE'])
 
 def gc(row, query, country):
@@ -54,6 +53,17 @@ def gc(row, query, country):
         row['geometry'] = None
     return row
 
+if path.isfile(DIR + 'addresses.geojson'):
+    ADDRESSES = gpd.read_file(DIR + 'addresses.geojson')
+else: 
+    ADDRESSES = pd.read_csv(DIR + 'addresses.csv')
+    ADDRESSES = gpd.GeoDataFrame(
+            ADDRESSES.apply(lambda x: gc(x, 'add', 'country'), axis=1), 
+            geometry='geometry'
+            )
+    ADDRESSES.to_file(DIR + 'addresses.geojson', driver='GeoJSON')
+
+print(ADDRESSES.head())
 def country_locate(country_op):
     for i, c in COUNTRIES.iterrows():
         if c['name_long'] in country_op['country']:
@@ -77,7 +87,7 @@ def pros_tent(url):
             booth = booth.get_text().strip()
         f = pd.Series({
                 'name': name,
-                'booth': booth.replace('corpmember, ', '')
+                'booth': booth.replace('corpmember, ', '').replace('A', '').replace('B','')
                 })
         prospectors = prospectors.append(f, ignore_index=True)
     return prospectors
@@ -112,7 +122,7 @@ def core_shack(urls):
                     'proj': proj,
                     'loc': loc,
                     'country': country,
-                    'booth': booth.replace('corpmember, ', ''),
+                    'booth': booth.replace('corpmember, ', '').replace('A', '').replace('B',''),
                     'website': website
                     })
             df = df.append(f, ignore_index=True)
@@ -149,14 +159,14 @@ def pdac_by_x(url, x_id, x_name, x_keep = True):
             if x_keep:
                 firm = pd.Series({
                         'name': name,
-                        'booth': booth.replace('corpmember, ', ''),
+                        'booth': booth.replace('corpmember, ', '').replace('A', '').replace('B',''),
                         'website': website,
                         x_name: l['x']
                         })
             else:
                 firm = pd.Series({
                         'name': name,
-                        'booth': booth.replace('corpmember, ', ''),
+                        'booth': booth.replace('corpmember, ', '').replace('A', '').replace('B',''),
                         'website': website,
                         })
             firms = firms.append(firm, ignore_index=True)
@@ -183,6 +193,7 @@ def clean_countries(df):
     df = df[df['country'] != 'NULL']
     return df
 
+
 def run_ix(directory):
     # INVESTORS EXCHANGE
     ix_url = 'https://www.pdac.ca/convention/exhibits/investors-exchange/'
@@ -194,15 +205,9 @@ def run_ix(directory):
         x_keep=False
         )
     print("Geocoding IX exhibitors...")
-    firms = firms.merge(ADDRESSES, on='name', how='left')
-    firms = gpd.GeoDataFrame(
-        firms.apply(lambda x: gc(x, 'add', 'country'), axis=1), 
-        geometry='geometry'
-        )
+    firms = ADDRESSES.merge(firms, on='name', how='right')
     print("Writing IX exhibitors to GeoJSON...")
-    firms.to_file(directory + 'firms_ix.geojson', 
-        driver='GeoJSON'
-        )
+    firms.to_file(directory + 'firms_ix.geojson', driver='GeoJSON')
     
     print("Scraping investors exchange exhibitors by commodity...")
     commodities, firms_by_commodity =  pdac_by_x(
@@ -245,11 +250,7 @@ def run_ts(directory):
         x_keep = False
     )
     print("Geocoding IX exhibitors...")
-    firms = firms.merge(ADDRESSES, on='name', how='left')
-    firms = gpd.GeoDataFrame(
-        firms.apply(lambda x: gc(x, 'add', 'country'), axis=1),
-        geometry='geometry'
-    )
+    firms = ADDRESSES.merge(firms, on='name', how='right')
     print("Writing TS exhibitors to GeoJSON...")
     firms.to_file(directory + 'firms_ts.geojson', driver='GeoJSON')
     
@@ -269,13 +270,12 @@ def run_cs(directory):
                 'https://www.pdac.ca/convention/exhibits/core-shack/session-b-exhibitors']
     print("Scraping Core Shack (CS) exhibitors and geocoding projects...")
     firms, projects = core_shack(cs_urls)
-    firms = firms.merge(ADDRESSES, on='name', how='left')
-    firms = gpd.GeoDataFrame(
-        firms.apply(lambda x: gc(x, 'add', 'country'), axis=1),
-        geometry='geometry'
-    )
+    firms = ADDRESSES.merge(firms, on='name', how='right')
+    firms = gpd.GeoDataFrame(firms, geometry='geometry')
+
     print("Writing CS exhibitors to GeoJSON...")
-    firms.to_file(directory + 'firms_ts.geojson', driver='GeoJSON')
+    firms.to_file(directory + 'firms_cs.geojson', driver='GeoJSON')
+    print("Geocoding CS projects...")
     projects = gpd.GeoDataFrame(
         projects.apply(lambda x: gc(x, 'loc', 'country'), axis=1),
         geometry='geometry'
