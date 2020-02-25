@@ -63,7 +63,6 @@ else:
             )
     ADDRESSES.to_file(DIR + 'addresses.geojson', driver='GeoJSON')
 
-print(ADDRESSES.head())
 def country_locate(country_op):
     for i, c in COUNTRIES.iterrows():
         if c['name_long'] in country_op['country']:
@@ -159,8 +158,6 @@ def pdac_by_x(url, x_id, x_name, x_keep = True):
             if x_keep:
                 firm = pd.Series({
                         'name': name,
-                        'booth': booth.replace('corpmember, ', '').replace('A', '').replace('B',''),
-                        'website': website,
                         x_name: l['x']
                         })
             else:
@@ -174,7 +171,10 @@ def pdac_by_x(url, x_id, x_name, x_keep = True):
         xs = firms.drop_duplicates(subset=x_name).reset_index(drop=True)[[x_name]]
         return(xs, firms[['name', x_name]])
     else:
-        return firms
+        firms_by_booth = firms.set_index(['name','website'])
+        firms_by_booth = firms_by_booth.apply(lambda x: x.str.split(', ').explode()).reset_index()
+        firms = firms[['name', 'website']]
+        return (firms, firms_by_booth)
 
 def clean_countries(df):
     df = df.replace(
@@ -197,8 +197,8 @@ def clean_countries(df):
 def run_ix(directory):
     # INVESTORS EXCHANGE
     ix_url = 'https://www.pdac.ca/convention/exhibits/investors-exchange/'
-    print("Scraping IX exhibitors alphabetically...")
-    firms =  pdac_by_x(
+    print("Scraping Investors Exchange (IX) exhibitors alphabetically...")
+    firms, firms_by_booth =  pdac_by_x(
         url = ix_url + 'exhibitors',
         x_id = 'alphaChars', 
         x_name = 'alpha',
@@ -208,16 +208,18 @@ def run_ix(directory):
     firms = ADDRESSES.merge(firms, on='name', how='right')
     print("Writing IX exhibitors to GeoJSON...")
     firms.to_file(directory + 'firms_ix.geojson', driver='GeoJSON')
+    print("Writing IX firm-booth relationship to CSV...")
+    firms_by_booth.to_csv(directory + 'firms_ix_by_booth.csv', index=False)
     
-    print("Scraping investors exchange exhibitors by commodity...")
+    print("Scraping IX exhibitors by commodity...")
     commodities, firms_by_commodity =  pdac_by_x(
         url = ix_url + 'exhibitor-list-by-commodity',
         x_id = 'commodityTypes', 
         x_name = 'commodity')
-    print("Writing commodities to CSV...")
-    commodities.to_csv(directory + 'commodities.csv')
-    print("Writing firm-commodity relationship to CSV...")
-    firms_by_commodity.to_csv(directory + 'firms_by_commodity.csv')
+    print("Writing IX commodities to CSV...")
+    commodities.to_csv(directory + 'commodities.csv', index=False)
+    print("Writing IX firm-commodity relationship to CSV...")
+    firms_by_commodity.to_csv(directory + 'firms_by_commodity.csv', index=False)
     
     print("Scraping investors exchange exhibitors by country of exploration...")
     countries, firms_by_country = pdac_by_x(
@@ -237,23 +239,25 @@ def run_ix(directory):
     print("Writing countries to GeoJSON...")
     countries.to_file(directory + 'countries.geojson', driver='GeoJSON')
     print("Writing firm-country relationship to CSV...")
-    firms_by_country.to_csv(directory + 'firms_by_country.csv')
+    firms_by_country.to_csv(directory + 'firms_by_country.csv', index=False)
     
 def run_ts(directory):
     # TRADE SHOW
     ts_url = 'https://www.pdac.ca/convention/exhibits/trade-show/'
     print("Scraping trade show exhibitors alphabetically...")
-    firms = pdac_by_x(
+    firms, firms_by_booth = pdac_by_x(
         url = ts_url + 'exhibitors',
         x_id = 'alphaChars',
         x_name = 'alpha',
         x_keep = False
     )
-    print("Geocoding IX exhibitors...")
+    print("Geocoding Trade Show (TS) exhibitors...")
     firms = ADDRESSES.merge(firms, on='name', how='right')
     print("Writing TS exhibitors to GeoJSON...")
     firms.to_file(directory + 'firms_ts.geojson', driver='GeoJSON')
-    
+    print("Writing TS firm-booth relationship to CSV...")
+    firms_by_booth.to_csv(directory + 'firms_ix_by_booth.csv', index=False)
+
     print("Scraping trade show exhibitors by business type...")
     biztypes, ts_by_biztype = pdac_by_x(
         url = ts_url + 'exhibitor-list-by-business-type',
@@ -261,8 +265,8 @@ def run_ts(directory):
         x_name = 'biztype'
     )
     print("Writing to CSV...")
-    biztypes.to_csv(directory + 'biztypes.csv')
-    ts_by_biztype.to_csv(directory + 'firms_by_biztype.csv')
+    biztypes.to_csv(directory + 'biztypes.csv', index=False)
+    ts_by_biztype.to_csv(directory + 'firms_by_biztype.csv', index=False)
     
 def run_cs(directory):
     # CORE SHACK
@@ -288,8 +292,7 @@ def run_pt(directory):
     print("Scraping Prospectors Tent (PT) exhibitors...")
     prospectors = pros_tent(pt_url)
     print("Writing PT exhibitors to CSV...")
-    prospectors.to_csv(directory + 'prospectors.csv')
-
+    prospectors.to_csv(directory + 'prospectors.csv', index=False)
 
 if __name__ == '__main__':
    run_ix(DIR)

@@ -1,1189 +1,1189 @@
-,name,commodity
-0,AbraPlata Resource Corp.,Base metals
-1,Adventus Mining Corporation,Base metals
-2,Aldebaran Resources Inc.,Base metals
-3,Altius Minerals Corp.,Base metals
-4,ALX Resources Corp.,Base metals
-5,American Creek Resources Ltd.,Base metals
-6,Ascendant Resources Inc.,Base metals
-7,Ascot Resources Ltd.,Base metals
-8,Aston Bay,Base metals
-9,ATAC Resources Ltd.,Base metals
-10,Auramex Resource Corp,Base metals
-11,Aurum Discovery,Base metals
-12,Avidian Gold Corp.,Base metals
-13,Azimut Exploration Inc.,Base metals
-14,Azure Minerals Limited,Base metals
-15,Balmoral Resources Ltd.,Base metals
-16,BeMetals Corp.,Base metals
-17,Buchans Resources Ltd.,Base metals
-18,BWR Exploration Inc.,Base metals
-19,Callinex Mines Inc.,Base metals
-20,CanAlaska Uranium Ltd.,Base metals
-21,Cantex Mine Development Corp,Base metals
-22,Commander Resources Ltd.,Base metals
-23,Conroy Gold and Natural Resources plc,Base metals
-24,Constantine Metal Resources Ltd.,Base metals
-25,CVK Mining Group,Base metals
-26,Discovery Group,Base metals
-27,Eagle Plains Resources Ltd.,Base metals
-28,Eastfield Resources Ltd.,Base metals
-29,"EDM-Empresa de Desenvolvimento Mineiro, SA",Base metals
-30,Eldorado Gold Corporation,Base metals
-31,EMX Royalty Corp.,Base metals
-32,Entrée Resources Ltd.,Base metals
-33,Erdene Resource Development Corp.,Base metals
-34,Exiro Minerals Corp.,Base metals
-35,FPX Nickel Corp.,Base metals
-36,Geophysx Jamaica Ltd,Base metals
-37,Globe Trotters Resource Group Inc.,Base metals
-38,Globex Mining Enterprises Inc.,Base metals
-39,Goldspot Discoveries Inc.,Base metals
-40,Greg Exploration Inc.,Base metals
-41,Hammer Metals Ltd,Base metals
-42,Happy Creek Minerals Ltd.,Base metals
-43,Harfang Exploration Inc.,Base metals
-44,Ivanhoe Mines,Base metals
-45,Keras Resources plc,Base metals
-46,Lara Exploration Ltd.,Base metals
-47,Laurion Mineral Exploration Inc.,Base metals
-48,Longland Resources Ltd,Base metals
-49,Lundin Group,Base metals
-50,Manex Resource Group Inc.,Base metals
-51,Manganese X Energy Corp.,Base metals
-52,Metallic Group of Companies,Base metals
-53,Midland Exploration Inc.,Base metals
-54,Minera Tres Valles,Base metals
-55,Mira Stone Ltd,Base metals
-56,Mississauga Mining,Base metals
-57,Montero Mining & Exploration Ltd.,Base metals
-58,Moydow Resources Limited,Base metals
-59,Murchison Minerals Ltd.,Base metals
-60,New Age Metals,Base metals
-61,New Pacific Metals Corp.,Base metals
-62,Newmont Corporation,Base metals
-63,Newrange Gold Corp.,Base metals
-64,Nicola Mining Inc.,Base metals
-65,NorZinc Ltd,Base metals
-66,Opus One Resources Inc.,Base metals
-67,Osisko Metals Incorporated,Base metals
-68,Pacific Empire Minerals Corp.,Base metals
-69,Palladium One,Base metals
-70,Pancontinental Resources Corporation,Base metals
-71,Panda Mining Pty Ltd,Base metals
-72,Panthera Resources Plc,Base metals
-73,Patagonia Exploracion S.A.,Base metals
-74,Pavey Ark Minerals Inc.,Base metals
-75,Peel Mining Ltd.,Base metals
-76,Portofino Resources Inc.,Base metals
-77,Power Ore Inc.,Base metals
-78,Prolific Mining Corp.,Base metals
-79,Prophecy Development Corp.,Base metals
-80,Pucara Resources,Base metals
-81,Red Cloud Securities Inc.,Base metals
-82,Redstar Gold Corp.,Base metals
-83,Rio Tinto,Base metals
-84,RJK Explorations Ltd.,Base metals
-85,ROKMASTER Resources Corp.,Base metals
-86,S2 Resources Ltd.,Base metals
-87,Searchlight Resources Inc.,Base metals
-88,Sherritt International Corporation,Base metals
-89,Sierra Metals Inc.,Base metals
-90,Solitario Zinc Corp.,Base metals
-91,South32 Limited,Base metals
-92,Spirit Mining LLC,Base metals
-93,Stratabound Minerals Corp.,Base metals
-94,Strategic Exploration Group,Base metals
-95,Strongbow Exploration Inc.,Base metals
-96,Sun Peak Metals,Base metals
-97,Talon Metals Corp.,Base metals
-98,Telson Mining Corporation,Base metals
-99,Tinka Resources Limited,Base metals
-100,Transition Metals Corp.,Base metals
-101,Trevali Mining Corporation,Base metals
-102,Tri Origin Exploration Ltd.,Base metals
-103,Valoriza Mineria SL,Base metals
-104,Vior Inc.,Base metals
-105,White Rock Minerals,Base metals
-106,Wildsky Resources Inc.,Base metals
-107,Windfall Geotek Inc.,Base metals
-108,Wolfden Resources Corporation,Base metals
-109,Ximen Mining Corp.,Base metals
-110,Yukon Mining Alliance,Base metals
-111,Zephyr Minerals Ltd.,Base metals
-112,Anglo American,Coal
-113,BHP,Coal
-114,Jameson Resources Limited,Coal
-115,Lundin Group,Coal
-116,Morien Resources Corp.,Coal
-117,Orestone Mining Corp,Coal
-118,Prophecy Development Corp.,Coal
-119,South32 Limited,Coal
-120,Teck Resources Limited,Coal
-121,Vista Energy Resources,Coal
-122,AbraPlata Resource Corp.,Copper
-123,Adriatic Metals Plc,Copper
-124,Adventus Mining Corporation,Copper
-125,Aeris Resources Limited,Copper
-126,Affinity Metals  Corp,Copper
-127,Aldebaran Resources Inc.,Copper
-128,Altamira Gold,Copper
-129,Altius Minerals Corp.,Copper
-130,ALX Resources Corp.,Copper
-131,American Creek Resources Ltd.,Copper
-132,Amerigo Resources Ltd.,Copper
-133,Anglo American,Copper
-134,Aquila Resources Inc.,Copper
-135,Ascot Resources Ltd.,Copper
-136,ATAC Resources Ltd.,Copper
-137,Auramex Resource Corp,Copper
-138,Aurania Resources Ltd.,Copper
-139,Aurora Minerals Group LLP,Copper
-140,Aurum Discovery,Copper
-141,AURYN Mining Corp.,Copper
-142,Auryn Resources Inc.,Copper
-143,Avino Silver & Gold Mines Ltd.,Copper
-144,Azimut Exploration Inc.,Copper
-145,Azure Minerals Limited,Copper
-146,Balmoral Resources Ltd.,Copper
-147,BeMetals Corp.,Copper
-148,BHP,Copper
-149,Blackstone Minerals Ltd,Copper
-150,Brixton Metals Corporation,Copper
-151,BTU Metals Corp.,Copper
-152,BWR Exploration Inc.,Copper
-153,Cabral Gold Ltd.,Copper
-154,Callinex Mines Inc.,Copper
-155,CanAlaska Uranium Ltd.,Copper
-156,Candente Copper Corp.,Copper
-157,Carube Copper Corp.,Copper
-158,Centerra Gold Inc.,Copper
-159,Century Global Commodities Corporation,Copper
-160,Chakana Copper Corporation,Copper
-161,China Gold International Resources Corp. Ltd.,Copper
-162,Commander Resources Ltd.,Copper
-163,Constantine Metal Resources Ltd.,Copper
-164,Copper Fox Metals Inc.,Copper
-165,Copper Mountain Mining Corporation,Copper
-166,Copperzone Resources Limited,Copper
-167,Cornerstone Capital Resources Inc.,Copper
-168,Crystal Lake Mining,Copper
-169,Discovery Group,Copper
-170,Eagle Plains Resources Ltd.,Copper
-171,Earthmetrix Inc.,Copper
-172,Eastfield Resources Ltd.,Copper
-173,"EDM-Empresa de Desenvolvimento Mineiro, SA",Copper
-174,Elim Mining Incorporated,Copper
-175,Ely Gold Royalties Inc.,Copper
-176,EMX Royalty Corp.,Copper
-177,Entrée Resources Ltd.,Copper
-178,Ero Copper Corp.,Copper
-179,Evrim Resources Corp.,Copper
-180,Excelsior Mining Corp.,Copper
-181,Exiro Minerals Corp.,Copper
-182,Foran Mining Corporation,Copper
-183,Forum Energy Metals Corp.,Copper
-184,Galway Metals Inc.,Copper
-185,Generation Mining Limited,Copper
-186,Geomega Resources Inc.,Copper
-187,Geophysx Jamaica Ltd,Copper
-188,Globe Trotters Resource Group Inc.,Copper
-189,Globmine LLP,Copper
-190,Go Metals Corp.,Copper
-191,Golden Arrow Resources,Copper
-192,GoldMining Inc.,Copper
-193,Gossan Resources Limited,Copper
-194,GR Sliver Mining Ltd.,Copper
-195,Grid Metals Corp.,Copper
-196,GT Gold Corp.,Copper
-197,Hammer Metals Ltd,Copper
-198,Happy Creek Minerals Ltd.,Copper
-199,Harfang Exploration Inc.,Copper
-200,High Power Exploration,Copper
-201,International Millennium Mining Corp.,Copper
-202,Ivanhoe Mines,Copper
-203,Japan Gold Corp.,Copper
-204,K92 Mining Inc.,Copper
-205,Kutcho Copper Corp.,Copper
-206,Lara Exploration Ltd.,Copper
-207,Latin Metals Inc.,Copper
-208,Libero Copper,Copper
-209,Longland Resources Ltd,Copper
-210,"Lumina Group, The",Copper
-211,Lundin Group,Copper
-212,MANAGEM Group,Copper
-213,Manex Resource Group Inc.,Copper
-214,Maya Gold & Silver Inc.,Copper
-215,Metallic Group of Companies,Copper
-216,Metals Group Inc.,Copper
-217,Midland Exploration Inc.,Copper
-218,Minaurum Gold Inc.,Copper
-219,Minera Alamos Inc.,Copper
-220,Mira Stone Ltd,Copper
-221,Mirasol Resources Ltd.,Copper
-222,Monument Mining Limited,Copper
-223,Mundoro Capital Inc.,Copper
-224,Nevada Copper Corp.,Copper
-225,New Gold Inc.,Copper
-226,Newcrest Mining Ltd.,Copper
-227,Newmont Corporation,Copper
-228,Newrange Gold Corp.,Copper
-229,Nexa Resources S.A.,Copper
-230,NioBay Metals Inc.,Copper
-231,Noront Resources Ltd.,Copper
-232,Northern Dynasty Minerals Ltd.,Copper
-233,Northern Shield Resources Inc.,Copper
-234,OceanaGold Corporation,Copper
-235,Opus One Resources Inc.,Copper
-236,Orestone Mining Corp,Copper
-237,Pacific Empire Minerals Corp.,Copper
-238,Pacific Trends Resources Pty Ltd,Copper
-239,Palladium One,Copper
-240,Pancontinental Resources Corporation,Copper
-241,Panoro Minerals Ltd.,Copper
-242,Panthera Resources Plc,Copper
-243,Patagonia Exploracion S.A.,Copper
-244,Peel Mining Ltd.,Copper
-245,Playfair Mining Ltd.,Copper
-246,PolyMet Mining Corp.,Copper
-247,Power Ore Inc.,Copper
-248,Prolific Mining Corp.,Copper
-249,Quaterra Resources Inc.,Copper
-250,Red Cloud Securities Inc.,Copper
-251,Red Metal Resources Ltd.,Copper
-252,Regulus Resources Inc.,Copper
-253,Revelo Resources Corp.,Copper
-254,Rio Tinto,Copper
-255,Riverside Resources Inc.,Copper
-256,Rockcliff Metals Corporation,Copper
-257,ROKMASTER Resources Corp.,Copper
-258,Romios Gold Resources Inc.,Copper
-259,Royal Road Minerals,Copper
-260,Rugby Mining Limited,Copper
-261,Salazar Resources Limited,Copper
-262,Sandstorm Gold Royalties,Copper
-263,Searchlight Resources Inc.,Copper
-264,Serengeti Resources Inc.,Copper
-265,Sherritt International Corporation,Copper
-266,Sierra Metals Inc.,Copper
-267,Sitka Gold Corp,Copper
-268,SolGold,Copper
-269,South32 Limited,Copper
-270,SPC Metals,Copper
-271,Sphinx Resources Ltd.,Copper
-272,Spirit Mining LLC,Copper
-273,Strategic Exploration Group,Copper
-274,Stuhini Exploration Ltd.,Copper
-275,Sun Peak Metals,Copper
-276,Talon Metals Corp.,Copper
-277,Teck Resources Limited,Copper
-278,Tectonic Metals Inc.,Copper
-279,Telson Mining Corporation,Copper
-280,Tethyan Resource Corp.,Copper
-281,Timberline Resources Corporation,Copper
-282,Transition Metals Corp.,Copper
-283,Trilogy Metals Inc.,Copper
-284,Triumph Gold Corp.,Copper
-285,Troilus Gold Corp.,Copper
-286,Valoriza Mineria SL,Copper
-287,Vizsla Resources Corp.,Copper
-288,VR Resources Ltd.,Copper
-289,Vulcan Minerals Inc.,Copper
-290,Wealth Minerals Ltd.,Copper
-291,Western Alaska Copper and Gold,Copper
-292,Western Copper and Gold Corporation,Copper
-293,White Rock Minerals,Copper
-294,Windfall Geotek Inc.,Copper
-295,Xiana Mining Inc.,Copper
-296,Ximen Mining Corp.,Copper
-297,Yorbeau Resources Inc.,Copper
-298,Yukon Mining Alliance,Copper
-299,Altius Minerals Corp.,Diamonds
-300,Anglo American,Diamonds
-301,Arctic Star Exploration Corp.,Diamonds
-302,CanAlaska Uranium Ltd.,Diamonds
-303,Conroy Gold and Natural Resources plc,Diamonds
-304,Diamcor Mining Inc.,Diamonds
-305,Discovery Group,Diamonds
-306,Greg Exploration Inc.,Diamonds
-307,Lundin Group,Diamonds
-308,Moydow Resources Limited,Diamonds
-309,North Arrow Minerals Inc.,Diamonds
-310,Olivut Resources Ltd.,Diamonds
-311,Rio Tinto,Diamonds
-312,RJK Explorations Ltd.,Diamonds
-313,Star Diamond Corporation,Diamonds
-314,Strategic Exploration Group,Diamonds
-315,Talmora Diamond Inc.,Diamonds
-316,Transition Metals Corp.,Diamonds
-317,Tres-Or Resources Ltd.,Diamonds
-318,Windfall Geotek Inc.,Diamonds
-319,Lara Exploration Ltd.,Fertilizers
-320,Montero Mining & Exploration Ltd.,Fertilizers
-321,SQM,Fertilizers
-322,AbraPlata Resource Corp.,Gold
-323,Adamera Minerals Corp.,Gold
-324,Adriatic Metals Plc,Gold
-325,Adventus Mining Corporation,Gold
-326,Affinity Metals  Corp,Gold
-327,Agnico Eagle Mines Limited,Gold
-328,AJN Resources Inc.,Gold
-329,Alacer Gold Corp.,Gold
-330,Alamos Gold Inc.,Gold
-331,Aldebaran Resources Inc.,Gold
-332,Almaden Minerals Ltd.,Gold
-333,Altamira Gold,Gold
-334,Alto Ventures Ltd.,Gold
-335,ALX Resources Corp.,Gold
-336,Amarillo Gold Corp.,Gold
-337,American Creek Resources Ltd.,Gold
-338,Americas Gold and Silver,Gold
-339,Amex Exploration,Gold
-340,Anaconda Mining Inc.,Gold
-341,Andino Commodities S.A.S,Gold
-342,Aquila Resources Inc.,Gold
-343,Ardiden Limited,Gold
-344,Argo Gold,Gold
-345,Argonaut Gold Inc.,Gold
-346,Artemis Gold Inc.,Gold
-347,Artisanal Gold Council,Gold
-348,Asante Gold Corporation,Gold
-349,Ascot Resources Ltd.,Gold
-350,Aston Bay,Gold
-351,ATAC Resources Ltd.,Gold
-352,Atlantic Gold Corporation,Gold
-353,Auramex Resource Corp,Gold
-354,Aurania Resources Ltd.,Gold
-355,Aurora Minerals Group LLP,Gold
-356,Aurum Discovery,Gold
-357,AURYN Mining Corp.,Gold
-358,Auryn Resources Inc.,Gold
-359,Avidian Gold Corp.,Gold
-360,Avino Silver & Gold Mines Ltd.,Gold
-361,Awale Resources Ltd.,Gold
-362,Azimut Exploration Inc.,Gold
-363,Azure Minerals Limited,Gold
-364,B2Gold Corp.,Gold
-365,Balmoral Resources Ltd.,Gold
-366,Banyan Gold Corp.,Gold
-367,Barrian Mining Corp,Gold
-368,Barrick Gold Corporation,Gold
-369,BeMetals Corp.,Gold
-370,Benton Resources Inc.,Gold
-371,BlackRock Gold Corp.,Gold
-372,Blackstone Minerals Ltd,Gold
-373,Blue Star Gold Corp.,Gold
-374,Blue Thunder Mining Corp,Gold
-375,BONTERRA Resources Inc.,Gold
-376,Breaker Resources NL,Gold
-377,Brixton Metals Corporation,Gold
-378,BTU Metals Corp.,Gold
-379,BWR Exploration Inc.,Gold
-380,Cabral Gold Ltd.,Gold
-381,Callinex Mines Inc.,Gold
-382,Canarc Resource Corp.,Gold
-383,Cantex Mine Development Corp,Gold
-384,Cardinal Resources Ltd.,Gold
-385,Carube Copper Corp.,Gold
-386,Centerra Gold Inc.,Gold
-387,Century Global Commodities Corporation,Gold
-388,Chakana Copper Corporation,Gold
-389,Chesapeake Gold Corporation,Gold
-390,China Gold International Resources Corp. Ltd.,Gold
-391,Columbus Gold Corp.,Gold
-392,Commander Resources Ltd.,Gold
-393,Condor Gold Plc,Gold
-394,Conroy Gold and Natural Resources plc,Gold
-395,Consulting & Mining Sevices SRL,Gold
-396,Continental Gold Inc.,Gold
-397,Copper Fox Metals Inc.,Gold
-398,Copper Mountain Mining Corporation,Gold
-399,Cornerstone Capital Resources Inc.,Gold
-400,Corvus Gold Inc.,Gold
-401,Crystal Lake Mining,Gold
-402,CVK Mining Group,Gold
-403,Delta Resources Limited,Gold
-404,Desert Gold Ventures Inc.,Gold
-405,Discovery Group,Gold
-406,Dundee Precious Metals Inc.,Gold
-407,Durango Resources Inc.,Gold
-408,Dynacor Gold Mines Inc.,Gold
-409,Dynasty Gold Corp.,Gold
-410,Eagle Plains Resources Ltd.,Gold
-411,Earthmetrix Inc.,Gold
-412,Eastfield Resources Ltd.,Gold
-413,Eclipse Gold Mining Corp,Gold
-414,"EDM-Empresa de Desenvolvimento Mineiro, SA",Gold
-415,Eldorado Gold Corporation,Gold
-416,Ely Gold Royalties Inc.,Gold
-417,EMX Royalty Corp.,Gold
-418,Endurance Gold Corp,Gold
-419,Energold Corp.,Gold
-420,Engineer Gold Mines Ltd,Gold
-421,Entrée Resources Ltd.,Gold
-422,EnviroLeach Technologies Inc.,Gold
-423,Equus Mining Limited,Gold
-424,Eros Resources Corp.,Gold
-425,Evergold Corp,Gold
-426,Evrim Resources Corp.,Gold
-427,Exiro Minerals Corp.,Gold
-428,FireFox Gold Corp.,Gold
-429,First Majestic Silver Corp.,Gold
-430,First Mining Gold Corp.,Gold
-431,Fomicruz S.E.,Gold
-432,Fortune Minerals Limited,Gold
-433,Forum Energy Metals Corp.,Gold
-434,Galleon Gold Corp.,Gold
-435,Galway Metals Inc.,Gold
-436,Garibaldi Resources Corp,Gold
-437,Gatling Exploration Inc.,Gold
-438,Generation Mining Limited,Gold
-439,Genesis Metals,Gold
-440,Geomega Resources Inc.,Gold
-441,Geophysx Jamaica Ltd,Gold
-442,GFG Resources Inc.,Gold
-443,Globe Trotters Resource Group Inc.,Gold
-444,Globex Mining Enterprises Inc.,Gold
-445,Globmine LLP,Gold
-446,GMV Minerals Inc.,Gold
-447,Gold Group Management Inc.,Gold
-448,Gold Springs Resource Corp.,Gold
-449,Gold Terra Resource Corp.,Gold
-450,Golden Arrow Resources,Gold
-451,Golden Goliath Resources Ltd.,Gold
-452,Golden Minerals Company,Gold
-453,Golden Predator Mining Corp.,Gold
-454,Golden Star Resources Limited,Gold
-455,GoldMining Inc.,Gold
-456,Goldmoney Inc.,Gold
-457,GoldQuest Mining Corp.,Gold
-458,Goldsource Mines Inc.,Gold
-459,Goldspot Discoveries Inc.,Gold
-460,Gossan Resources Limited,Gold
-461,Gowest Gold Ltd.,Gold
-462,GR Sliver Mining Ltd.,Gold
-463,Gran Colombia Gold Corp.,Gold
-464,Greg Exploration Inc.,Gold
-465,Grizzly Discoveries Inc.,Gold
-466,GT Gold Corp.,Gold
-467,Hammer Metals Ltd,Gold
-468,Harfang Exploration Inc.,Gold
-469,Harte Gold Corp.,Gold
-470,Hecla Mining Company,Gold
-471,High Power Exploration,Gold
-472,HighGold Mining Inc,Gold
-473,HPQ Silicon Resources,Gold
-474,IAMGOLD Corporation,Gold
-475,Inca One Gold Corp.,Gold
-476,Independence Gold Corp.,Gold
-477,Integra Resources Corp.,Gold
-478,International Millennium Mining Corp.,Gold
-479,Jaguar Mining Inc.,Gold
-480,Japan Gold Corp.,Gold
-481,K92 Mining Inc.,Gold
-482,Kalo Exploration Ltd,Gold
-483,Kerr Mines Inc.,Gold
-484,Kesselrun Resources Ltd.,Gold
-485,Kingsgate Consolidated Limited,Gold
-486,Kinross Gold Corporation,Gold
-487,Kirkland Lake Gold Ltd.,Gold
-488,Kootenay Silver Inc.,Gold
-489,Kopy Goldfields AB,Gold
-490,Kutcho Copper Corp.,Gold
-491,Lara Exploration Ltd.,Gold
-492,Latin Metals Inc.,Gold
-493,Laurion Mineral Exploration Inc.,Gold
-494,Leagold Mining Corporation,Gold
-495,Libero Copper,Gold
-496,Liberty Gold Corp.,Gold
-497,Lion One Metals,Gold
-498,Longland Resources Ltd,Gold
-499,"Lumina Group, The",Gold
-500,Lundin Group,Gold
-501,Mako Mining Corp.,Gold
-502,MANAGEM Group,Gold
-503,Mandalay Resources Corp.,Gold
-504,Manex Resource Group Inc.,Gold
-505,Manitou Gold Inc.,Gold
-506,Marathon Gold Corporation,Gold
-507,Mawson Resources Limited,Gold
-508,Maya Gold & Silver Inc.,Gold
-509,McEwen Mining Inc.,Gold
-510,MegumaGold,Gold
-511,Metallic Group of Companies,Gold
-512,Metals Creek Resources Corp.,Gold
-513,Metals Group Inc.,Gold
-514,Midas Gold Corp.,Gold
-515,Midland Exploration Inc.,Gold
-516,Minaurum Gold Inc.,Gold
-517,Minera Alamos Inc.,Gold
-518,Mineral Mountain Resources Ltd.,Gold
-519,Mira Stone Ltd,Gold
-520,Mirasol Resources Ltd.,Gold
-521,Mississauga Mining,Gold
-522,Monarques Gold Corporation,Gold
-523,Moneta Porcupine Mines Inc.,Gold
-524,Monument Mining Limited,Gold
-525,Morocota Gold SAS,Gold
-526,Moydow Resources Limited,Gold
-527,Mundoro Capital Inc.,Gold
-528,Nevada Exploration Inc.,Gold
-529,New Found Gold Corp,Gold
-530,New Gold Inc.,Gold
-531,Newcrest Mining Ltd.,Gold
-532,Newmont Corporation,Gold
-533,Newrange Gold Corp.,Gold
-534,Nicola Mining Inc.,Gold
-535,NioBay Metals Inc.,Gold
-536,Northern Dynasty Minerals Ltd.,Gold
-537,Northern Shield Resources Inc.,Gold
-538,Northern Superior Resources Inc.,Gold
-539,Northern Vertex Mining Corp.,Gold
-540,Northstar Gold Corp.,Gold
-541,Novagold Resources Inc.,Gold
-542,OceanaGold Corporation,Gold
-543,Opus One Resources Inc.,Gold
-544,Orefinders Resources Inc.,Gold
-545,Orezone Gold Corporation,Gold
-546,Orford Mining Corp.,Gold
-547,Orla Mining Ltd.,Gold
-548,Orsu Metals Corporation,Gold
-549,Orvana Minerals Corp.,Gold
-550,Osino Resources Corp.,Gold
-551,Osisko Gold Royalties Ltd.,Gold
-552,Otso Gold Corp.,Gold
-553,Pacific Empire Minerals Corp.,Gold
-554,Pacific Trends Resources Pty Ltd,Gold
-555,Pacton Gold Inc.,Gold
-556,Palamina Corp.,Gold
-557,Pancontinental Resources Corporation,Gold
-558,Panda Mining Pty Ltd,Gold
-559,Panthera Resources Plc,Gold
-560,Patagonia Exploracion S.A.,Gold
-561,Pavey Ark Minerals Inc.,Gold
-562,Peel Mining Ltd.,Gold
-563,Pelangio Exploration Inc.,Gold
-564,Peloton Minerals Corporation,Gold
-565,Playfair Mining Ltd.,Gold
-566,Portofino Resources Inc.,Gold
-567,PPX Mining Corp.,Gold
-568,Premier Gold Mines Limited,Gold
-569,Privateer Gold,Gold
-570,Probe Metals Inc.,Gold
-571,Prolific Mining Corp.,Gold
-572,Pucara Resources,Gold
-573,Pure Gold Mining,Gold
-574,QMX Gold Corporation,Gold
-575,Radisson Mining Resources Inc.,Gold
-576,Red Cloud Securities Inc.,Gold
-577,Red Metal Resources Ltd.,Gold
-578,Red Pine Exploration Inc.,Gold
-579,Redstar Gold Corp.,Gold
-580,Regulus Resources Inc.,Gold
-581,Renaissance Gold Inc.,Gold
-582,Renforth Resources Inc.,Gold
-583,Reunion Gold Corporation,Gold
-584,Revelo Resources Corp.,Gold
-585,Revival Gold Inc.,Gold
-586,Rio Tinto,Gold
-587,Riverside Resources Inc.,Gold
-588,RJK Explorations Ltd.,Gold
-589,RNC Minerals,Gold
-590,Rockcliff Metals Corporation,Gold
-591,ROKMASTER Resources Corp.,Gold
-592,Romios Gold Resources Inc.,Gold
-593,Roscan Gold Corporation,Gold
-594,Roxgold Inc.,Gold
-595,Royal Canadian Mint,Gold
-596,Royal Road Minerals,Gold
-597,Rugby Mining Limited,Gold
-598,S2 Resources Ltd.,Gold
-599,Sabina Gold & Silver Corp.,Gold
-600,Salazar Resources Limited,Gold
-601,Sandstorm Gold Royalties,Gold
-602,Searchlight Resources Inc.,Gold
-603,SEMAFO Inc.,Gold
-604,Serabi Gold plc,Gold
-605,Serengeti Resources Inc.,Gold
-606,Sherritt International Corporation,Gold
-607,Sierra Metals Inc.,Gold
-608,SilverCrest Metals Inc.,Gold
-609,Sirios Resources Inc.,Gold
-610,Sitka Gold Corp,Gold
-611,Skeena Resources Ltd.,Gold
-612,Skyharbour Resources Ltd.,Gold
-613,Sokoman Minerals Corp.,Gold
-614,SolGold,Gold
-615,Sonoro Metals Corp.,Gold
-616,Sphinx Resources Ltd.,Gold
-617,Spirit Mining LLC,Gold
-618,Sprott Group of Companies,Gold
-619,Starcore International Mines Ltd.,Gold
-620,Steppe Gold Limited,Gold
-621,Stratabound Minerals Corp.,Gold
-622,Strategic Exploration Group,Gold
-623,Stuhini Exploration Ltd.,Gold
-624,Sun Peak Metals,Gold
-625,Talisker Resources,Gold
-626,Tectonic Metals Inc.,Gold
-627,Telson Mining Corporation,Gold
-628,Tempus Resources Limited,Gold
-629,Teranga Gold Corporation,Gold
-630,Tethyan Resource Corp.,Gold
-631,Timberline Resources Corporation,Gold
-632,Transition Metals Corp.,Gold
-633,Treasury Metals Inc.,Gold
-634,Tres-Or Resources Ltd.,Gold
-635,Tri Origin Exploration Ltd.,Gold
-636,Trilogy Metals Inc.,Gold
-637,TriStar Gold Inc.,Gold
-638,Triumph Gold Corp.,Gold
-639,Troilus Gold Corp.,Gold
-640,Tudor Gold Corp.,Gold
-641,Unigold Inc.,Gold
-642,Ur-Energy Inc.,Gold
-643,Valoriza Mineria SL,Gold
-644,Velocity Minerals Ltd.,Gold
-645,Vior Inc.,Gold
-646,Vista Gold Corp.,Gold
-647,Viva Gold Corp.,Gold
-648,Vizsla Resources Corp.,Gold
-649,VR Resources Ltd.,Gold
-650,Wallbridge Mining Company Limited,Gold
-651,Wealth Minerals Ltd.,Gold
-652,Wesdome Gold Mines,Gold
-653,West Red Lake Gold Mines Inc.,Gold
-654,Western Alaska Copper and Gold,Gold
-655,Western Atlas Resources Inc.,Gold
-656,Western Copper and Gold Corporation,Gold
-657,Westhaven Ventures Inc.,Gold
-658,Wheaton Precious Metals Corp.,Gold
-659,White Gold Corp.,Gold
-660,White Rock Minerals,Gold
-661,Wildsky Resources Inc.,Gold
-662,Windfall Geotek Inc.,Gold
-663,Xiana Mining Inc.,Gold
-664,Ximen Mining Corp.,Gold
-665,X-Terra Resources,Gold
-666,Yamana Gold Inc.,Gold
-667,Yorbeau Resources Inc.,Gold
-668,Yukon Mining Alliance,Gold
-669,Zephyr Minerals Ltd.,Gold
-670,Altius Minerals Corp.,Iron ore
-671,Anglo American,Iron ore
-672,BHP,Iron ore
-673,Century Global Commodities Corporation,Iron ore
-674,FPX Nickel Corp.,Iron ore
-675,Mira Stone Ltd,Iron ore
-676,Mississauga Mining,Iron ore
-677,Monument Mining Limited,Iron ore
-678,Panthera Resources Plc,Iron ore
-679,Rio Tinto,Iron ore
-680,Vale Canada Limited,Iron ore
-681,Adriatic Metals Plc,Lead
-682,Adventus Mining Corporation,Lead
-683,Affinity Metals  Corp,Lead
-684,Aftermath Silver Ltd,Lead
-685,Alexco Resource Corp.,Lead
-686,Americas Gold and Silver,Lead
-687,Ascendant Resources Inc.,Lead
-688,Avino Silver & Gold Mines Ltd.,Lead
-689,Azure Minerals Limited,Lead
-690,BeMetals Corp.,Lead
-691,Blind Creek Resources Ltd.,Lead
-692,Cerro de Pasco Resources Inc.,Lead
-693,CVK Mining Group,Lead
-694,Discovery Group,Lead
-695,Eagle Plains Resources Ltd.,Lead
-696,EMX Royalty Corp.,Lead
-697,Geophysx Jamaica Ltd,Lead
-698,Globmine LLP,Lead
-699,Golden Arrow Resources,Lead
-700,GR Sliver Mining Ltd.,Lead
-701,Hecla Mining Company,Lead
-702,International Millennium Mining Corp.,Lead
-703,Klondike Silver Corp.,Lead
-704,Kootenay Silver Inc.,Lead
-705,Lundin Group,Lead
-706,MANAGEM Group,Lead
-707,Manex Resource Group Inc.,Lead
-708,Maya Gold & Silver Inc.,Lead
-709,Metallic Group of Companies,Lead
-710,Mira Stone Ltd,Lead
-711,Murchison Minerals Ltd.,Lead
-712,NorZinc Ltd,Lead
-713,Patagonia Exploracion S.A.,Lead
-714,Peel Mining Ltd.,Lead
-715,Prophecy Development Corp.,Lead
-716,Red Cloud Securities Inc.,Lead
-717,ROKMASTER Resources Corp.,Lead
-718,ScoZinc Mining Ltd.,Lead
-719,Sierra Metals Inc.,Lead
-720,Silvercorp Metals Inc.,Lead
-721,South32 Limited,Lead
-722,Sphinx Resources Ltd.,Lead
-723,Strategic Exploration Group,Lead
-724,Stuhini Exploration Ltd.,Lead
-725,Telson Mining Corporation,Lead
-726,Tethyan Resource Corp.,Lead
-727,Trevali Mining Corporation,Lead
-728,Valoriza Mineria SL,Lead
-729,Western Alaska Copper and Gold,Lead
-730,White Rock Minerals,Lead
-731,Yukon Mining Alliance,Lead
-732,Altius Minerals Corp.,Nickel
-733,ALX Resources Corp.,Nickel
-734,Anglo American,Nickel
-735,Aurum Discovery,Nickel
-736,Balmoral Resources Ltd.,Nickel
-737,BeMetals Corp.,Nickel
-738,BHP,Nickel
-739,Blackstone Minerals Ltd,Nickel
-740,BWR Exploration Inc.,Nickel
-741,Canada Nickel Company,Nickel
-742,CanAlaska Uranium Ltd.,Nickel
-743,Centaurus Metals Ltd,Nickel
-744,Commander Resources Ltd.,Nickel
-745,EMX Royalty Corp.,Nickel
-746,Forum Energy Metals Corp.,Nickel
-747,FPX Nickel Corp.,Nickel
-748,Globex Mining Enterprises Inc.,Nickel
-749,Gossan Resources Limited,Nickel
-750,Grid Metals Corp.,Nickel
-751,Harfang Exploration Inc.,Nickel
-752,High Power Exploration,Nickel
-753,Lara Exploration Ltd.,Nickel
-754,Longland Resources Ltd,Nickel
-755,Lundin Group,Nickel
-756,Metallic Group of Companies,Nickel
-757,Midland Exploration Inc.,Nickel
-758,Mira Stone Ltd,Nickel
-759,Murchison Minerals Ltd.,Nickel
-760,Noront Resources Ltd.,Nickel
-761,Northern Shield Resources Inc.,Nickel
-762,Opus One Resources Inc.,Nickel
-763,Orford Mining Corp.,Nickel
-764,Palladium One,Nickel
-765,Pancontinental Resources Corporation,Nickel
-766,Playfair Mining Ltd.,Nickel
-767,PolyMet Mining Corp.,Nickel
-768,Power Ore Inc.,Nickel
-769,Red Cloud Securities Inc.,Nickel
-770,Rio Tinto,Nickel
-771,RNC Minerals,Nickel
-772,Searchlight Resources Inc.,Nickel
-773,Sherritt International Corporation,Nickel
-774,South32 Limited,Nickel
-775,SPC Metals,Nickel
-776,Sphinx Resources Ltd.,Nickel
-777,Strategic Exploration Group,Nickel
-778,Talon Metals Corp.,Nickel
-779,Transition Metals Corp.,Nickel
-780,UEX Corporation,Nickel
-781,Vale Canada Limited,Nickel
-782,Valoriza Mineria SL,Nickel
-783,Victory Nickel Inc.,Nickel
-784,Vulcan Minerals Inc.,Nickel
-785,Windfall Geotek Inc.,Nickel
-786,Yukon Mining Alliance,Nickel
-787,BHP,Oil & Gas
-788,Desert Mountain Energy Corp.,Oil & Gas
-789,Fomicruz S.E.,Oil & Gas
-790,Lundin Group,Oil & Gas
-791,Andino Commodities S.A.S,Other
-792,Ares Strategic Mining Inc.,Other
-793,Blackstone Minerals Ltd,Other
-794,Canadian Securities Exchange,Other
-795,Century Global Commodities Corporation,Other
-796,Constantine Metal Resources Ltd.,Other
-797,CVK Mining Group,Other
-798,Desert Mountain Energy Corp.,Other
-799,Earthmetrix Inc.,Other
-800,Exiro Minerals Corp.,Other
-801,Five Star Diamond Limited,Other
-802,Globex Mining Enterprises Inc.,Other
-803,Gold Group Management Inc.,Other
-804,Goldmoney Inc.,Other
-805,High Power Exploration,Other
-806,HPQ Silicon Resources,Other
-807,Hudson Resources Inc.,Other
-808,Jamaica Stock Exchange,Other
-809,Jameson Resources Limited,Other
-810,Latin Metals Inc.,Other
-811,Market Making Services Inc.,Other
-812,Maya Gold & Silver Inc.,Other
-813,Metals Group Inc.,Other
-814,Mira Stone Ltd,Other
-815,Montero Mining & Exploration Ltd.,Other
-816,"Morefield Gem Mine, Inc.",Other
-817,Neo Lithium Corp.,Other
-818,New Age Metals,Other
-819,NioBay Metals Inc.,Other
-820,Noront Resources Ltd.,Other
-821,Nouveau Monde Graphite,Other
-822,OTC Markets Group,Other
-823,Red Metal Resources Ltd.,Other
-824,Resource Capital Funds,Other
-825,Reunion Gold Corporation,Other
-826,Richardson GMP - Alexandra Horwood,Other
-827,ROKMASTER Resources Corp.,Other
-828,Romios Gold Resources Inc.,Other
-829,Sidex,Other
-830,Spirit Mining LLC,Other
-831,Sprott Group of Companies,Other
-832,SQM,Other
-833,Steppe Gold Limited,Other
-834,Stuhini Exploration Ltd.,Other
-835,Toronto Stock Exchange,Other
-836,Transition Metals Corp.,Other
-837,UEX Corporation,Other
-838,Valoriza Mineria SL,Other
-839,VanadiumCorp Resource Inc.,Other
-840,Victory Nickel Inc.,Other
-841,Vior Inc.,Other
-842,Vulcan Minerals Inc.,Other
-843,Western Uranium & Vanadium Corp.,Other
-844,Zen Graphene Solutions,Other
-845,Zimtu Capital Corp.,Other
-846,Anglo American,PGM
-847,Balmoral Resources Ltd.,PGM
-848,Discovery Group,PGM
-849,Eagle Plains Resources Ltd.,PGM
-850,Eastfield Resources Ltd.,PGM
-851,Forum Energy Metals Corp.,PGM
-852,Generation Mining Limited,PGM
-853,Globex Mining Enterprises Inc.,PGM
-854,Golden Arrow Resources,PGM
-855,Goldspot Discoveries Inc.,PGM
-856,Gossan Resources Limited,PGM
-857,Grid Metals Corp.,PGM
-858,Ivanhoe Mines,PGM
-859,Longland Resources Ltd,PGM
-860,Metallic Group of Companies,PGM
-861,Midland Exploration Inc.,PGM
-862,New Age Metals,PGM
-863,Noront Resources Ltd.,PGM
-864,Northern Shield Resources Inc.,PGM
-865,Orford Mining Corp.,PGM
-866,Pavey Ark Minerals Inc.,PGM
-867,PolyMet Mining Corp.,PGM
-868,Rio Tinto,PGM
-869,Sherritt International Corporation,PGM
-870,SPC Metals,PGM
-871,Transition Metals Corp.,PGM
-872,Wallbridge Mining Company Limited,PGM
-873,Yukon Mining Alliance,PGM
-874,Appia Energy Corp.,REE & electric metals
-875,Ardiden Limited,REE & electric metals
-876,Aurum Discovery,REE & electric metals
-877,Avalon Advanced Materials Inc.,REE & electric metals
-878,Canada Nickel Company,REE & electric metals
-879,Commerce Resources Corp.,REE & electric metals
-880,Critical Elements Corporation,REE & electric metals
-881,Eagle Plains Resources Ltd.,REE & electric metals
-882,Earthmetrix Inc.,REE & electric metals
-883,Endurance Gold Corp,REE & electric metals
-884,Exiro Minerals Corp.,REE & electric metals
-885,Focus Graphite Inc.,REE & electric metals
-886,Fortune Minerals Limited,REE & electric metals
-887,Forum Energy Metals Corp.,REE & electric metals
-888,Frontier Lithium Inc.,REE & electric metals
-889,Geomega Resources Inc.,REE & electric metals
-890,Geophysx Jamaica Ltd,REE & electric metals
-891,Globex Mining Enterprises Inc.,REE & electric metals
-892,Go Metals Corp.,REE & electric metals
-893,Golden Arrow Resources,REE & electric metals
-894,Gossan Resources Limited,REE & electric metals
-895,Hammer Metals Ltd,REE & electric metals
-896,ioneer,REE & electric metals
-897,Largo Resources Ltd.,REE & electric metals
-898,Leading Edge Materials Corp.,REE & electric metals
-899,Lepidico Ltd.,REE & electric metals
-900,Lomiko Metals Inc.,REE & electric metals
-901,Millennial Lithium Corp.,REE & electric metals
-902,Mira Stone Ltd,REE & electric metals
-903,Mkango Resources,REE & electric metals
-904,Montero Mining & Exploration Ltd.,REE & electric metals
-905,"Morefield Gem Mine, Inc.",REE & electric metals
-906,Neo Lithium Corp.,REE & electric metals
-907,NioBay Metals Inc.,REE & electric metals
-908,Northern Graphite Corporation,REE & electric metals
-909,Oro Verde Limited,REE & electric metals
-910,Pancontinental Resources Corporation,REE & electric metals
-911,Patagonia Exploracion S.A.,REE & electric metals
-912,Plateau Energy Metals Inc.,REE & electric metals
-913,Portofino Resources Inc.,REE & electric metals
-914,Power Ore Inc.,REE & electric metals
-915,Red Metal Resources Ltd.,REE & electric metals
-916,Rio Tinto,REE & electric metals
-917,Sayona Mining Limited,REE & electric metals
-918,Searchlight Resources Inc.,REE & electric metals
-919,Ucore Rare Metals Inc.,REE & electric metals
-920,VanadiumCorp Resource Inc.,REE & electric metals
-921,Wealth Minerals Ltd.,REE & electric metals
-922,Wheaton Precious Metals Corp.,REE & electric metals
-923,Zen Graphene Solutions,REE & electric metals
-924,AbraPlata Resource Corp.,Silver
-925,Adriatic Metals Plc,Silver
-926,Adventus Mining Corporation,Silver
-927,Affinity Metals  Corp,Silver
-928,Alexco Resource Corp.,Silver
-929,Almaden Minerals Ltd.,Silver
-930,Altius Minerals Corp.,Silver
-931,American Creek Resources Ltd.,Silver
-932,Americas Gold and Silver,Silver
-933,Aquila Resources Inc.,Silver
-934,Argonaut Gold Inc.,Silver
-935,Ascendant Resources Inc.,Silver
-936,Ascot Resources Ltd.,Silver
-937,ATAC Resources Ltd.,Silver
-938,Auramex Resource Corp,Silver
-939,Aurania Resources Ltd.,Silver
-940,Aurora Minerals Group LLP,Silver
-941,AURYN Mining Corp.,Silver
-942,Auryn Resources Inc.,Silver
-943,Avino Silver & Gold Mines Ltd.,Silver
-944,Awale Resources Ltd.,Silver
-945,Azure Minerals Limited,Silver
-946,BeMetals Corp.,Silver
-947,BlackRock Gold Corp.,Silver
-948,Blind Creek Resources Ltd.,Silver
-949,Brixton Metals Corporation,Silver
-950,BTU Metals Corp.,Silver
-951,Callinex Mines Inc.,Silver
-952,Cerro de Pasco Resources Inc.,Silver
-953,Chakana Copper Corporation,Silver
-954,Chesapeake Gold Corporation,Silver
-955,Constantine Metal Resources Ltd.,Silver
-956,Consulting & Mining Sevices SRL,Silver
-957,Copper Mountain Mining Corporation,Silver
-958,Corvus Gold Inc.,Silver
-959,Crystal Lake Mining,Silver
-960,CVK Mining Group,Silver
-961,Defiance Silver Corp.,Silver
-962,Discovery Group,Silver
-963,Eagle Plains Resources Ltd.,Silver
-964,Eastfield Resources Ltd.,Silver
-965,Eclipse Gold Mining Corp,Silver
-966,"EDM-Empresa de Desenvolvimento Mineiro, SA",Silver
-967,Ely Gold Royalties Inc.,Silver
-968,EMX Royalty Corp.,Silver
-969,Equus Mining Limited,Silver
-970,Eros Resources Corp.,Silver
-971,Evrim Resources Corp.,Silver
-972,First Majestic Silver Corp.,Silver
-973,Fomicruz S.E.,Silver
-974,Forum Energy Metals Corp.,Silver
-975,Galway Metals Inc.,Silver
-976,Geophysx Jamaica Ltd,Silver
-977,Globe Trotters Resource Group Inc.,Silver
-978,Globex Mining Enterprises Inc.,Silver
-979,Gold Group Management Inc.,Silver
-980,Golden Arrow Resources,Silver
-981,Golden Minerals Company,Silver
-982,Goldmoney Inc.,Silver
-983,Goldspot Discoveries Inc.,Silver
-984,GR Sliver Mining Ltd.,Silver
-985,GT Gold Corp.,Silver
-986,Hecla Mining Company,Silver
-987,High Power Exploration,Silver
-988,Impact Silver Corp.,Silver
-989,Integra Resources Corp.,Silver
-990,International Millennium Mining Corp.,Silver
-991,Klondike Silver Corp.,Silver
-992,Kootenay Silver Inc.,Silver
-993,Kutcho Copper Corp.,Silver
-994,Latin Metals Inc.,Silver
-995,Laurion Mineral Exploration Inc.,Silver
-996,Lundin Group,Silver
-997,Mako Mining Corp.,Silver
-998,MANAGEM Group,Silver
-999,Manex Resource Group Inc.,Silver
-1000,Maya Gold & Silver Inc.,Silver
-1001,McEwen Mining Inc.,Silver
-1002,Metallic Group of Companies,Silver
-1003,Metals Group Inc.,Silver
-1004,Midland Exploration Inc.,Silver
-1005,Minaurum Gold Inc.,Silver
-1006,Mira Stone Ltd,Silver
-1007,Mirasol Resources Ltd.,Silver
-1008,Murchison Minerals Ltd.,Silver
-1009,New Found Gold Corp,Silver
-1010,New Gold Inc.,Silver
-1011,New Pacific Metals Corp.,Silver
-1012,Newcrest Mining Ltd.,Silver
-1013,Newmont Corporation,Silver
-1014,Newrange Gold Corp.,Silver
-1015,Nicola Mining Inc.,Silver
-1016,Northern Dynasty Minerals Ltd.,Silver
-1017,NorZinc Ltd,Silver
-1018,Opus One Resources Inc.,Silver
-1019,Pacific Trends Resources Pty Ltd,Silver
-1020,Patagonia Exploracion S.A.,Silver
-1021,Peel Mining Ltd.,Silver
-1022,Power Ore Inc.,Silver
-1023,PPX Mining Corp.,Silver
-1024,Premier Gold Mines Limited,Silver
-1025,Prophecy Development Corp.,Silver
-1026,Red Cloud Securities Inc.,Silver
-1027,Redstar Gold Corp.,Silver
-1028,Regulus Resources Inc.,Silver
-1029,Renaissance Gold Inc.,Silver
-1030,Revelo Resources Corp.,Silver
-1031,Rio Tinto,Silver
-1032,Riverside Resources Inc.,Silver
-1033,Rockcliff Metals Corporation,Silver
-1034,ROKMASTER Resources Corp.,Silver
-1035,Romios Gold Resources Inc.,Silver
-1036,Royal Canadian Mint,Silver
-1037,Rugby Mining Limited,Silver
-1038,Sabina Gold & Silver Corp.,Silver
-1039,Sandstorm Gold Royalties,Silver
-1040,Sherritt International Corporation,Silver
-1041,Sierra Metals Inc.,Silver
-1042,Silver Bear Resources Plc.,Silver
-1043,Silver One Resources,Silver
-1044,Silvercorp Metals Inc.,Silver
-1045,SilverCrest Metals Inc.,Silver
-1046,Sitka Gold Corp,Silver
-1047,Skeena Resources Ltd.,Silver
-1048,Sonoro Metals Corp.,Silver
-1049,South32 Limited,Silver
-1050,Sphinx Resources Ltd.,Silver
-1051,Spirit Mining LLC,Silver
-1052,Sprott Group of Companies,Silver
-1053,Steppe Gold Limited,Silver
-1054,Strategic Exploration Group,Silver
-1055,Stuhini Exploration Ltd.,Silver
-1056,Telson Mining Corporation,Silver
-1057,Tempus Resources Limited,Silver
-1058,Timberline Resources Corporation,Silver
-1059,Tinka Resources Limited,Silver
-1060,Trevali Mining Corporation,Silver
-1061,Trilogy Metals Inc.,Silver
-1062,Vizsla Resources Corp.,Silver
-1063,VR Resources Ltd.,Silver
-1064,Western Alaska Copper and Gold,Silver
-1065,Westhaven Ventures Inc.,Silver
-1066,Wheaton Precious Metals Corp.,Silver
-1067,White Rock Minerals,Silver
-1068,Windfall Geotek Inc.,Silver
-1069,Ximen Mining Corp.,Silver
-1070,Yukon Mining Alliance,Silver
-1071,ALX Resources Corp.,Uranium
-1072,Appia Energy Corp.,Uranium
-1073,BHP,Uranium
-1074,CanAlaska Uranium Ltd.,Uranium
-1075,Denison Mines Corp.,Uranium
-1076,Discovery Group,Uranium
-1077,Eagle Plains Resources Ltd.,Uranium
-1078,Energy Fuels Inc.,Uranium
-1079,Fission Uranium Corp.,Uranium
-1080,Fomicruz S.E.,Uranium
-1081,Forum Energy Metals Corp.,Uranium
-1082,Golden Arrow Resources,Uranium
-1083,IsoEnergy Ltd.,Uranium
-1084,Lundin Group,Uranium
-1085,Maya Gold & Silver Inc.,Uranium
-1086,Plateau Energy Metals Inc.,Uranium
-1087,Purepoint Uranium Group Inc.,Uranium
-1088,Red Cloud Securities Inc.,Uranium
-1089,Rio Tinto,Uranium
-1090,Skyharbour Resources Ltd.,Uranium
-1091,UEX Corporation,Uranium
-1092,Uranium Energy Corp.,Uranium
-1093,Ur-Energy Inc.,Uranium
-1094,Western Uranium & Vanadium Corp.,Uranium
-1095,Adriatic Metals Plc,Zinc
-1096,Adventus Mining Corporation,Zinc
-1097,Affinity Metals  Corp,Zinc
-1098,Aftermath Silver Ltd,Zinc
-1099,Alexco Resource Corp.,Zinc
-1100,American Creek Resources Ltd.,Zinc
-1101,Americas Gold and Silver,Zinc
-1102,Aquila Resources Inc.,Zinc
-1103,Ascendant Resources Inc.,Zinc
-1104,ATAC Resources Ltd.,Zinc
-1105,Auramex Resource Corp,Zinc
-1106,Aurum Discovery,Zinc
-1107,Avino Silver & Gold Mines Ltd.,Zinc
-1108,Azure Minerals Limited,Zinc
-1109,BeMetals Corp.,Zinc
-1110,Blind Creek Resources Ltd.,Zinc
-1111,BWR Exploration Inc.,Zinc
-1112,Callinex Mines Inc.,Zinc
-1113,CanAlaska Uranium Ltd.,Zinc
-1114,Cerro de Pasco Resources Inc.,Zinc
-1115,Chesapeake Gold Corporation,Zinc
-1116,Commander Resources Ltd.,Zinc
-1117,Constantine Metal Resources Ltd.,Zinc
-1118,CVK Mining Group,Zinc
-1119,Discovery Group,Zinc
-1120,Eagle Plains Resources Ltd.,Zinc
-1121,Eastfield Resources Ltd.,Zinc
-1122,"EDM-Empresa de Desenvolvimento Mineiro, SA",Zinc
-1123,EMX Royalty Corp.,Zinc
-1124,Exiro Minerals Corp.,Zinc
-1125,Foran Mining Corporation,Zinc
-1126,Galway Metals Inc.,Zinc
-1127,Geophysx Jamaica Ltd,Zinc
-1128,Globe Trotters Resource Group Inc.,Zinc
-1129,Globex Mining Enterprises Inc.,Zinc
-1130,Globmine LLP,Zinc
-1131,Golden Arrow Resources,Zinc
-1132,Gossan Resources Limited,Zinc
-1133,GR Sliver Mining Ltd.,Zinc
-1134,Hecla Mining Company,Zinc
-1135,International Millennium Mining Corp.,Zinc
-1136,Klondike Silver Corp.,Zinc
-1137,Kootenay Silver Inc.,Zinc
-1138,Kutcho Copper Corp.,Zinc
-1139,Laurion Mineral Exploration Inc.,Zinc
-1140,MANAGEM Group,Zinc
-1141,Manex Resource Group Inc.,Zinc
-1142,Maya Gold & Silver Inc.,Zinc
-1143,Metallic Group of Companies,Zinc
-1144,Midland Exploration Inc.,Zinc
-1145,Mira Stone Ltd,Zinc
-1146,Murchison Minerals Ltd.,Zinc
-1147,Newmont Corporation,Zinc
-1148,Nexa Resources S.A.,Zinc
-1149,Noront Resources Ltd.,Zinc
-1150,NorZinc Ltd,Zinc
-1151,Opus One Resources Inc.,Zinc
-1152,Osisko Metals Incorporated,Zinc
-1153,Pacific Trends Resources Pty Ltd,Zinc
-1154,Patagonia Exploracion S.A.,Zinc
-1155,Peel Mining Ltd.,Zinc
-1156,Prophecy Development Corp.,Zinc
-1157,Red Cloud Securities Inc.,Zinc
-1158,Rio Tinto,Zinc
-1159,Rockcliff Metals Corporation,Zinc
-1160,ROKMASTER Resources Corp.,Zinc
-1161,ScoZinc Mining Ltd.,Zinc
-1162,Sherritt International Corporation,Zinc
-1163,Sierra Metals Inc.,Zinc
-1164,Silvercorp Metals Inc.,Zinc
-1165,Solitario Zinc Corp.,Zinc
-1166,South32 Limited,Zinc
-1167,Sphinx Resources Ltd.,Zinc
-1168,Spirit Mining LLC,Zinc
-1169,Strategic Exploration Group,Zinc
-1170,Stuhini Exploration Ltd.,Zinc
-1171,Sun Peak Metals,Zinc
-1172,Teck Resources Limited,Zinc
-1173,Telson Mining Corporation,Zinc
-1174,Tethyan Resource Corp.,Zinc
-1175,Tinka Resources Limited,Zinc
-1176,Transition Metals Corp.,Zinc
-1177,Trevali Mining Corporation,Zinc
-1178,Trilogy Metals Inc.,Zinc
-1179,Ubique Minerals Ltd.,Zinc
-1180,Valoriza Mineria SL,Zinc
-1181,Western Alaska Copper and Gold,Zinc
-1182,White Rock Minerals,Zinc
-1183,Windfall Geotek Inc.,Zinc
-1184,Yorbeau Resources Inc.,Zinc
-1185,Yukon Mining Alliance,Zinc
-1186,Zinc One Resources Inc.,Zinc
-1187,ZincX Resources Corp.,Zinc
+name,commodity
+AbraPlata Resource Corp.,Base metals
+Adventus Mining Corporation,Base metals
+Aldebaran Resources Inc.,Base metals
+Altius Minerals Corp.,Base metals
+ALX Resources Corp.,Base metals
+American Creek Resources Ltd.,Base metals
+Ascendant Resources Inc.,Base metals
+Ascot Resources Ltd.,Base metals
+Aston Bay,Base metals
+ATAC Resources Ltd.,Base metals
+Auramex Resource Corp,Base metals
+Aurum Discovery,Base metals
+Avidian Gold Corp.,Base metals
+Azimut Exploration Inc.,Base metals
+Azure Minerals Limited,Base metals
+Balmoral Resources Ltd.,Base metals
+BeMetals Corp.,Base metals
+Buchans Resources Ltd.,Base metals
+BWR Exploration Inc.,Base metals
+Callinex Mines Inc.,Base metals
+CanAlaska Uranium Ltd.,Base metals
+Cantex Mine Development Corp,Base metals
+Commander Resources Ltd.,Base metals
+Conroy Gold and Natural Resources plc,Base metals
+Constantine Metal Resources Ltd.,Base metals
+CVK Mining Group,Base metals
+Discovery Group,Base metals
+Eagle Plains Resources Ltd.,Base metals
+Eastfield Resources Ltd.,Base metals
+"EDM-Empresa de Desenvolvimento Mineiro, SA",Base metals
+Eldorado Gold Corporation,Base metals
+EMX Royalty Corp.,Base metals
+Entrée Resources Ltd.,Base metals
+Erdene Resource Development Corp.,Base metals
+Exiro Minerals Corp.,Base metals
+FPX Nickel Corp.,Base metals
+Geophysx Jamaica Ltd,Base metals
+Globe Trotters Resource Group Inc.,Base metals
+Globex Mining Enterprises Inc.,Base metals
+Goldspot Discoveries Inc.,Base metals
+Greg Exploration Inc.,Base metals
+Hammer Metals Ltd,Base metals
+Happy Creek Minerals Ltd.,Base metals
+Harfang Exploration Inc.,Base metals
+Ivanhoe Mines,Base metals
+Keras Resources plc,Base metals
+Lara Exploration Ltd.,Base metals
+Laurion Mineral Exploration Inc.,Base metals
+Longland Resources Ltd,Base metals
+Lundin Group,Base metals
+Manex Resource Group Inc.,Base metals
+Manganese X Energy Corp.,Base metals
+Metallic Group of Companies,Base metals
+Midland Exploration Inc.,Base metals
+Minera Tres Valles,Base metals
+Mira Stone Ltd,Base metals
+Mississauga Mining,Base metals
+Montero Mining & Exploration Ltd.,Base metals
+Moydow Resources Limited,Base metals
+Murchison Minerals Ltd.,Base metals
+New Age Metals,Base metals
+New Pacific Metals Corp.,Base metals
+Newmont Corporation,Base metals
+Newrange Gold Corp.,Base metals
+Nicola Mining Inc.,Base metals
+NorZinc Ltd,Base metals
+Opus One Resources Inc.,Base metals
+Osisko Metals Incorporated,Base metals
+Pacific Empire Minerals Corp.,Base metals
+Palladium One,Base metals
+Pancontinental Resources Corporation,Base metals
+Panda Mining Pty Ltd,Base metals
+Panthera Resources Plc,Base metals
+Patagonia Exploracion S.A.,Base metals
+Pavey Ark Minerals Inc.,Base metals
+Peel Mining Ltd.,Base metals
+Portofino Resources Inc.,Base metals
+Power Ore Inc.,Base metals
+Prolific Mining Corp.,Base metals
+Prophecy Development Corp.,Base metals
+Pucara Resources,Base metals
+Red Cloud Securities Inc.,Base metals
+Redstar Gold Corp.,Base metals
+Rio Tinto,Base metals
+RJK Explorations Ltd.,Base metals
+ROKMASTER Resources Corp.,Base metals
+S2 Resources Ltd.,Base metals
+Searchlight Resources Inc.,Base metals
+Sherritt International Corporation,Base metals
+Sierra Metals Inc.,Base metals
+Solitario Zinc Corp.,Base metals
+South32 Limited,Base metals
+Spirit Mining LLC,Base metals
+Stratabound Minerals Corp.,Base metals
+Strategic Exploration Group,Base metals
+Strongbow Exploration Inc.,Base metals
+Sun Peak Metals,Base metals
+Talon Metals Corp.,Base metals
+Telson Mining Corporation,Base metals
+Tinka Resources Limited,Base metals
+Transition Metals Corp.,Base metals
+Trevali Mining Corporation,Base metals
+Tri Origin Exploration Ltd.,Base metals
+Valoriza Mineria SL,Base metals
+Vior Inc.,Base metals
+White Rock Minerals,Base metals
+Wildsky Resources Inc.,Base metals
+Windfall Geotek Inc.,Base metals
+Wolfden Resources Corporation,Base metals
+Ximen Mining Corp.,Base metals
+Yukon Mining Alliance,Base metals
+Zephyr Minerals Ltd.,Base metals
+Anglo American,Coal
+BHP,Coal
+Jameson Resources Limited,Coal
+Lundin Group,Coal
+Morien Resources Corp.,Coal
+Orestone Mining Corp,Coal
+Prophecy Development Corp.,Coal
+South32 Limited,Coal
+Teck Resources Limited,Coal
+Vista Energy Resources,Coal
+AbraPlata Resource Corp.,Copper
+Adriatic Metals Plc,Copper
+Adventus Mining Corporation,Copper
+Aeris Resources Limited,Copper
+Affinity Metals  Corp,Copper
+Aldebaran Resources Inc.,Copper
+Altamira Gold,Copper
+Altius Minerals Corp.,Copper
+ALX Resources Corp.,Copper
+American Creek Resources Ltd.,Copper
+Amerigo Resources Ltd.,Copper
+Anglo American,Copper
+Aquila Resources Inc.,Copper
+Ascot Resources Ltd.,Copper
+ATAC Resources Ltd.,Copper
+Auramex Resource Corp,Copper
+Aurania Resources Ltd.,Copper
+Aurora Minerals Group LLP,Copper
+Aurum Discovery,Copper
+AURYN Mining Corp.,Copper
+Auryn Resources Inc.,Copper
+Avino Silver & Gold Mines Ltd.,Copper
+Azimut Exploration Inc.,Copper
+Azure Minerals Limited,Copper
+Balmoral Resources Ltd.,Copper
+BeMetals Corp.,Copper
+BHP,Copper
+Blackstone Minerals Ltd,Copper
+Brixton Metals Corporation,Copper
+BTU Metals Corp.,Copper
+BWR Exploration Inc.,Copper
+Cabral Gold Ltd.,Copper
+Callinex Mines Inc.,Copper
+CanAlaska Uranium Ltd.,Copper
+Candente Copper Corp.,Copper
+Carube Copper Corp.,Copper
+Centerra Gold Inc.,Copper
+Century Global Commodities Corporation,Copper
+Chakana Copper Corporation,Copper
+China Gold International Resources Corp. Ltd.,Copper
+Commander Resources Ltd.,Copper
+Constantine Metal Resources Ltd.,Copper
+Copper Fox Metals Inc.,Copper
+Copper Mountain Mining Corporation,Copper
+Copperzone Resources Limited,Copper
+Cornerstone Capital Resources Inc.,Copper
+Crystal Lake Mining,Copper
+Discovery Group,Copper
+Eagle Plains Resources Ltd.,Copper
+Earthmetrix Inc.,Copper
+Eastfield Resources Ltd.,Copper
+"EDM-Empresa de Desenvolvimento Mineiro, SA",Copper
+Elim Mining Incorporated,Copper
+Ely Gold Royalties Inc.,Copper
+EMX Royalty Corp.,Copper
+Entrée Resources Ltd.,Copper
+Ero Copper Corp.,Copper
+Evrim Resources Corp.,Copper
+Excelsior Mining Corp.,Copper
+Exiro Minerals Corp.,Copper
+Foran Mining Corporation,Copper
+Forum Energy Metals Corp.,Copper
+Galway Metals Inc.,Copper
+Generation Mining Limited,Copper
+Geomega Resources Inc.,Copper
+Geophysx Jamaica Ltd,Copper
+Globe Trotters Resource Group Inc.,Copper
+Globmine LLP,Copper
+Go Metals Corp.,Copper
+Golden Arrow Resources,Copper
+GoldMining Inc.,Copper
+Gossan Resources Limited,Copper
+GR Sliver Mining Ltd.,Copper
+Grid Metals Corp.,Copper
+GT Gold Corp.,Copper
+Hammer Metals Ltd,Copper
+Happy Creek Minerals Ltd.,Copper
+Harfang Exploration Inc.,Copper
+High Power Exploration,Copper
+International Millennium Mining Corp.,Copper
+Ivanhoe Mines,Copper
+Japan Gold Corp.,Copper
+K92 Mining Inc.,Copper
+Kutcho Copper Corp.,Copper
+Lara Exploration Ltd.,Copper
+Latin Metals Inc.,Copper
+Libero Copper,Copper
+Longland Resources Ltd,Copper
+"Lumina Group, The",Copper
+Lundin Group,Copper
+MANAGEM Group,Copper
+Manex Resource Group Inc.,Copper
+Maya Gold & Silver Inc.,Copper
+Metallic Group of Companies,Copper
+Metals Group Inc.,Copper
+Midland Exploration Inc.,Copper
+Minaurum Gold Inc.,Copper
+Minera Alamos Inc.,Copper
+Mira Stone Ltd,Copper
+Mirasol Resources Ltd.,Copper
+Monument Mining Limited,Copper
+Mundoro Capital Inc.,Copper
+Nevada Copper Corp.,Copper
+New Gold Inc.,Copper
+Newcrest Mining Ltd.,Copper
+Newmont Corporation,Copper
+Newrange Gold Corp.,Copper
+Nexa Resources S.A.,Copper
+NioBay Metals Inc.,Copper
+Noront Resources Ltd.,Copper
+Northern Dynasty Minerals Ltd.,Copper
+Northern Shield Resources Inc.,Copper
+OceanaGold Corporation,Copper
+Opus One Resources Inc.,Copper
+Orestone Mining Corp,Copper
+Pacific Empire Minerals Corp.,Copper
+Pacific Trends Resources Pty Ltd,Copper
+Palladium One,Copper
+Pancontinental Resources Corporation,Copper
+Panoro Minerals Ltd.,Copper
+Panthera Resources Plc,Copper
+Patagonia Exploracion S.A.,Copper
+Peel Mining Ltd.,Copper
+Playfair Mining Ltd.,Copper
+PolyMet Mining Corp.,Copper
+Power Ore Inc.,Copper
+Prolific Mining Corp.,Copper
+Quaterra Resources Inc.,Copper
+Red Cloud Securities Inc.,Copper
+Red Metal Resources Ltd.,Copper
+Regulus Resources Inc.,Copper
+Revelo Resources Corp.,Copper
+Rio Tinto,Copper
+Riverside Resources Inc.,Copper
+Rockcliff Metals Corporation,Copper
+ROKMASTER Resources Corp.,Copper
+Romios Gold Resources Inc.,Copper
+Royal Road Minerals,Copper
+Rugby Mining Limited,Copper
+Salazar Resources Limited,Copper
+Sandstorm Gold Royalties,Copper
+Searchlight Resources Inc.,Copper
+Serengeti Resources Inc.,Copper
+Sherritt International Corporation,Copper
+Sierra Metals Inc.,Copper
+Sitka Gold Corp,Copper
+SolGold,Copper
+South32 Limited,Copper
+SPC Metals,Copper
+Sphinx Resources Ltd.,Copper
+Spirit Mining LLC,Copper
+Strategic Exploration Group,Copper
+Stuhini Exploration Ltd.,Copper
+Sun Peak Metals,Copper
+Talon Metals Corp.,Copper
+Teck Resources Limited,Copper
+Tectonic Metals Inc.,Copper
+Telson Mining Corporation,Copper
+Tethyan Resource Corp.,Copper
+Timberline Resources Corporation,Copper
+Transition Metals Corp.,Copper
+Trilogy Metals Inc.,Copper
+Triumph Gold Corp.,Copper
+Troilus Gold Corp.,Copper
+Valoriza Mineria SL,Copper
+Vizsla Resources Corp.,Copper
+VR Resources Ltd.,Copper
+Vulcan Minerals Inc.,Copper
+Wealth Minerals Ltd.,Copper
+Western Alaska Copper and Gold,Copper
+Western Copper and Gold Corporation,Copper
+White Rock Minerals,Copper
+Windfall Geotek Inc.,Copper
+Xiana Mining Inc.,Copper
+Ximen Mining Corp.,Copper
+Yorbeau Resources Inc.,Copper
+Yukon Mining Alliance,Copper
+Altius Minerals Corp.,Diamonds
+Anglo American,Diamonds
+Arctic Star Exploration Corp.,Diamonds
+CanAlaska Uranium Ltd.,Diamonds
+Conroy Gold and Natural Resources plc,Diamonds
+Diamcor Mining Inc.,Diamonds
+Discovery Group,Diamonds
+Greg Exploration Inc.,Diamonds
+Lundin Group,Diamonds
+Moydow Resources Limited,Diamonds
+North Arrow Minerals Inc.,Diamonds
+Olivut Resources Ltd.,Diamonds
+Rio Tinto,Diamonds
+RJK Explorations Ltd.,Diamonds
+Star Diamond Corporation,Diamonds
+Strategic Exploration Group,Diamonds
+Talmora Diamond Inc.,Diamonds
+Transition Metals Corp.,Diamonds
+Tres-Or Resources Ltd.,Diamonds
+Windfall Geotek Inc.,Diamonds
+Lara Exploration Ltd.,Fertilizers
+Montero Mining & Exploration Ltd.,Fertilizers
+SQM,Fertilizers
+AbraPlata Resource Corp.,Gold
+Adamera Minerals Corp.,Gold
+Adriatic Metals Plc,Gold
+Adventus Mining Corporation,Gold
+Affinity Metals  Corp,Gold
+Agnico Eagle Mines Limited,Gold
+AJN Resources Inc.,Gold
+Alacer Gold Corp.,Gold
+Alamos Gold Inc.,Gold
+Aldebaran Resources Inc.,Gold
+Almaden Minerals Ltd.,Gold
+Altamira Gold,Gold
+Alto Ventures Ltd.,Gold
+ALX Resources Corp.,Gold
+Amarillo Gold Corp.,Gold
+American Creek Resources Ltd.,Gold
+Americas Gold and Silver,Gold
+Amex Exploration,Gold
+Anaconda Mining Inc.,Gold
+Andino Commodities S.A.S,Gold
+Aquila Resources Inc.,Gold
+Ardiden Limited,Gold
+Argo Gold,Gold
+Argonaut Gold Inc.,Gold
+Artemis Gold Inc.,Gold
+Artisanal Gold Council,Gold
+Asante Gold Corporation,Gold
+Ascot Resources Ltd.,Gold
+Aston Bay,Gold
+ATAC Resources Ltd.,Gold
+Atlantic Gold Corporation,Gold
+Auramex Resource Corp,Gold
+Aurania Resources Ltd.,Gold
+Aurora Minerals Group LLP,Gold
+Aurum Discovery,Gold
+AURYN Mining Corp.,Gold
+Auryn Resources Inc.,Gold
+Avidian Gold Corp.,Gold
+Avino Silver & Gold Mines Ltd.,Gold
+Awale Resources Ltd.,Gold
+Azimut Exploration Inc.,Gold
+Azure Minerals Limited,Gold
+B2Gold Corp.,Gold
+Balmoral Resources Ltd.,Gold
+Banyan Gold Corp.,Gold
+Barrian Mining Corp,Gold
+Barrick Gold Corporation,Gold
+BeMetals Corp.,Gold
+Benton Resources Inc.,Gold
+BlackRock Gold Corp.,Gold
+Blackstone Minerals Ltd,Gold
+Blue Star Gold Corp.,Gold
+Blue Thunder Mining Corp,Gold
+BONTERRA Resources Inc.,Gold
+Breaker Resources NL,Gold
+Brixton Metals Corporation,Gold
+BTU Metals Corp.,Gold
+BWR Exploration Inc.,Gold
+Cabral Gold Ltd.,Gold
+Callinex Mines Inc.,Gold
+Canarc Resource Corp.,Gold
+Cantex Mine Development Corp,Gold
+Cardinal Resources Ltd.,Gold
+Carube Copper Corp.,Gold
+Centerra Gold Inc.,Gold
+Century Global Commodities Corporation,Gold
+Chakana Copper Corporation,Gold
+Chesapeake Gold Corporation,Gold
+China Gold International Resources Corp. Ltd.,Gold
+Columbus Gold Corp.,Gold
+Commander Resources Ltd.,Gold
+Condor Gold Plc,Gold
+Conroy Gold and Natural Resources plc,Gold
+Consulting & Mining Sevices SRL,Gold
+Continental Gold Inc.,Gold
+Copper Fox Metals Inc.,Gold
+Copper Mountain Mining Corporation,Gold
+Cornerstone Capital Resources Inc.,Gold
+Corvus Gold Inc.,Gold
+Crystal Lake Mining,Gold
+CVK Mining Group,Gold
+Delta Resources Limited,Gold
+Desert Gold Ventures Inc.,Gold
+Discovery Group,Gold
+Dundee Precious Metals Inc.,Gold
+Durango Resources Inc.,Gold
+Dynacor Gold Mines Inc.,Gold
+Dynasty Gold Corp.,Gold
+Eagle Plains Resources Ltd.,Gold
+Earthmetrix Inc.,Gold
+Eastfield Resources Ltd.,Gold
+Eclipse Gold Mining Corp,Gold
+"EDM-Empresa de Desenvolvimento Mineiro, SA",Gold
+Eldorado Gold Corporation,Gold
+Ely Gold Royalties Inc.,Gold
+EMX Royalty Corp.,Gold
+Endurance Gold Corp,Gold
+Energold Corp.,Gold
+Engineer Gold Mines Ltd,Gold
+Entrée Resources Ltd.,Gold
+EnviroLeach Technologies Inc.,Gold
+Equus Mining Limited,Gold
+Eros Resources Corp.,Gold
+Evergold Corp,Gold
+Evrim Resources Corp.,Gold
+Exiro Minerals Corp.,Gold
+FireFox Gold Corp.,Gold
+First Majestic Silver Corp.,Gold
+First Mining Gold Corp.,Gold
+Fomicruz S.E.,Gold
+Fortune Minerals Limited,Gold
+Forum Energy Metals Corp.,Gold
+Galleon Gold Corp.,Gold
+Galway Metals Inc.,Gold
+Garibaldi Resources Corp,Gold
+Gatling Exploration Inc.,Gold
+Generation Mining Limited,Gold
+Genesis Metals,Gold
+Geomega Resources Inc.,Gold
+Geophysx Jamaica Ltd,Gold
+GFG Resources Inc.,Gold
+Globe Trotters Resource Group Inc.,Gold
+Globex Mining Enterprises Inc.,Gold
+Globmine LLP,Gold
+GMV Minerals Inc.,Gold
+Gold Group Management Inc.,Gold
+Gold Springs Resource Corp.,Gold
+Gold Terra Resource Corp.,Gold
+Golden Arrow Resources,Gold
+Golden Goliath Resources Ltd.,Gold
+Golden Minerals Company,Gold
+Golden Predator Mining Corp.,Gold
+Golden Star Resources Limited,Gold
+GoldMining Inc.,Gold
+Goldmoney Inc.,Gold
+GoldQuest Mining Corp.,Gold
+Goldsource Mines Inc.,Gold
+Goldspot Discoveries Inc.,Gold
+Gossan Resources Limited,Gold
+Gowest Gold Ltd.,Gold
+GR Sliver Mining Ltd.,Gold
+Gran Colombia Gold Corp.,Gold
+Greg Exploration Inc.,Gold
+Grizzly Discoveries Inc.,Gold
+GT Gold Corp.,Gold
+Hammer Metals Ltd,Gold
+Harfang Exploration Inc.,Gold
+Harte Gold Corp.,Gold
+Hecla Mining Company,Gold
+High Power Exploration,Gold
+HighGold Mining Inc,Gold
+HPQ Silicon Resources,Gold
+IAMGOLD Corporation,Gold
+Inca One Gold Corp.,Gold
+Independence Gold Corp.,Gold
+Integra Resources Corp.,Gold
+International Millennium Mining Corp.,Gold
+Jaguar Mining Inc.,Gold
+Japan Gold Corp.,Gold
+K92 Mining Inc.,Gold
+Kalo Exploration Ltd,Gold
+Kerr Mines Inc.,Gold
+Kesselrun Resources Ltd.,Gold
+Kingsgate Consolidated Limited,Gold
+Kinross Gold Corporation,Gold
+Kirkland Lake Gold Ltd.,Gold
+Kootenay Silver Inc.,Gold
+Kopy Goldfields AB,Gold
+Kutcho Copper Corp.,Gold
+Lara Exploration Ltd.,Gold
+Latin Metals Inc.,Gold
+Laurion Mineral Exploration Inc.,Gold
+Leagold Mining Corporation,Gold
+Libero Copper,Gold
+Liberty Gold Corp.,Gold
+Lion One Metals,Gold
+Longland Resources Ltd,Gold
+"Lumina Group, The",Gold
+Lundin Group,Gold
+Mako Mining Corp.,Gold
+MANAGEM Group,Gold
+Mandalay Resources Corp.,Gold
+Manex Resource Group Inc.,Gold
+Manitou Gold Inc.,Gold
+Marathon Gold Corporation,Gold
+Mawson Resources Limited,Gold
+Maya Gold & Silver Inc.,Gold
+McEwen Mining Inc.,Gold
+MegumaGold,Gold
+Metallic Group of Companies,Gold
+Metals Creek Resources Corp.,Gold
+Metals Group Inc.,Gold
+Midas Gold Corp.,Gold
+Midland Exploration Inc.,Gold
+Minaurum Gold Inc.,Gold
+Minera Alamos Inc.,Gold
+Mineral Mountain Resources Ltd.,Gold
+Mira Stone Ltd,Gold
+Mirasol Resources Ltd.,Gold
+Mississauga Mining,Gold
+Monarques Gold Corporation,Gold
+Moneta Porcupine Mines Inc.,Gold
+Monument Mining Limited,Gold
+Morocota Gold SAS,Gold
+Moydow Resources Limited,Gold
+Mundoro Capital Inc.,Gold
+Nevada Exploration Inc.,Gold
+New Found Gold Corp,Gold
+New Gold Inc.,Gold
+Newcrest Mining Ltd.,Gold
+Newmont Corporation,Gold
+Newrange Gold Corp.,Gold
+Nicola Mining Inc.,Gold
+NioBay Metals Inc.,Gold
+Northern Dynasty Minerals Ltd.,Gold
+Northern Shield Resources Inc.,Gold
+Northern Superior Resources Inc.,Gold
+Northern Vertex Mining Corp.,Gold
+Northstar Gold Corp.,Gold
+Novagold Resources Inc.,Gold
+OceanaGold Corporation,Gold
+Opus One Resources Inc.,Gold
+Orefinders Resources Inc.,Gold
+Orezone Gold Corporation,Gold
+Orford Mining Corp.,Gold
+Orla Mining Ltd.,Gold
+Orsu Metals Corporation,Gold
+Orvana Minerals Corp.,Gold
+Osino Resources Corp.,Gold
+Osisko Gold Royalties Ltd.,Gold
+Otso Gold Corp.,Gold
+Pacific Empire Minerals Corp.,Gold
+Pacific Trends Resources Pty Ltd,Gold
+Pacton Gold Inc.,Gold
+Palamina Corp.,Gold
+Pancontinental Resources Corporation,Gold
+Panda Mining Pty Ltd,Gold
+Panthera Resources Plc,Gold
+Patagonia Exploracion S.A.,Gold
+Pavey Ark Minerals Inc.,Gold
+Peel Mining Ltd.,Gold
+Pelangio Exploration Inc.,Gold
+Peloton Minerals Corporation,Gold
+Playfair Mining Ltd.,Gold
+Portofino Resources Inc.,Gold
+PPX Mining Corp.,Gold
+Premier Gold Mines Limited,Gold
+Privateer Gold,Gold
+Probe Metals Inc.,Gold
+Prolific Mining Corp.,Gold
+Pucara Resources,Gold
+Pure Gold Mining,Gold
+QMX Gold Corporation,Gold
+Radisson Mining Resources Inc.,Gold
+Red Cloud Securities Inc.,Gold
+Red Metal Resources Ltd.,Gold
+Red Pine Exploration Inc.,Gold
+Redstar Gold Corp.,Gold
+Regulus Resources Inc.,Gold
+Renaissance Gold Inc.,Gold
+Renforth Resources Inc.,Gold
+Reunion Gold Corporation,Gold
+Revelo Resources Corp.,Gold
+Revival Gold Inc.,Gold
+Rio Tinto,Gold
+Riverside Resources Inc.,Gold
+RJK Explorations Ltd.,Gold
+RNC Minerals,Gold
+Rockcliff Metals Corporation,Gold
+ROKMASTER Resources Corp.,Gold
+Romios Gold Resources Inc.,Gold
+Roscan Gold Corporation,Gold
+Roxgold Inc.,Gold
+Royal Canadian Mint,Gold
+Royal Road Minerals,Gold
+Rugby Mining Limited,Gold
+S2 Resources Ltd.,Gold
+Sabina Gold & Silver Corp.,Gold
+Salazar Resources Limited,Gold
+Sandstorm Gold Royalties,Gold
+Searchlight Resources Inc.,Gold
+SEMAFO Inc.,Gold
+Serabi Gold plc,Gold
+Serengeti Resources Inc.,Gold
+Sherritt International Corporation,Gold
+Sierra Metals Inc.,Gold
+SilverCrest Metals Inc.,Gold
+Sirios Resources Inc.,Gold
+Sitka Gold Corp,Gold
+Skeena Resources Ltd.,Gold
+Skyharbour Resources Ltd.,Gold
+Sokoman Minerals Corp.,Gold
+SolGold,Gold
+Sonoro Metals Corp.,Gold
+Sphinx Resources Ltd.,Gold
+Spirit Mining LLC,Gold
+Sprott Group of Companies,Gold
+Starcore International Mines Ltd.,Gold
+Steppe Gold Limited,Gold
+Stratabound Minerals Corp.,Gold
+Strategic Exploration Group,Gold
+Stuhini Exploration Ltd.,Gold
+Sun Peak Metals,Gold
+Talisker Resources,Gold
+Tectonic Metals Inc.,Gold
+Telson Mining Corporation,Gold
+Tempus Resources Limited,Gold
+Teranga Gold Corporation,Gold
+Tethyan Resource Corp.,Gold
+Timberline Resources Corporation,Gold
+Transition Metals Corp.,Gold
+Treasury Metals Inc.,Gold
+Tres-Or Resources Ltd.,Gold
+Tri Origin Exploration Ltd.,Gold
+Trilogy Metals Inc.,Gold
+TriStar Gold Inc.,Gold
+Triumph Gold Corp.,Gold
+Troilus Gold Corp.,Gold
+Tudor Gold Corp.,Gold
+Unigold Inc.,Gold
+Ur-Energy Inc.,Gold
+Valoriza Mineria SL,Gold
+Velocity Minerals Ltd.,Gold
+Vior Inc.,Gold
+Vista Gold Corp.,Gold
+Viva Gold Corp.,Gold
+Vizsla Resources Corp.,Gold
+VR Resources Ltd.,Gold
+Wallbridge Mining Company Limited,Gold
+Wealth Minerals Ltd.,Gold
+Wesdome Gold Mines,Gold
+West Red Lake Gold Mines Inc.,Gold
+Western Alaska Copper and Gold,Gold
+Western Atlas Resources Inc.,Gold
+Western Copper and Gold Corporation,Gold
+Westhaven Ventures Inc.,Gold
+Wheaton Precious Metals Corp.,Gold
+White Gold Corp.,Gold
+White Rock Minerals,Gold
+Wildsky Resources Inc.,Gold
+Windfall Geotek Inc.,Gold
+Xiana Mining Inc.,Gold
+Ximen Mining Corp.,Gold
+X-Terra Resources,Gold
+Yamana Gold Inc.,Gold
+Yorbeau Resources Inc.,Gold
+Yukon Mining Alliance,Gold
+Zephyr Minerals Ltd.,Gold
+Altius Minerals Corp.,Iron ore
+Anglo American,Iron ore
+BHP,Iron ore
+Century Global Commodities Corporation,Iron ore
+FPX Nickel Corp.,Iron ore
+Mira Stone Ltd,Iron ore
+Mississauga Mining,Iron ore
+Monument Mining Limited,Iron ore
+Panthera Resources Plc,Iron ore
+Rio Tinto,Iron ore
+Vale Canada Limited,Iron ore
+Adriatic Metals Plc,Lead
+Adventus Mining Corporation,Lead
+Affinity Metals  Corp,Lead
+Aftermath Silver Ltd,Lead
+Alexco Resource Corp.,Lead
+Americas Gold and Silver,Lead
+Ascendant Resources Inc.,Lead
+Avino Silver & Gold Mines Ltd.,Lead
+Azure Minerals Limited,Lead
+BeMetals Corp.,Lead
+Blind Creek Resources Ltd.,Lead
+Cerro de Pasco Resources Inc.,Lead
+CVK Mining Group,Lead
+Discovery Group,Lead
+Eagle Plains Resources Ltd.,Lead
+EMX Royalty Corp.,Lead
+Geophysx Jamaica Ltd,Lead
+Globmine LLP,Lead
+Golden Arrow Resources,Lead
+GR Sliver Mining Ltd.,Lead
+Hecla Mining Company,Lead
+International Millennium Mining Corp.,Lead
+Klondike Silver Corp.,Lead
+Kootenay Silver Inc.,Lead
+Lundin Group,Lead
+MANAGEM Group,Lead
+Manex Resource Group Inc.,Lead
+Maya Gold & Silver Inc.,Lead
+Metallic Group of Companies,Lead
+Mira Stone Ltd,Lead
+Murchison Minerals Ltd.,Lead
+NorZinc Ltd,Lead
+Patagonia Exploracion S.A.,Lead
+Peel Mining Ltd.,Lead
+Prophecy Development Corp.,Lead
+Red Cloud Securities Inc.,Lead
+ROKMASTER Resources Corp.,Lead
+ScoZinc Mining Ltd.,Lead
+Sierra Metals Inc.,Lead
+Silvercorp Metals Inc.,Lead
+South32 Limited,Lead
+Sphinx Resources Ltd.,Lead
+Strategic Exploration Group,Lead
+Stuhini Exploration Ltd.,Lead
+Telson Mining Corporation,Lead
+Tethyan Resource Corp.,Lead
+Trevali Mining Corporation,Lead
+Valoriza Mineria SL,Lead
+Western Alaska Copper and Gold,Lead
+White Rock Minerals,Lead
+Yukon Mining Alliance,Lead
+Altius Minerals Corp.,Nickel
+ALX Resources Corp.,Nickel
+Anglo American,Nickel
+Aurum Discovery,Nickel
+Balmoral Resources Ltd.,Nickel
+BeMetals Corp.,Nickel
+BHP,Nickel
+Blackstone Minerals Ltd,Nickel
+BWR Exploration Inc.,Nickel
+Canada Nickel Company,Nickel
+CanAlaska Uranium Ltd.,Nickel
+Centaurus Metals Ltd,Nickel
+Commander Resources Ltd.,Nickel
+EMX Royalty Corp.,Nickel
+Forum Energy Metals Corp.,Nickel
+FPX Nickel Corp.,Nickel
+Globex Mining Enterprises Inc.,Nickel
+Gossan Resources Limited,Nickel
+Grid Metals Corp.,Nickel
+Harfang Exploration Inc.,Nickel
+High Power Exploration,Nickel
+Lara Exploration Ltd.,Nickel
+Longland Resources Ltd,Nickel
+Lundin Group,Nickel
+Metallic Group of Companies,Nickel
+Midland Exploration Inc.,Nickel
+Mira Stone Ltd,Nickel
+Murchison Minerals Ltd.,Nickel
+Noront Resources Ltd.,Nickel
+Northern Shield Resources Inc.,Nickel
+Opus One Resources Inc.,Nickel
+Orford Mining Corp.,Nickel
+Palladium One,Nickel
+Pancontinental Resources Corporation,Nickel
+Playfair Mining Ltd.,Nickel
+PolyMet Mining Corp.,Nickel
+Power Ore Inc.,Nickel
+Red Cloud Securities Inc.,Nickel
+Rio Tinto,Nickel
+RNC Minerals,Nickel
+Searchlight Resources Inc.,Nickel
+Sherritt International Corporation,Nickel
+South32 Limited,Nickel
+SPC Metals,Nickel
+Sphinx Resources Ltd.,Nickel
+Strategic Exploration Group,Nickel
+Talon Metals Corp.,Nickel
+Transition Metals Corp.,Nickel
+UEX Corporation,Nickel
+Vale Canada Limited,Nickel
+Valoriza Mineria SL,Nickel
+Victory Nickel Inc.,Nickel
+Vulcan Minerals Inc.,Nickel
+Windfall Geotek Inc.,Nickel
+Yukon Mining Alliance,Nickel
+BHP,Oil & Gas
+Desert Mountain Energy Corp.,Oil & Gas
+Fomicruz S.E.,Oil & Gas
+Lundin Group,Oil & Gas
+Andino Commodities S.A.S,Other
+Ares Strategic Mining Inc.,Other
+Blackstone Minerals Ltd,Other
+Canadian Securities Exchange,Other
+Century Global Commodities Corporation,Other
+Constantine Metal Resources Ltd.,Other
+CVK Mining Group,Other
+Desert Mountain Energy Corp.,Other
+Earthmetrix Inc.,Other
+Exiro Minerals Corp.,Other
+Five Star Diamond Limited,Other
+Globex Mining Enterprises Inc.,Other
+Gold Group Management Inc.,Other
+Goldmoney Inc.,Other
+High Power Exploration,Other
+HPQ Silicon Resources,Other
+Hudson Resources Inc.,Other
+Jamaica Stock Exchange,Other
+Jameson Resources Limited,Other
+Latin Metals Inc.,Other
+Market Making Services Inc.,Other
+Maya Gold & Silver Inc.,Other
+Metals Group Inc.,Other
+Mira Stone Ltd,Other
+Montero Mining & Exploration Ltd.,Other
+"Morefield Gem Mine, Inc.",Other
+Neo Lithium Corp.,Other
+New Age Metals,Other
+NioBay Metals Inc.,Other
+Noront Resources Ltd.,Other
+Nouveau Monde Graphite,Other
+OTC Markets Group,Other
+Red Metal Resources Ltd.,Other
+Resource Capital Funds,Other
+Reunion Gold Corporation,Other
+Richardson GMP - Alexandra Horwood,Other
+ROKMASTER Resources Corp.,Other
+Romios Gold Resources Inc.,Other
+Sidex,Other
+Spirit Mining LLC,Other
+Sprott Group of Companies,Other
+SQM,Other
+Steppe Gold Limited,Other
+Stuhini Exploration Ltd.,Other
+Toronto Stock Exchange,Other
+Transition Metals Corp.,Other
+UEX Corporation,Other
+Valoriza Mineria SL,Other
+VanadiumCorp Resource Inc.,Other
+Victory Nickel Inc.,Other
+Vior Inc.,Other
+Vulcan Minerals Inc.,Other
+Western Uranium & Vanadium Corp.,Other
+Zen Graphene Solutions,Other
+Zimtu Capital Corp.,Other
+Anglo American,PGM
+Balmoral Resources Ltd.,PGM
+Discovery Group,PGM
+Eagle Plains Resources Ltd.,PGM
+Eastfield Resources Ltd.,PGM
+Forum Energy Metals Corp.,PGM
+Generation Mining Limited,PGM
+Globex Mining Enterprises Inc.,PGM
+Golden Arrow Resources,PGM
+Goldspot Discoveries Inc.,PGM
+Gossan Resources Limited,PGM
+Grid Metals Corp.,PGM
+Ivanhoe Mines,PGM
+Longland Resources Ltd,PGM
+Metallic Group of Companies,PGM
+Midland Exploration Inc.,PGM
+New Age Metals,PGM
+Noront Resources Ltd.,PGM
+Northern Shield Resources Inc.,PGM
+Orford Mining Corp.,PGM
+Pavey Ark Minerals Inc.,PGM
+PolyMet Mining Corp.,PGM
+Rio Tinto,PGM
+Sherritt International Corporation,PGM
+SPC Metals,PGM
+Transition Metals Corp.,PGM
+Wallbridge Mining Company Limited,PGM
+Yukon Mining Alliance,PGM
+Appia Energy Corp.,REE & electric metals
+Ardiden Limited,REE & electric metals
+Aurum Discovery,REE & electric metals
+Avalon Advanced Materials Inc.,REE & electric metals
+Canada Nickel Company,REE & electric metals
+Commerce Resources Corp.,REE & electric metals
+Critical Elements Corporation,REE & electric metals
+Eagle Plains Resources Ltd.,REE & electric metals
+Earthmetrix Inc.,REE & electric metals
+Endurance Gold Corp,REE & electric metals
+Exiro Minerals Corp.,REE & electric metals
+Focus Graphite Inc.,REE & electric metals
+Fortune Minerals Limited,REE & electric metals
+Forum Energy Metals Corp.,REE & electric metals
+Frontier Lithium Inc.,REE & electric metals
+Geomega Resources Inc.,REE & electric metals
+Geophysx Jamaica Ltd,REE & electric metals
+Globex Mining Enterprises Inc.,REE & electric metals
+Go Metals Corp.,REE & electric metals
+Golden Arrow Resources,REE & electric metals
+Gossan Resources Limited,REE & electric metals
+Hammer Metals Ltd,REE & electric metals
+ioneer,REE & electric metals
+Largo Resources Ltd.,REE & electric metals
+Leading Edge Materials Corp.,REE & electric metals
+Lepidico Ltd.,REE & electric metals
+Lomiko Metals Inc.,REE & electric metals
+Millennial Lithium Corp.,REE & electric metals
+Mira Stone Ltd,REE & electric metals
+Mkango Resources,REE & electric metals
+Montero Mining & Exploration Ltd.,REE & electric metals
+"Morefield Gem Mine, Inc.",REE & electric metals
+Neo Lithium Corp.,REE & electric metals
+NioBay Metals Inc.,REE & electric metals
+Northern Graphite Corporation,REE & electric metals
+Oro Verde Limited,REE & electric metals
+Pancontinental Resources Corporation,REE & electric metals
+Patagonia Exploracion S.A.,REE & electric metals
+Plateau Energy Metals Inc.,REE & electric metals
+Portofino Resources Inc.,REE & electric metals
+Power Ore Inc.,REE & electric metals
+Red Metal Resources Ltd.,REE & electric metals
+Rio Tinto,REE & electric metals
+Sayona Mining Limited,REE & electric metals
+Searchlight Resources Inc.,REE & electric metals
+Ucore Rare Metals Inc.,REE & electric metals
+VanadiumCorp Resource Inc.,REE & electric metals
+Wealth Minerals Ltd.,REE & electric metals
+Wheaton Precious Metals Corp.,REE & electric metals
+Zen Graphene Solutions,REE & electric metals
+AbraPlata Resource Corp.,Silver
+Adriatic Metals Plc,Silver
+Adventus Mining Corporation,Silver
+Affinity Metals  Corp,Silver
+Alexco Resource Corp.,Silver
+Almaden Minerals Ltd.,Silver
+Altius Minerals Corp.,Silver
+American Creek Resources Ltd.,Silver
+Americas Gold and Silver,Silver
+Aquila Resources Inc.,Silver
+Argonaut Gold Inc.,Silver
+Ascendant Resources Inc.,Silver
+Ascot Resources Ltd.,Silver
+ATAC Resources Ltd.,Silver
+Auramex Resource Corp,Silver
+Aurania Resources Ltd.,Silver
+Aurora Minerals Group LLP,Silver
+AURYN Mining Corp.,Silver
+Auryn Resources Inc.,Silver
+Avino Silver & Gold Mines Ltd.,Silver
+Awale Resources Ltd.,Silver
+Azure Minerals Limited,Silver
+BeMetals Corp.,Silver
+BlackRock Gold Corp.,Silver
+Blind Creek Resources Ltd.,Silver
+Brixton Metals Corporation,Silver
+BTU Metals Corp.,Silver
+Callinex Mines Inc.,Silver
+Cerro de Pasco Resources Inc.,Silver
+Chakana Copper Corporation,Silver
+Chesapeake Gold Corporation,Silver
+Constantine Metal Resources Ltd.,Silver
+Consulting & Mining Sevices SRL,Silver
+Copper Mountain Mining Corporation,Silver
+Corvus Gold Inc.,Silver
+Crystal Lake Mining,Silver
+CVK Mining Group,Silver
+Defiance Silver Corp.,Silver
+Discovery Group,Silver
+Eagle Plains Resources Ltd.,Silver
+Eastfield Resources Ltd.,Silver
+Eclipse Gold Mining Corp,Silver
+"EDM-Empresa de Desenvolvimento Mineiro, SA",Silver
+Ely Gold Royalties Inc.,Silver
+EMX Royalty Corp.,Silver
+Equus Mining Limited,Silver
+Eros Resources Corp.,Silver
+Evrim Resources Corp.,Silver
+First Majestic Silver Corp.,Silver
+Fomicruz S.E.,Silver
+Forum Energy Metals Corp.,Silver
+Galway Metals Inc.,Silver
+Geophysx Jamaica Ltd,Silver
+Globe Trotters Resource Group Inc.,Silver
+Globex Mining Enterprises Inc.,Silver
+Gold Group Management Inc.,Silver
+Golden Arrow Resources,Silver
+Golden Minerals Company,Silver
+Goldmoney Inc.,Silver
+Goldspot Discoveries Inc.,Silver
+GR Sliver Mining Ltd.,Silver
+GT Gold Corp.,Silver
+Hecla Mining Company,Silver
+High Power Exploration,Silver
+Impact Silver Corp.,Silver
+Integra Resources Corp.,Silver
+International Millennium Mining Corp.,Silver
+Klondike Silver Corp.,Silver
+Kootenay Silver Inc.,Silver
+Kutcho Copper Corp.,Silver
+Latin Metals Inc.,Silver
+Laurion Mineral Exploration Inc.,Silver
+Lundin Group,Silver
+Mako Mining Corp.,Silver
+MANAGEM Group,Silver
+Manex Resource Group Inc.,Silver
+Maya Gold & Silver Inc.,Silver
+McEwen Mining Inc.,Silver
+Metallic Group of Companies,Silver
+Metals Group Inc.,Silver
+Midland Exploration Inc.,Silver
+Minaurum Gold Inc.,Silver
+Mira Stone Ltd,Silver
+Mirasol Resources Ltd.,Silver
+Murchison Minerals Ltd.,Silver
+New Found Gold Corp,Silver
+New Gold Inc.,Silver
+New Pacific Metals Corp.,Silver
+Newcrest Mining Ltd.,Silver
+Newmont Corporation,Silver
+Newrange Gold Corp.,Silver
+Nicola Mining Inc.,Silver
+Northern Dynasty Minerals Ltd.,Silver
+NorZinc Ltd,Silver
+Opus One Resources Inc.,Silver
+Pacific Trends Resources Pty Ltd,Silver
+Patagonia Exploracion S.A.,Silver
+Peel Mining Ltd.,Silver
+Power Ore Inc.,Silver
+PPX Mining Corp.,Silver
+Premier Gold Mines Limited,Silver
+Prophecy Development Corp.,Silver
+Red Cloud Securities Inc.,Silver
+Redstar Gold Corp.,Silver
+Regulus Resources Inc.,Silver
+Renaissance Gold Inc.,Silver
+Revelo Resources Corp.,Silver
+Rio Tinto,Silver
+Riverside Resources Inc.,Silver
+Rockcliff Metals Corporation,Silver
+ROKMASTER Resources Corp.,Silver
+Romios Gold Resources Inc.,Silver
+Royal Canadian Mint,Silver
+Rugby Mining Limited,Silver
+Sabina Gold & Silver Corp.,Silver
+Sandstorm Gold Royalties,Silver
+Sherritt International Corporation,Silver
+Sierra Metals Inc.,Silver
+Silver Bear Resources Plc.,Silver
+Silver One Resources,Silver
+Silvercorp Metals Inc.,Silver
+SilverCrest Metals Inc.,Silver
+Sitka Gold Corp,Silver
+Skeena Resources Ltd.,Silver
+Sonoro Metals Corp.,Silver
+South32 Limited,Silver
+Sphinx Resources Ltd.,Silver
+Spirit Mining LLC,Silver
+Sprott Group of Companies,Silver
+Steppe Gold Limited,Silver
+Strategic Exploration Group,Silver
+Stuhini Exploration Ltd.,Silver
+Telson Mining Corporation,Silver
+Tempus Resources Limited,Silver
+Timberline Resources Corporation,Silver
+Tinka Resources Limited,Silver
+Trevali Mining Corporation,Silver
+Trilogy Metals Inc.,Silver
+Vizsla Resources Corp.,Silver
+VR Resources Ltd.,Silver
+Western Alaska Copper and Gold,Silver
+Westhaven Ventures Inc.,Silver
+Wheaton Precious Metals Corp.,Silver
+White Rock Minerals,Silver
+Windfall Geotek Inc.,Silver
+Ximen Mining Corp.,Silver
+Yukon Mining Alliance,Silver
+ALX Resources Corp.,Uranium
+Appia Energy Corp.,Uranium
+BHP,Uranium
+CanAlaska Uranium Ltd.,Uranium
+Denison Mines Corp.,Uranium
+Discovery Group,Uranium
+Eagle Plains Resources Ltd.,Uranium
+Energy Fuels Inc.,Uranium
+Fission Uranium Corp.,Uranium
+Fomicruz S.E.,Uranium
+Forum Energy Metals Corp.,Uranium
+Golden Arrow Resources,Uranium
+IsoEnergy Ltd.,Uranium
+Lundin Group,Uranium
+Maya Gold & Silver Inc.,Uranium
+Plateau Energy Metals Inc.,Uranium
+Purepoint Uranium Group Inc.,Uranium
+Red Cloud Securities Inc.,Uranium
+Rio Tinto,Uranium
+Skyharbour Resources Ltd.,Uranium
+UEX Corporation,Uranium
+Uranium Energy Corp.,Uranium
+Ur-Energy Inc.,Uranium
+Western Uranium & Vanadium Corp.,Uranium
+Adriatic Metals Plc,Zinc
+Adventus Mining Corporation,Zinc
+Affinity Metals  Corp,Zinc
+Aftermath Silver Ltd,Zinc
+Alexco Resource Corp.,Zinc
+American Creek Resources Ltd.,Zinc
+Americas Gold and Silver,Zinc
+Aquila Resources Inc.,Zinc
+Ascendant Resources Inc.,Zinc
+ATAC Resources Ltd.,Zinc
+Auramex Resource Corp,Zinc
+Aurum Discovery,Zinc
+Avino Silver & Gold Mines Ltd.,Zinc
+Azure Minerals Limited,Zinc
+BeMetals Corp.,Zinc
+Blind Creek Resources Ltd.,Zinc
+BWR Exploration Inc.,Zinc
+Callinex Mines Inc.,Zinc
+CanAlaska Uranium Ltd.,Zinc
+Cerro de Pasco Resources Inc.,Zinc
+Chesapeake Gold Corporation,Zinc
+Commander Resources Ltd.,Zinc
+Constantine Metal Resources Ltd.,Zinc
+CVK Mining Group,Zinc
+Discovery Group,Zinc
+Eagle Plains Resources Ltd.,Zinc
+Eastfield Resources Ltd.,Zinc
+"EDM-Empresa de Desenvolvimento Mineiro, SA",Zinc
+EMX Royalty Corp.,Zinc
+Exiro Minerals Corp.,Zinc
+Foran Mining Corporation,Zinc
+Galway Metals Inc.,Zinc
+Geophysx Jamaica Ltd,Zinc
+Globe Trotters Resource Group Inc.,Zinc
+Globex Mining Enterprises Inc.,Zinc
+Globmine LLP,Zinc
+Golden Arrow Resources,Zinc
+Gossan Resources Limited,Zinc
+GR Sliver Mining Ltd.,Zinc
+Hecla Mining Company,Zinc
+International Millennium Mining Corp.,Zinc
+Klondike Silver Corp.,Zinc
+Kootenay Silver Inc.,Zinc
+Kutcho Copper Corp.,Zinc
+Laurion Mineral Exploration Inc.,Zinc
+MANAGEM Group,Zinc
+Manex Resource Group Inc.,Zinc
+Maya Gold & Silver Inc.,Zinc
+Metallic Group of Companies,Zinc
+Midland Exploration Inc.,Zinc
+Mira Stone Ltd,Zinc
+Murchison Minerals Ltd.,Zinc
+Newmont Corporation,Zinc
+Nexa Resources S.A.,Zinc
+Noront Resources Ltd.,Zinc
+NorZinc Ltd,Zinc
+Opus One Resources Inc.,Zinc
+Osisko Metals Incorporated,Zinc
+Pacific Trends Resources Pty Ltd,Zinc
+Patagonia Exploracion S.A.,Zinc
+Peel Mining Ltd.,Zinc
+Prophecy Development Corp.,Zinc
+Red Cloud Securities Inc.,Zinc
+Rio Tinto,Zinc
+Rockcliff Metals Corporation,Zinc
+ROKMASTER Resources Corp.,Zinc
+ScoZinc Mining Ltd.,Zinc
+Sherritt International Corporation,Zinc
+Sierra Metals Inc.,Zinc
+Silvercorp Metals Inc.,Zinc
+Solitario Zinc Corp.,Zinc
+South32 Limited,Zinc
+Sphinx Resources Ltd.,Zinc
+Spirit Mining LLC,Zinc
+Strategic Exploration Group,Zinc
+Stuhini Exploration Ltd.,Zinc
+Sun Peak Metals,Zinc
+Teck Resources Limited,Zinc
+Telson Mining Corporation,Zinc
+Tethyan Resource Corp.,Zinc
+Tinka Resources Limited,Zinc
+Transition Metals Corp.,Zinc
+Trevali Mining Corporation,Zinc
+Trilogy Metals Inc.,Zinc
+Ubique Minerals Ltd.,Zinc
+Valoriza Mineria SL,Zinc
+Western Alaska Copper and Gold,Zinc
+White Rock Minerals,Zinc
+Windfall Geotek Inc.,Zinc
+Yorbeau Resources Inc.,Zinc
+Yukon Mining Alliance,Zinc
+Zinc One Resources Inc.,Zinc
+ZincX Resources Corp.,Zinc
