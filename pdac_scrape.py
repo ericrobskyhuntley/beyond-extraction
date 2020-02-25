@@ -219,7 +219,7 @@ def run_ix(directory):
     print("Writing IX commodities to CSV...")
     commodities.to_csv(directory + 'commodities.csv', index=False)
     print("Writing IX firm-commodity relationship to CSV...")
-    firms_by_commodity.to_csv(directory + 'firms_by_commodity.csv', index=False)
+    firms_by_commodity.to_csv(directory + 'firms_ix_by_commodity.csv', index=False)
     
     print("Scraping investors exchange exhibitors by country of exploration...")
     countries, firms_by_country = pdac_by_x(
@@ -239,7 +239,7 @@ def run_ix(directory):
     print("Writing countries to GeoJSON...")
     countries.to_file(directory + 'countries.geojson', driver='GeoJSON')
     print("Writing firm-country relationship to CSV...")
-    firms_by_country.to_csv(directory + 'firms_by_country.csv', index=False)
+    firms_by_country.to_csv(directory + 'firms_ix_by_country.csv', index=False)
     
 def run_ts(directory):
     # TRADE SHOW
@@ -256,7 +256,7 @@ def run_ts(directory):
     print("Writing TS exhibitors to GeoJSON...")
     firms.to_file(directory + 'firms_ts.geojson', driver='GeoJSON')
     print("Writing TS firm-booth relationship to CSV...")
-    firms_by_booth.to_csv(directory + 'firms_ix_by_booth.csv', index=False)
+    firms_by_booth.to_csv(directory + 'firms_ts_by_booth.csv', index=False)
 
     print("Scraping trade show exhibitors by business type...")
     biztypes, ts_by_biztype = pdac_by_x(
@@ -266,7 +266,7 @@ def run_ts(directory):
     )
     print("Writing to CSV...")
     biztypes.to_csv(directory + 'biztypes.csv', index=False)
-    ts_by_biztype.to_csv(directory + 'firms_by_biztype.csv', index=False)
+    ts_by_biztype.to_csv(directory + 'firms_ts_by_biztype.csv', index=False)
     
 def run_cs(directory):
     # CORE SHACK
@@ -285,7 +285,7 @@ def run_cs(directory):
         geometry='geometry'
         )
     print("Writing CS projects to GeoJSON...")
-    projects.to_file(directory + 'firms_by_projects.geojson', driver='GeoJSON')
+    projects.to_file(directory + 'firms_cs_by_projects.geojson', driver='GeoJSON')
 
 def run_pt(directory):
     pt_url = 'https://www.pdac.ca/convention/exhibits/prospectors-tent/exhibitors'
