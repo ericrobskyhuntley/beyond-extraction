@@ -28,7 +28,7 @@ COUNTRIES.columns = map(str.lower, COUNTRIES.columns)
 COUNTRIES = COUNTRIES[['name','name_long', 'iso_a2', 'iso_a3', 'geometry']]
 COUNTRIES['geometry'] = COUNTRIES.centroid
 
-ADDRESSES = pd.read_csv('/home/ericmhuntley/Desktop/beyond-extraction/data/ix_addresses.csv')
+ADDRESSES = pd.read_csv('/home/ericmhuntley/Desktop/beyond-extraction/data/addresses.csv')
 GEOCODER = OpenCageGeocode(environ['OPENCAGE'])
 
 def gc(row, query, country):
