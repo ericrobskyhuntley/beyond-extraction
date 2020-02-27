@@ -13,8 +13,11 @@ CREATE DATABASE pdac;
 CREATE EXTENSION postgis;
 ```
 
-You can then run the provided `.sql` file from the command line using the `psql` utility.
+You can then run the provided `.sql` files from the command line using the `psql` utility.
 
 ```sh
+# To create and populate tables...
 psql -h localhost -d -U postgres -f ./sql/create-populate.sql
+# To create views...
+psql -h localhost -d -U postgres -f ./sql/create-views.sql
 ```
