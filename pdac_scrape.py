@@ -194,6 +194,9 @@ def clean_countries(df):
     df = df[df['country'] != 'NULL']
     return df
 
+def wktize(gdf):
+    gdf['geom'] = gdf['geometry'].apply(lambda x: None if x is None else x.wkt)
+    return(gdf)
 
 def run_ix(directory):
     # INVESTORS EXCHANGE
@@ -207,8 +210,11 @@ def run_ix(directory):
         )
     print("Geocoding IX exhibitors...")
     firms = ADDRESSES.merge(firms, on='name', how='right')
-    print("Writing IX exhibitors to GeoJSON...")
+
+    print("Writing IX exhibitors to GeoJSON and CSV...")
     firms.to_file(directory + 'firms_ix.geojson', driver='GeoJSON')
+    firms = wktize(firms)
+    firms.to_file(directory + 'firms_ix.csv', driver='CSV')
     print("Writing IX firm-booth relationship to CSV...")
     firms_by_booth.to_csv(directory + 'firms_ix_by_booth.csv', index=False)
     
@@ -237,8 +243,9 @@ def run_ix(directory):
         geometry='geometry'
         )
     countries = countries.dropna(subset=['geometry'])
-    print("Writing countries to GeoJSON...")
+    print("Writing countries to GeoJSON and CSV...")
     countries.to_file(directory + 'countries.geojson', driver='GeoJSON')
+    wktize(countries).to_file(directory + 'countries.csv', driver='CSV')
     print("Writing firm-country relationship to CSV...")
     firms_by_country.to_csv(directory + 'firms_ix_by_country.csv', index=False)
     
@@ -254,8 +261,9 @@ def run_ts(directory):
     )
     print("Geocoding Trade Show (TS) exhibitors...")
     firms = ADDRESSES.merge(firms, on='name', how='right')
-    print("Writing TS exhibitors to GeoJSON...")
+    print("Writing TS exhibitors to GeoJSON and CSV...")
     firms.to_file(directory + 'firms_ts.geojson', driver='GeoJSON')
+    wktize(firms).to_file(directory + 'firms_ts.csv', driver='CSV')
     print("Writing TS firm-booth relationship to CSV...")
     firms_by_booth.to_csv(directory + 'firms_ts_by_booth.csv', index=False)
 
@@ -276,10 +284,10 @@ def run_cs(directory):
     print("Scraping Core Shack (CS) exhibitors and geocoding projects...")
     firms, projects = core_shack(cs_urls)
     firms = ADDRESSES.merge(firms, on='name', how='right')
-    firms = gpd.GeoDataFrame(firms, geometry='geometry')
 
     print("Writing CS exhibitors to GeoJSON...")
     firms.to_file(directory + 'firms_cs.geojson', driver='GeoJSON')
+    wktize(firms).to_file(directory + 'firms_cs.csv', driver='CSV')
     print("Geocoding CS projects...")
     projects = gpd.GeoDataFrame(
         projects.apply(lambda x: gc(x, 'loc', 'country'), axis=1),
@@ -287,6 +295,7 @@ def run_cs(directory):
         )
     print("Writing CS projects to GeoJSON...")
     projects.to_file(directory + 'firms_cs_by_projects.geojson', driver='GeoJSON')
+    wktize(projects).to_file(directory + 'firms_cs_by_projects.csv', driver='CSV')
 
 def run_pt(directory):
     pt_url = 'https://www.pdac.ca/convention/exhibits/prospectors-tent/exhibitors'
