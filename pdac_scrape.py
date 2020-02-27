@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 """
 Scrape PDAC site for exhibitor information.
+
+Eric Robsky Huntley (ehuntley@mit.edu)
+On behalf of Graphe.
 """
 import requests
 from bs4 import BeautifulSoup
@@ -13,7 +16,15 @@ import geopandas as gpd
 from shapely.geometry import Point
 
 parser = ArgumentParser()
-parser.add_argument('-p', '--path', help = 'Directory in which to write data.')
+parser.add_argument('-p', 
+    '--path', 
+    help = 'Directory in which to write data.'
+    )
+parser.add_argument('-g', 
+    '--regeocode',
+    action='store_true', 
+    help = 'Recode addresses.'
+    )
 args = parser.parse_args()
 
 if args.path:
@@ -21,8 +32,11 @@ if args.path:
 else: 
    print('Please supply directory in which to write data.')
    exit()
+RECODE = args.regeocode
 
-# Needed to modify Natural Earth Data---French Guiana depicted as a multipart geometry of France. (And not even distinguished.)
+# Read modified Natural Earth Data.
+# E.g., French Guiana depicted as a multipart geometry of France.
+
 COUNTRIES = gpd.read_file(DIR + 'countries.geojson')
 COUNTRIES.columns = map(str.lower, COUNTRIES.columns)
 COUNTRIES = COUNTRIES[['name','name_long', 'iso_a2', 'iso_a3', 'geometry']]
@@ -56,15 +70,15 @@ def gc(row, query, country):
         row['geometry'] = None
     return row
 
-if path.isfile(DIR + 'addresses.geojson'):
-    ADDRESSES = gpd.read_file(DIR + 'addresses.geojson')
-else: 
+if RECODE:
     ADDRESSES = pd.read_csv(DIR + 'addresses.csv')
     ADDRESSES = gpd.GeoDataFrame(
             ADDRESSES.apply(lambda x: gc(x, 'add', 'country'), axis=1), 
             geometry='geometry'
             )
     ADDRESSES.to_file(DIR + 'addresses.geojson', driver='GeoJSON')
+else:
+    ADDRESSES = gpd.read_file(DIR + 'addresses.geojson')
 
 def pros_tent(url):
     prospectors = pd.DataFrame()
