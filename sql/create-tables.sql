@@ -31,15 +31,19 @@ CREATE TABLE prospectors (
 -- Create investors table.
 CREATE TABLE ix (
     name VARCHAR(50),
-    exchange VARCHAR(30),
-    symbol VARCHAR(10),
-    stock VARCHAR(10),
-    add VARCHAR(200),
-    country CHAR (2),
-    website VARCHAR(100),
-    geom GEOMETRY(POINT, 4326, 2),
+    exchange VARCHAR,
+    symbol VARCHAR,
+    stock VARCHAR,
+    add VARCHAR,
+    country CHAR(3),
+    website VARCHAR,
+    geom GEOMETRY(POINT, 0, 2),
     CONSTRAINT investors_pkey PRIMARY KEY (name)
 );
+
+COPY ix(name, exchange, symbol, stock, add, country, website, geom)
+FROM '/Users/ehuntley/Desktop/data/beyond-extraction/data/firms_ix.csv'  DELIMITER ',' CSV HEADER;
+SELECT UpdateGeometrySRID('public', 'ix', 'geom', 4326);
 
 -- Create trade show table.
 CREATE TABLE ts (
