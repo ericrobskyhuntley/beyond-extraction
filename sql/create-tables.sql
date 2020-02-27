@@ -109,6 +109,7 @@ CREATE TABLE ix_by_country (
     FOREIGN KEY (country) REFERENCES countries(country)
 );
 
+-- Create core shack table.
 CREATE TABLE cs (
     name VARCHAR(50),
     exchange VARCHAR(30),
@@ -121,6 +122,7 @@ CREATE TABLE cs (
     CONSTRAINT cs_pkey PRIMARY KEY (name)
 );
 
+-- Create core shack by project table.
 CREATE TABLE cs_by_projects (
     proj VARCHAR(50),
     loc VARCHAR(50),
@@ -130,6 +132,3 @@ CREATE TABLE cs_by_projects (
     CONSTRAINT c_by_p_pkey PRIMARY KEY (proj),
     FOREIGN KEY (name) REFERENCES cs(name)
 );
-
-COPY prospectors(booth, name) 
-FROM '/Users/ehuntley/Desktop/data/beyond-extraction/data/prospectors.csv' DELIMITER ',' CSV HEADER;
