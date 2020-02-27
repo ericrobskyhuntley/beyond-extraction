@@ -23,10 +23,13 @@ else:
    exit()
 
 # Needed to modify Natural Earth Data---French Guiana depicted as a multipart geometry of France. (And not even distinguished.)
-COUNTRIES = gpd.read_file(DIR + 'countries-custom.geojson')
+COUNTRIES = gpd.read_file(DIR + 'countries.geojson')
 COUNTRIES.columns = map(str.lower, COUNTRIES.columns)
 COUNTRIES = COUNTRIES[['name','name_long', 'iso_a2', 'iso_a3', 'geometry']]
-COUNTRIES['geometry'] = COUNTRIES.centroid
+COUNTRIES.to_csv(DIR + 'countries.csv', index=False)
+
+BOOTHS = gpd.read_file(DIR + 'booths.geojson')
+BOOTHS.to_csv(DIR + 'booths.csv', index=False)
 
 GEOCODER = OpenCageGeocode(environ['OPENCAGE'])
 
@@ -62,15 +65,6 @@ else:
             geometry='geometry'
             )
     ADDRESSES.to_file(DIR + 'addresses.geojson', driver='GeoJSON')
-
-def country_locate(country_op):
-    for i, c in COUNTRIES.iterrows():
-        if c['name_long'] in country_op['country']:
-            country_op['geometry'] = c['geometry']
-            break
-        else:
-            country_op['geometry'] = None
-    return country_op
 
 def pros_tent(url):
     prospectors = pd.DataFrame()
@@ -125,9 +119,10 @@ def core_shack(urls):
                     'website': website
                     })
             df = df.append(f, ignore_index=True)
-    firms = df[['name', 'booth', 'website']]
+    firms = df[['name', 'website']]
+    firms_by_booth = df[['name', 'booth']]
     projects = df[['proj', 'loc', 'country', 'name']]
-    return (firms, projects)
+    return (firms, firms_by_booth, projects)
     
 def pdac_by_x(url, x_id, x_name, x_keep = True):
     base_url = url
@@ -183,20 +178,22 @@ def clean_countries(df):
         'Bosnia And Herzegowina', 
         'Laos',
         'Viet Nam', 
-        'Congo, Democratic Republic Of'],
+        'Congo, Democratic Republic Of',
+        'Myanmar (Burma)',
+        'Tanzania, United Republic Of'],
         ["Côte d'Ivoire", 
         'Bosnia and Herzegovina', 
         'Lao PDR',
         'Vietnam', 
-        'Democratic Republic of the Congo']
+        'Democratic Republic of the Congo',
+        'Myanmar',
+        'Tanzania']
     )
-    # Remove null values
+    # Remove null and invalid values
     df = df[df['country'] != 'NULL']
+    df = df[df['country'] != 'Africa']
+    df = df[df['country'] != 'West Africa']
     return df
-
-def wktize(gdf):
-    gdf['geom'] = gdf['geometry'].apply(lambda x: None if x is None else x.wkt)
-    return(gdf)
 
 def run_ix(directory):
     # INVESTORS EXCHANGE
@@ -213,18 +210,15 @@ def run_ix(directory):
 
     print("Writing IX exhibitors to GeoJSON and CSV...")
     firms.to_file(directory + 'firms_ix.geojson', driver='GeoJSON')
-    firms = wktize(firms)
-    firms.to_file(directory + 'firms_ix.csv', driver='CSV')
+    firms.to_csv(directory + 'firms_ix.csv', index=False)
     print("Writing IX firm-booth relationship to CSV...")
     firms_by_booth.to_csv(directory + 'firms_ix_by_booth.csv', index=False)
     
     print("Scraping IX exhibitors by commodity...")
-    commodities, firms_by_commodity =  pdac_by_x(
+    _, firms_by_commodity =  pdac_by_x(
         url = ix_url + 'exhibitor-list-by-commodity',
         x_id = 'commodityTypes', 
         x_name = 'commodity')
-    print("Writing IX commodities to CSV...")
-    commodities.to_csv(directory + 'commodities.csv', index=False)
     print("Writing IX firm-commodity relationship to CSV...")
     firms_by_commodity.to_csv(directory + 'firms_ix_by_commodity.csv', index=False)
     
@@ -234,18 +228,7 @@ def run_ix(directory):
         x_id = 'countries',
         x_name = 'country'
         )
-    countries = clean_countries(countries)
-    print("Locating countries...")
-    countries = gpd.GeoDataFrame(
-        countries.apply(
-            country_locate, axis=1
-            ), 
-        geometry='geometry'
-        )
-    countries = countries.dropna(subset=['geometry'])
-    print("Writing countries to GeoJSON and CSV...")
-    countries.to_file(directory + 'countries.geojson', driver='GeoJSON')
-    wktize(countries).to_file(directory + 'countries.csv', driver='CSV')
+    firms_by_country = clean_countries(firms_by_country)
     print("Writing firm-country relationship to CSV...")
     firms_by_country.to_csv(directory + 'firms_ix_by_country.csv', index=False)
     
@@ -263,18 +246,17 @@ def run_ts(directory):
     firms = ADDRESSES.merge(firms, on='name', how='right')
     print("Writing TS exhibitors to GeoJSON and CSV...")
     firms.to_file(directory + 'firms_ts.geojson', driver='GeoJSON')
-    wktize(firms).to_file(directory + 'firms_ts.csv', driver='CSV')
+    firms.to_csv(directory + 'firms_ts.csv', index=False)
     print("Writing TS firm-booth relationship to CSV...")
     firms_by_booth.to_csv(directory + 'firms_ts_by_booth.csv', index=False)
 
-    print("Scraping trade show exhibitors by business type...")
-    biztypes, ts_by_biztype = pdac_by_x(
+    print("Scraping TS exhibitors by business type...")
+    _, ts_by_biztype = pdac_by_x(
         url = ts_url + 'exhibitor-list-by-business-type',
         x_id = 'businessTypes',
         x_name = 'biztype'
     )
     print("Writing to CSV...")
-    biztypes.to_csv(directory + 'biztypes.csv', index=False)
     ts_by_biztype.to_csv(directory + 'firms_ts_by_biztype.csv', index=False)
     
 def run_cs(directory):
@@ -282,12 +264,13 @@ def run_cs(directory):
     cs_urls = ['https://www.pdac.ca/convention/exhibits/core-shack/session-a-exhibitors',
                 'https://www.pdac.ca/convention/exhibits/core-shack/session-b-exhibitors']
     print("Scraping Core Shack (CS) exhibitors and geocoding projects...")
-    firms, projects = core_shack(cs_urls)
+    firms, firms_by_booth, projects = core_shack(cs_urls)
     firms = ADDRESSES.merge(firms, on='name', how='right')
 
     print("Writing CS exhibitors to GeoJSON...")
     firms.to_file(directory + 'firms_cs.geojson', driver='GeoJSON')
-    wktize(firms).to_file(directory + 'firms_cs.csv', driver='CSV')
+    firms.to_csv(directory + 'firms_cs.csv', index=False)
+    firms_by_booth.to_csv(directory + 'firms_cs_by_booth.csv', index=False)
     print("Geocoding CS projects...")
     projects = gpd.GeoDataFrame(
         projects.apply(lambda x: gc(x, 'loc', 'country'), axis=1),
@@ -295,7 +278,7 @@ def run_cs(directory):
         )
     print("Writing CS projects to GeoJSON...")
     projects.to_file(directory + 'firms_cs_by_projects.geojson', driver='GeoJSON')
-    wktize(projects).to_file(directory + 'firms_cs_by_projects.csv', driver='CSV')
+    projects.to_csv(directory + 'firms_cs_by_projects.csv', index=False)
 
 def run_pt(directory):
     pt_url = 'https://www.pdac.ca/convention/exhibits/prospectors-tent/exhibitors'
