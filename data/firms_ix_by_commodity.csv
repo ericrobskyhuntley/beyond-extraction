@@ -44,7 +44,6 @@ Hammer Metals Ltd,Base metals
 Happy Creek Minerals Ltd.,Base metals
 Harfang Exploration Inc.,Base metals
 Ivanhoe Mines,Base metals
-Keras Resources plc,Base metals
 Lara Exploration Ltd.,Base metals
 Laurion Mineral Exploration Inc.,Base metals
 Longland Resources Ltd,Base metals
@@ -87,7 +86,6 @@ RJK Explorations Ltd.,Base metals
 ROKMASTER Resources Corp.,Base metals
 S2 Resources Ltd.,Base metals
 Searchlight Resources Inc.,Base metals
-Sherritt International Corporation,Base metals
 Sierra Metals Inc.,Base metals
 Solitario Zinc Corp.,Base metals
 South32 Limited,Base metals
@@ -116,11 +114,11 @@ BHP,Coal
 Jameson Resources Limited,Coal
 Lundin Group,Coal
 Morien Resources Corp.,Coal
+Mosra Enerji,Coal
 Orestone Mining Corp,Coal
 Prophecy Development Corp.,Coal
 South32 Limited,Coal
 Teck Resources Limited,Coal
-Vista Energy Resources,Coal
 AbraPlata Resource Corp.,Copper
 Adriatic Metals Plc,Copper
 Adventus Mining Corporation,Copper
@@ -131,9 +129,9 @@ Altamira Gold,Copper
 Altius Minerals Corp.,Copper
 ALX Resources Corp.,Copper
 American Creek Resources Ltd.,Copper
-Amerigo Resources Ltd.,Copper
 Anglo American,Copper
 Aquila Resources Inc.,Copper
+Ascendant Resources Inc.,Copper
 Ascot Resources Ltd.,Copper
 ATAC Resources Ltd.,Copper
 Auramex Resource Corp,Copper
@@ -194,7 +192,6 @@ Golden Arrow Resources,Copper
 GoldMining Inc.,Copper
 Gossan Resources Limited,Copper
 GR Sliver Mining Ltd.,Copper
-Grid Metals Corp.,Copper
 GT Gold Corp.,Copper
 Hammer Metals Ltd,Copper
 Happy Creek Minerals Ltd.,Copper
@@ -264,7 +261,6 @@ Salazar Resources Limited,Copper
 Sandstorm Gold Royalties,Copper
 Searchlight Resources Inc.,Copper
 Serengeti Resources Inc.,Copper
-Sherritt International Corporation,Copper
 Sierra Metals Inc.,Copper
 Sitka Gold Corp,Copper
 SolGold,Copper
@@ -348,6 +344,7 @@ Argonaut Gold Inc.,Gold
 Artemis Gold Inc.,Gold
 Artisanal Gold Council,Gold
 Asante Gold Corporation,Gold
+Ascendant Resources Inc.,Gold
 Ascot Resources Ltd.,Gold
 Aston Bay,Gold
 ATAC Resources Ltd.,Gold
@@ -605,7 +602,6 @@ Searchlight Resources Inc.,Gold
 SEMAFO Inc.,Gold
 Serabi Gold plc,Gold
 Serengeti Resources Inc.,Gold
-Sherritt International Corporation,Gold
 Sierra Metals Inc.,Gold
 SilverCrest Metals Inc.,Gold
 Sirios Resources Inc.,Gold
@@ -677,6 +673,7 @@ FPX Nickel Corp.,Iron ore
 Mira Stone Ltd,Iron ore
 Mississauga Mining,Iron ore
 Monument Mining Limited,Iron ore
+Mosra Enerji,Iron ore
 Panthera Resources Plc,Iron ore
 Rio Tinto,Iron ore
 Vale Canada Limited,Iron ore
@@ -749,7 +746,6 @@ Forum Energy Metals Corp.,Nickel
 FPX Nickel Corp.,Nickel
 Globex Mining Enterprises Inc.,Nickel
 Gossan Resources Limited,Nickel
-Grid Metals Corp.,Nickel
 Harfang Exploration Inc.,Nickel
 High Power Exploration,Nickel
 Lara Exploration Ltd.,Nickel
@@ -772,7 +768,6 @@ Red Cloud Securities Inc.,Nickel
 Rio Tinto,Nickel
 RNC Minerals,Nickel
 Searchlight Resources Inc.,Nickel
-Sherritt International Corporation,Nickel
 South32 Limited,Nickel
 SPC Metals,Nickel
 Sphinx Resources Ltd.,Nickel
@@ -791,6 +786,7 @@ Desert Mountain Energy Corp.,Oil & Gas
 Fomicruz S.E.,Oil & Gas
 Lundin Group,Oil & Gas
 Andino Commodities S.A.S,Other
+Aranjin Resources Ltd,Other
 Ares Strategic Mining Inc.,Other
 Blackstone Minerals Ltd,Other
 Canadian Securities Exchange,Other
@@ -800,7 +796,6 @@ CVK Mining Group,Other
 Desert Mountain Energy Corp.,Other
 Earthmetrix Inc.,Other
 Exiro Minerals Corp.,Other
-Five Star Diamond Limited,Other
 Globex Mining Enterprises Inc.,Other
 Gold Group Management Inc.,Other
 Goldmoney Inc.,Other
@@ -868,7 +863,6 @@ Orford Mining Corp.,PGM
 Pavey Ark Minerals Inc.,PGM
 PolyMet Mining Corp.,PGM
 Rio Tinto,PGM
-Sherritt International Corporation,PGM
 SPC Metals,PGM
 Transition Metals Corp.,PGM
 Wallbridge Mining Company Limited,PGM
@@ -883,6 +877,7 @@ Critical Elements Corporation,REE & electric metals
 Eagle Plains Resources Ltd.,REE & electric metals
 Earthmetrix Inc.,REE & electric metals
 Endurance Gold Corp,REE & electric metals
+Energy Fuels Inc.,REE & electric metals
 Exiro Minerals Corp.,REE & electric metals
 Focus Graphite Inc.,REE & electric metals
 Fortune Minerals Limited,REE & electric metals
@@ -1039,7 +1034,6 @@ Royal Canadian Mint,Silver
 Rugby Mining Limited,Silver
 Sabina Gold & Silver Corp.,Silver
 Sandstorm Gold Royalties,Silver
-Sherritt International Corporation,Silver
 Sierra Metals Inc.,Silver
 Silver Bear Resources Plc.,Silver
 Silver One Resources,Silver
@@ -1161,7 +1155,6 @@ Rio Tinto,Zinc
 Rockcliff Metals Corporation,Zinc
 ROKMASTER Resources Corp.,Zinc
 ScoZinc Mining Ltd.,Zinc
-Sherritt International Corporation,Zinc
 Sierra Metals Inc.,Zinc
 Silvercorp Metals Inc.,Zinc
 Solitario Zinc Corp.,Zinc
@@ -1185,5 +1178,4 @@ White Rock Minerals,Zinc
 Windfall Geotek Inc.,Zinc
 Yorbeau Resources Inc.,Zinc
 Yukon Mining Alliance,Zinc
-Zinc One Resources Inc.,Zinc
 ZincX Resources Corp.,Zinc

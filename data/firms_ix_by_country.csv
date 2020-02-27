@@ -1,6 +1,4 @@
 name,country
-Desert Gold Ventures Inc.,Africa
-Lundin Group,Africa
 Rio Tinto,Angola
 AbraPlata Resource Corp.,Argentina
 Aldebaran Resources Inc.,Argentina
@@ -58,7 +56,7 @@ White Rock Minerals,Australia
 New Pacific Metals Corp.,Bolivia
 Orvana Minerals Corp.,Bolivia
 Prophecy Development Corp.,Bolivia
-Adriatic Metals Plc,Bosnia And Herzegowina
+Adriatic Metals Plc,Bosnia and Herzegovina
 Copperzone Resources Limited,Botswana
 Lundin Group,Botswana
 Altamira Gold,Brazil
@@ -302,7 +300,6 @@ Sayona Mining Limited,Canada
 ScoZinc Mining Ltd.,Canada
 Searchlight Resources Inc.,Canada
 Serengeti Resources Inc.,Canada
-Sherritt International Corporation,Canada
 Sidex,Canada
 Sirios Resources Inc.,Canada
 Sitka Gold Corp,Canada
@@ -339,7 +336,6 @@ Vale Canada Limited,Canada
 VanadiumCorp Resource Inc.,Canada
 Victory Nickel Inc.,Canada
 Vior Inc.,Canada
-Vista Energy Resources,Canada
 Vizsla Resources Corp.,Canada
 Vulcan Minerals Inc.,Canada
 Wallbridge Mining Company Limited,Canada
@@ -363,7 +359,6 @@ Zimtu Capital Corp.,Canada
 ZincX Resources Corp.,Canada
 AbraPlata Resource Corp.,Chile
 Altius Minerals Corp.,Chile
-Amerigo Resources Ltd.,Chile
 Anglo American,Chile
 AURYN Mining Corp.,Chile
 Barrick Gold Corporation,Chile
@@ -411,15 +406,14 @@ Newrange Gold Corp.,Colombia
 Royal Road Minerals,Colombia
 Rugby Mining Limited,Colombia
 South32 Limited,Colombia
-AJN Resources Inc.,"Congo, Democratic Republic Of"
-Ivanhoe Mines,"Congo, Democratic Republic Of"
-MANAGEM Group,"Congo, Democratic Republic Of"
-Awale Resources Ltd.,Cote D'ivoire
-High Power Exploration,Cote D'ivoire
-MANAGEM Group,Cote D'ivoire
-Roxgold Inc.,Cote D'ivoire
-Teranga Gold Corporation,Cote D'ivoire
-Sherritt International Corporation,Cuba
+AJN Resources Inc.,Democratic Republic of the Congo
+Ivanhoe Mines,Democratic Republic of the Congo
+MANAGEM Group,Democratic Republic of the Congo
+Awale Resources Ltd.,Côte d'Ivoire
+High Power Exploration,Côte d'Ivoire
+MANAGEM Group,Côte d'Ivoire
+Roxgold Inc.,Côte d'Ivoire
+Teranga Gold Corporation,Côte d'Ivoire
 Energold Corp.,Dominican Republic
 GoldQuest Mining Corp.,Dominican Republic
 Newmont Corporation,Dominican Republic
@@ -495,8 +489,7 @@ Lundin Group,Kenya
 Spirit Mining LLC,Kenya
 Aurora Minerals Group LLP,Kyrgyzstan
 Centerra Gold Inc.,Kyrgyzstan
-Rio Tinto,Laos
-Sherritt International Corporation,Madagascar
+Rio Tinto,Lao PDR
 Mkango Resources,Malawi
 Monument Mining Limited,Malaysia
 B2Gold Corp.,Mali
@@ -545,11 +538,11 @@ Starcore International Mines Ltd.,Mexico
 Telson Mining Corporation,Mexico
 Vizsla Resources Corp.,Mexico
 Wheaton Precious Metals Corp.,Mexico
+Aranjin Resources Ltd,Mongolia
 Artisanal Gold Council,Mongolia
 Aurora Minerals Group LLP,Mongolia
 Entrée Resources Ltd.,Mongolia
 Erdene Resource Development Corp.,Mongolia
-Five Star Diamond Limited,Mongolia
 Prophecy Development Corp.,Mongolia
 Rio Tinto,Mongolia
 Sandstorm Gold Royalties,Mongolia
@@ -557,10 +550,9 @@ Steppe Gold Limited,Mongolia
 Aurum Discovery,Morocco
 MANAGEM Group,Morocco
 Maya Gold & Silver Inc.,Morocco
-Pacific Trends Resources Pty Ltd,Myanmar (Burma)
+Pacific Trends Resources Pty Ltd,Myanmar
 B2Gold Corp.,Namibia
 Copperzone Resources Limited,Namibia
-E-Tech Metals,Namibia
 Lepidico Ltd.,Namibia
 Lundin Group,Namibia
 Montero Mining & Exploration Ltd.,Namibia
@@ -572,12 +564,12 @@ IAMGOLD Corporation,Nicaragua
 Mako Mining Corp.,Nicaragua
 Royal Road Minerals,Nicaragua
 Lundin Group,Nigeria
+Mosra Enerji,Nigeria
 Moydow Resources Limited,Nigeria
 ALX Resources Corp.,Norway
 EMX Royalty Corp.,Norway
 Lundin Group,Norway
 Playfair Mining Ltd.,Norway
-Jamaica Stock Exchange,NULL
 Orla Mining Ltd.,Panama
 K92 Mining Inc.,Papua New Guinea
 Rio Tinto,Papua New Guinea
@@ -621,7 +613,6 @@ Teck Resources Limited,Peru
 Tinka Resources Limited,Peru
 Trevali Mining Corporation,Peru
 Wheaton Precious Metals Corp.,Peru
-Zinc One Resources Inc.,Peru
 Artisanal Gold Council,Philippines
 B2Gold Corp.,Philippines
 OceanaGold Corporation,Philippines
@@ -669,10 +660,9 @@ Lundin Group,Sweden
 Mandalay Resources Corp.,Sweden
 Sandstorm Gold Royalties,Sweden
 Wheaton Precious Metals Corp.,Sweden
-Montero Mining & Exploration Ltd.,"Tanzania, United Republic Of"
-Rio Tinto,"Tanzania, United Republic Of"
+Montero Mining & Exploration Ltd.,Tanzania
+Rio Tinto,Tanzania
 Kingsgate Consolidated Limited,Thailand
-Keras Resources plc,Togo
 Alacer Gold Corp.,Turkey
 Alamos Gold Inc.,Turkey
 Centerra Gold Inc.,Turkey
@@ -793,8 +783,7 @@ Western Alaska Copper and Gold,United States
 Western Uranium & Vanadium Corp.,United States
 White Rock Minerals,United States
 Zephyr Minerals Ltd.,United States
-Blackstone Minerals Ltd,Viet Nam
-Panthera Resources Plc,West Africa
+Blackstone Minerals Ltd,Vietnam
 Cantex Mine Development Corp,Yemen
 Anglo American,Zambia
 BeMetals Corp.,Zambia
