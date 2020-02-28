@@ -1,4 +1,3 @@
-
 var language = 'en';  // change this if you want results in another language
 var ss = SpreadsheetApp.getActiveSpreadsheet(),
     sheet = ss.getActiveSheet(),
@@ -13,7 +12,7 @@ function reverse(){
     getKey('reverse');
 }
 
-function callAPI(query, key){
+function callAPI(query, key, country = null){
     // full API docs: https://opencagedata.com/api    
     var url = 'https://api.opencagedata.com/geocode/v1/json?query='
         + query
@@ -21,6 +20,10 @@ function callAPI(query, key){
         
     if (language){
         url += '&language=' + language;
+    }
+
+    if (country){
+        url += '&countrycode=' + country;
     }
 
     // we don't need annotations so we turn them off
@@ -80,7 +83,7 @@ function do_forward(key){
     // Must have selected at least 3 columns (Address, Lat, Lng).
     // Must have selected at least 1 row.
     var columnCount = cells.getNumColumns();
-    if (columnCount < 3) {
+    if (columnCount < 4) {
         var popup = SpreadsheetApp.getUi();
         popup.alert("Select at least four columns: Address in the leftmost column, followed by country code; the latitude, longitude will go into the next three columns.");
         return;
@@ -93,13 +96,14 @@ function do_forward(key){
     var latColumn = columnCount - 1; // Latitude  goes into the next-to-last col
     var lngColumn = columnCount; // Longitude goes into the last col
     var addresses = sheet.getRange(cells.getRow(), cells.getColumn(), rowCount, columnCount - 3).getValues();
-    var countrycodes = sheet.getRange(cells.getRow(), cells.getColumn(), rowCount, columnCount - 2).getValues();
+    var countrycodes = sheet.getRange(cells.getRow(), cells.getColumn()+1, rowCount, columnCount - 2).getValues();
   
     // For each row of selected data...
     for (addressRow = 1; addressRow <= rowCount; ++addressRow) {
         var place = addresses[addressRow - 1].join(' ');
-        var countrycode = countrycodes[addressRow - 1]
-        var response = callAPI(place, key, countrycode);
+        var countrycode = String(countrycodes[addressRow - 1]).replace(',', '');
+        var popup = SpreadsheetApp.getUi();
+        var response = callAPI(place, key, country = countrycode);
         var code = response.getResponseCode();
       
         if (code == '200'){
@@ -114,7 +118,7 @@ function do_forward(key){
             }
         } else {
             var etxt = error_txt(code);
-            cells.getCell(addressRow, latColumn).setValue(etxt);
+            cells.getCell(addressRow, latColumn).setValue(null);
         }
     }      
 }
