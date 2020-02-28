@@ -1,6 +1,5 @@
 -- Drop views if they exist.
 
-
 DROP VIEW IF EXISTS exhibitor_addresses;
 DROP VIEW IF EXISTS investor_to_countries;
 DROP VIEW IF EXISTS booth_to_investor;
@@ -10,16 +9,17 @@ DROP VIEW IF EXISTS booth_summary;
 CREATE VIEW exhibitor_addresses AS
     SELECT
         e.name, 
-        MAX(e.add) AS add, 
-        MAX(e.country) AS country, 
-        STRING_AGG(b.type, ', ') AS types, 
-        STRING_AGG(eb.booth_no, ', ') AS booths
+        e.add AS add, 
+        e.country AS country, 
+        e.website
+        STRING_AGG(DISTINCT b.type, ', ') AS types, 
+        STRING_AGG(DISTINCT eb.booth_no, ', ') AS booths
     FROM exhibitors e
         LEFT JOIN exhibitor_by_booth eb 
         ON e.name = eb.name
             LEFT JOIN booths b 
             ON eb.booth_no=b.booth_no
-    GROUP BY e.name
+    GROUP BY e.name, e.add, e.country, e.website
     ORDER BY types;
 
 CREATE VIEW investor_to_countries AS
