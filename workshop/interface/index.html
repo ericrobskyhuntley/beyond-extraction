@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beyond Extraction Workshop Interface</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+    crossorigin=""></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+        html, body, #map {
+            height: 100%;
+            width: 100%;
+            background: black;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <script>
+        const map = L.map('map',{
+            center: [43.642045, -79.3845],
+            zoom: 19,
+            minZoom: 19,
+            maxZoom: 19,
+            zoomControl: false,
+            dragging: false
+        });
+
+        // Add tile layer for Open Street Map to map object
+        // let Stamen_TonerLite = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.{ext}', {
+        //     attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>,'+ 
+        //         '<a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>&mdash;'+
+        //         'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+        //     subdomains: 'abcd',
+        //     minZoom: 19,
+        //     maxZoom: 19,
+        //     ext: 'png'
+        // }).addTo(map);
+        $.getJSON("booths.geojson", function(data){
+            L.geoJSON(data, {
+                onEachFeature: function (feature, layer) {
+                    layer.bindPopup("<h3>" + feature.properties.investors + "</h3>"+ "<h4>" + feature.properties.booth + "</h4><h5>" + feature.properties.countries + "</h5>");
+                },
+                style: {
+                    fillColor: 'yellow',
+                    weight: 1,
+                    opacity: 1,
+                    color: 'yellow',
+                    fillOpacity: 0.5
+                }
+            }).addTo(map);
+        });
+    </script>
+</body>
+</html>
