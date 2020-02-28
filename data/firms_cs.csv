@@ -1,41 +1,41 @@
-name,exchange,symbol,stock,add,country,geometry,website
-Amex Exploration,TSX Venture/FRA/OTCQX,AMX/MX0/AMXEF,1.46 CDN,"410 Rue Saint Nicolas, Montréal, QC H2Y 2P5",ca,POINT (-73.55605300000001 45.502082),http://www.amexexploration.com
-Anaconda Mining Inc.,TSE/OTCQX ,ANX/ANXGF ,0.24 CDN ,"150 York St, Toronto, ON M5H 3S5",ca,POINT (-79.3845764 43.6495789),http://www.anacondamining.com
-Balmoral Resources Ltd.,TSE/OTCQX,BAR/BALMF,0.34 CDN ,"700 W Pender St, Vancouver, BC V6C 1G8",ca,POINT (-123.1154498 49.2846592),http://www.balmoralresources.com
-Banyan Gold Corp.,TSX Venture,BYN ,0.07CDN ,"1050 W Pender St, Vancouver, BC V6E 3S7",ca,POINT (-123.119633 49.286888),http://www.banyangold.com
-Barrick Gold Corporation,TSE/NYSE,ABX/GOLD,23.60 CDN,"161 Bay St, Toronto, ON M5J 2S1",ca,POINT (-79.3787741 43.6469),http://www.barrick.com
-BeMetals Corp.,TSX Venture,BMET,0.22 CDN,"595 Burrard St, Vancouver, BC V7X 1J1",ca,POINT (-123.011694 49.210523),http://www.bemetalscorp.com
-BHP,London (AIM) ,BHP,1.851.60 GBX,"171 Collins St, Melbourne, VIC 3000",au,POINT (144.9681574 -37.815202),http://www.bhp.com
-Chakana Copper Corporation,TSX-Venture /OTCQB/FRA,PERU/CHKK/1ZX,0.18 CDN,"800 W Pender St, Vancouver, BC V6C 2V6",ca,POINT (-123.1164135 49.2853994),http://www.chakanacopper.com
-Generation Mining Limited,CSE,GENM ,0.66 CDN,"100 King St, Toronto, ON M5X 1B1",ca,POINT (-79.51593339999999 43.7058216),http://www.genmining.com
-Liberty Gold Corp.,TSE/OTCQX,LGD/LGDTF,1.21 CDN,"1055 W Hastings St, Vancouver, BC V6E 2E9",ca,POINT (-123.118268 49.2877658),http://www.libertygold.ca
-Minaurum Gold Inc.,TSX-Venture/OTCQX/Frankfurt ,MGG/MMRGF/78M,0.47 CDN,"1177 W Hastings St, Vancouver, BC V6E 2K3",ca,POINT (-123.119792 49.287988),http://www.minaurum.com
-Newrange Gold Corp.,TSX-Venture/OTC,NRG/NRGOF,0.13 CDN,"580 Hornby St, Vancouver, BC V6C 3B6",ca,POINT (-123.117909 49.285199),http://www.newrangegold.com
-Radisson Mining Resources Inc.,TSX-Venture,RDS,0.19 CDN,"700 Ave Dallaire, Rouyn-Noranda, QC J9X 4V9",ca,POINT (-79.026093 48.228226),http://www.radissonmining.com
-Regulus Resources Inc.,TSX-Venture,REG,1.10 CDN,"1177 W Hastings St, Vancouver, BC V6E 2K3",ca,POINT (-123.119792 49.287988),http://www.regulusresources.com
-Serengeti Resources Inc.,TSX-Venture,SIR,0.22 CDN,"800 W Pender St, Vancouver, BC V6C 2V6",ca,POINT (-123.1164135 49.2853994),http://www.serengetiresources.com
-Triumph Gold Corp.,TSX-Venture/OTC/Frankfurt ,TIG/TIGCF/8N61,0.23 CDN,"1111 Melville St, Vancouver, BC V6E 3V6",ca,POINT (-123.122136 49.286786),http://www.triumphgoldcorp.com
-UEX Corporation,TSX-Venture,UEX ,0.12 CDN,"3530 Millar Ave, Saskatoon, SK S7P 0B6",ca,POINT (-106.646538 52.187503),http://www.uexcorp.com
-Benchmark Metals Inc.,,,,,,,http://www.benchmarkmetals.com
-Fireweed Zinc,,,,,,,http://www.fireweedzinc.com
-Forum Energy Metals,,,,,,,http://www.forumenergymetals.com
-Frontier Lithium,,,,,,,http://www.frontierlithium.com
-Imperial Mining Group Ltd.,,,,,,,http://www.imperialmgp.com
-Luminex Resources,,,,,,,http://www.luminexresources.com
-Quebec Precious Metals Corporation,,,,,,,http://www.qpmcorp.ca
-Rockhaven Resources,,,,,,,http://www.rockhavenresources.com
-Sudbury Integrated Nickel Operations,,,,,,,http://www.glencore.ca
-Valoriza Mineria,,,,,,,http://www.valorizamineria.com
-Warrior Gold Inc.,,,,,,,http://www.warriorgoldinc.com
-Westhaven Ventures,,,,,,,http://www.westhavenventures.com
-Azucar Minerals Ltd.,,,,,,,http://www.azucarminerals.com
-Bonterra Resources Inc.,,,,,,,http://www.btrgold.com
-Defense Metals Corp,,,,,,,http://www.defensemetals.com
-Dore Copper,,,,,,,http://www.dorecopper.com
-G2 Goldfields Inc.,,,,,,,http://g2goldfields.com
-Great Bear Resources,,,,,,,http://www.greatbearresources.ca
-GT Gold,,,,,,,http://www.gtgoldcorp.ca
-Kirkland Lake Gold,,,,,,,http://www.klgold.com
-MacDonald Mines Exploration,,,,,,,http://www.macdonaldmines.com
-Nighthawk Gold,,,,,,,http://www.nighthawkgold.com
-Turmalina Metals,,,,,,,http://www.turmalinametals.com
+add,city,country,exchange,geometry,name,region,state,stock,symbol,website
+"410 Rue Saint Nicolas, Montréal, QC H2Y 2P5",Montreal,ca,TSX Venture/FRA/OTCQX,POINT (-73.55605300000001 45.502082),Amex Exploration,,Quebec,1.46 CDN,AMX/MX0/AMXEF,http://www.amexexploration.com
+"150 York St, Toronto, ON M5H 3S5",Toronto,ca,TSE/OTCQX ,POINT (-79.3845764 43.6495789),Anaconda Mining Inc.,,Ontario,0.24 CDN ,ANX/ANXGF ,http://www.anacondamining.com
+"700 W Pender St, Vancouver, BC V6C 1G8",Vancouver,ca,TSE/OTCQX,POINT (-123.1154498 49.2846592),Balmoral Resources Ltd.,,British Columbia,0.34 CDN ,BAR/BALMF,http://www.balmoralresources.com
+"1050 W Pender St, Vancouver, BC V6E 3S7",Vancouver,ca,TSX Venture,POINT (-123.119633 49.286888),Banyan Gold Corp.,,British Columbia,0.07CDN ,BYN ,http://www.banyangold.com
+"161 Bay St, Toronto, ON M5J 2S1",Toronto,ca,TSE/NYSE,POINT (-79.3787741 43.6469),Barrick Gold Corporation,,Ontario,23.60 CDN,ABX/GOLD,http://www.barrick.com
+"595 Burrard St, Vancouver, BC V7X 1J1",Vancouver,ca,TSX Venture,POINT (-123.011694 49.210523),BeMetals Corp.,,British Columbia,0.22 CDN,BMET,http://www.bemetalscorp.com
+"171 Collins St, Melbourne, VIC 3000",,au,London (AIM) ,POINT (144.9681574 -37.815202),BHP,,Victoria,1.851.60 GBX,BHP,http://www.bhp.com
+"800 W Pender St, Vancouver, BC V6C 2V6",Vancouver,ca,TSX-Venture /OTCQB/FRA,POINT (-123.1164135 49.2853994),Chakana Copper Corporation,,British Columbia,0.18 CDN,PERU/CHKK/1ZX,http://www.chakanacopper.com
+"100 King St, Toronto, ON M5X 1B1",Toronto,ca,CSE,POINT (-79.51593339999999 43.7058216),Generation Mining Limited,,Ontario,0.66 CDN,GENM ,http://www.genmining.com
+"1055 W Hastings St, Vancouver, BC V6E 2E9",Vancouver,ca,TSE/OTCQX,POINT (-123.118268 49.2877658),Liberty Gold Corp.,,British Columbia,1.21 CDN,LGD/LGDTF,http://www.libertygold.ca
+"1177 W Hastings St, Vancouver, BC V6E 2K3",Vancouver,ca,TSX-Venture/OTCQX/Frankfurt ,POINT (-123.119792 49.287988),Minaurum Gold Inc.,,British Columbia,0.47 CDN,MGG/MMRGF/78M,http://www.minaurum.com
+"580 Hornby St, Vancouver, BC V6C 3B6",Vancouver,ca,TSX-Venture/OTC,POINT (-123.117909 49.285199),Newrange Gold Corp.,,British Columbia,0.13 CDN,NRG/NRGOF,http://www.newrangegold.com
+"700 Ave Dallaire, Rouyn-Noranda, QC J9X 4V9",Rouyn-Noranda,ca,TSX-Venture,POINT (-79.026093 48.228226),Radisson Mining Resources Inc.,,Quebec,0.19 CDN,RDS,http://www.radissonmining.com
+"1177 W Hastings St, Vancouver, BC V6E 2K3",Vancouver,ca,TSX-Venture,POINT (-123.119792 49.287988),Regulus Resources Inc.,,British Columbia,1.10 CDN,REG,http://www.regulusresources.com
+"800 W Pender St, Vancouver, BC V6C 2V6",Vancouver,ca,TSX-Venture,POINT (-123.1164135 49.2853994),Serengeti Resources Inc.,,British Columbia,0.22 CDN,SIR,http://www.serengetiresources.com
+"1111 Melville St, Vancouver, BC V6E 3V6",Vancouver,ca,TSX-Venture/OTC/Frankfurt ,POINT (-123.122136 49.286786),Triumph Gold Corp.,,British Columbia,0.23 CDN,TIG/TIGCF/8N61,http://www.triumphgoldcorp.com
+"3530 Millar Ave, Saskatoon, SK S7P 0B6",Saskatoon,ca,TSX-Venture,POINT (-106.646538 52.187503),UEX Corporation,,Saskatchewan,0.12 CDN,UEX ,http://www.uexcorp.com
+,,,,,Benchmark Metals Inc.,,,,,http://www.benchmarkmetals.com
+,,,,,Fireweed Zinc,,,,,http://www.fireweedzinc.com
+,,,,,Forum Energy Metals,,,,,http://www.forumenergymetals.com
+,,,,,Frontier Lithium,,,,,http://www.frontierlithium.com
+,,,,,Imperial Mining Group Ltd.,,,,,http://www.imperialmgp.com
+,,,,,Luminex Resources,,,,,http://www.luminexresources.com
+,,,,,Quebec Precious Metals Corporation,,,,,http://www.qpmcorp.ca
+,,,,,Rockhaven Resources,,,,,http://www.rockhavenresources.com
+,,,,,Sudbury Integrated Nickel Operations,,,,,http://www.glencore.ca
+,,,,,Valoriza Mineria,,,,,http://www.valorizamineria.com
+,,,,,Warrior Gold Inc.,,,,,http://www.warriorgoldinc.com
+,,,,,Westhaven Ventures,,,,,http://www.westhavenventures.com
+,,,,,Azucar Minerals Ltd.,,,,,http://www.azucarminerals.com
+,,,,,Bonterra Resources Inc.,,,,,http://www.btrgold.com
+,,,,,Defense Metals Corp,,,,,http://www.defensemetals.com
+,,,,,Dore Copper,,,,,http://www.dorecopper.com
+,,,,,G2 Goldfields Inc.,,,,,http://g2goldfields.com
+,,,,,Great Bear Resources,,,,,http://www.greatbearresources.ca
+,,,,,GT Gold,,,,,http://www.gtgoldcorp.ca
+,,,,,Kirkland Lake Gold,,,,,http://www.klgold.com
+,,,,,MacDonald Mines Exploration,,,,,http://www.macdonaldmines.com
+,,,,,Nighthawk Gold,,,,,http://www.nighthawkgold.com
+,,,,,Turmalina Metals,,,,,http://www.turmalinametals.com

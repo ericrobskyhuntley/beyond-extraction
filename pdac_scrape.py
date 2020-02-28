@@ -32,7 +32,7 @@ if args.path:
 else: 
    print('Please supply directory in which to write data.')
    exit()
-RECODE = args.regeocode
+REGEOCODE = args.regeocode
 
 # Read modified Natural Earth Data.
 # E.g., French Guiana depicted as a multipart geometry of France.
@@ -58,19 +58,33 @@ def gc(row, query, country):
         country = country.strip()
     if is_q and is_country:
         print('Geocoding ' + str(q) + '...')
-        result = GEOCODER.geocode(q, countrycode=country)
+        result = GEOCODER.geocode(q, countrycode=country, no_annotations=1)
     elif is_q:
         print('Geocoding ' + str(q) + '...')
-        result = GEOCODER.geocode(q)
+        result = GEOCODER.geocode(q, no_annotations=1)
     else:
         result = None
     if result and len(result):
         row['geometry'] = Point(result[0]['geometry']['lng'], result[0]['geometry']['lat'])
+        if 'city' in result[0]['components']:
+            row['city'] = result[0]['components']['city']
+        elif 'town' in result[0]['components']:
+            row['city'] = result[0]['components']['town']
+        else:
+            row['city'] = None
+        if 'region' in result[0]['components']:
+            row['region'] = result[0]['components']['region']
+        else:
+            row['region'] = None
+        if 'state' in result[0]['components']:
+            row['state'] = result[0]['components']['state']
+        else:
+            row['state'] = None
     else:
         row['geometry'] = None
     return row
 
-if RECODE:
+if REGEOCODE:
     ADDRESSES = pd.read_csv(DIR + 'addresses.csv')
     ADDRESSES = gpd.GeoDataFrame(
             ADDRESSES.apply(lambda x: gc(x, 'add', 'country'), axis=1), 
