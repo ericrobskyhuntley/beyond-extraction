@@ -17,7 +17,7 @@ You can then run the provided `.sql` files from the command line using the `psql
 
 ```sh
 # To create and populate tables...
-psql -h localhost -d -U postgres -f ./sql/create-populate.sql
+psql -h localhost -d pdac -U postgres -f ./sql/create-populate.sql
 # To create views...
-psql -h localhost -d -U postgres -f ./sql/create-views.sql
+psql -h localhost -d pdac -U postgres -f ./sql/create-views.sql
 ```
