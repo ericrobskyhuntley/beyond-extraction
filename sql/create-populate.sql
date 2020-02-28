@@ -1,10 +1,12 @@
--- Drop tables if they exist.
+-- Drop views if they exist.
 
 DROP VIEW IF EXISTS exhibitor_addresses;
 DROP VIEW IF EXISTS investor_to_countries;
 DROP VIEW IF EXISTS booth_to_investor;
 DROP VIEW IF EXISTS investor_by_countries;
+DROP VIEW IF EXISTS booth_summary;
 
+-- Drop tables if they exist.
 
 DROP TABLE IF EXISTS ix_by_commodity;
 DROP TABLE IF EXISTS ix_by_country;
@@ -25,6 +27,8 @@ CREATE TABLE booths (
     CONSTRAINT check_types 
         CHECK (type IN ('ts', 'tn', 'ix', 'pt', 'cs') )
 );
+
+-- Populate booths table.
 
 COPY booths(booth_no, type, geom)
 FROM '/Users/ehuntley/Desktop/data/beyond-extraction/data/booths.csv'  DELIMITER ',' CSV HEADER;

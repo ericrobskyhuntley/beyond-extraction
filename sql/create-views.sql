@@ -1,8 +1,11 @@
+-- Drop views if they exist.
+
 
 DROP VIEW IF EXISTS exhibitor_addresses;
 DROP VIEW IF EXISTS investor_to_countries;
 DROP VIEW IF EXISTS booth_to_investor;
 DROP VIEW IF EXISTS investor_by_countries;
+DROP VIEW IF EXISTS booth_summary;
 
 CREATE VIEW exhibitor_addresses AS
     SELECT
@@ -71,3 +74,27 @@ CREATE VIEW booth_to_investor AS
             INNER JOIN booths AS b
             ON eb.booth_no=b.booth_no
     WHERE b.type='ix';
+
+CREATE VIEW investor_booth_summary AS
+    SELECT
+        b.booth_no AS booth,
+        b.type AS type,
+        STRING_AGG(DISTINCT e.name, ', ') AS investors,
+        STRING_AGG(DISTINCT c.country, ', ') AS countries,
+        STRING_AGG(DISTINCT icm.commodity, ', ') AS commodities,
+        b.geom AS geom
+    FROM booths AS b
+        LEFT JOIN exhibitor_by_booth AS eb
+            ON b.booth_no=eb.booth_no
+        LEFT JOIN exhibitors AS e
+            ON eb.name=e.name
+        LEFT JOIN ix_by_country AS ic
+            ON ic.name=e.name
+        LEFT JOIN countries AS c
+            ON ic.country=c.country
+        LEFT JOIN ix_by_commodity AS icm
+            ON e.name=icm.name
+    WHERE 
+        b.type = 'ix'
+    GROUP BY
+        b.booth_no, b.geom, b.type;
