@@ -123,54 +123,10 @@ function do_forward(key){
     }      
 }
 
-function do_reverse(key){
-    var sheet = SpreadsheetApp.getActiveSheet();
-    var cells = sheet.getActiveRange();
-  
-    // Must have selected at least 3 columns (Lat, Lng, Address).
-    // Must have selected at least 1 row.
-    var columnCount = cells.getNumColumns(); 
-    if (columnCount < 3){
-        var popup = SpreadsheetApp.getUi();
-        popup.alert("Select at least three columns: latitude, longitude in the two leftmost columns; the formatted address will go in the third column.");
-        return;
-    }
-    
-    var latColumn = 1;
-    var lngColumn = 2;
-
-    var addressRow;
-    var addressColumn = columnCount;
-
-    for (addressRow = 1; addressRow <= cells.getNumRows(); ++addressRow) {
-        var lat = cells.getCell(addressRow, latColumn).getValue();
-        var lng = cells.getCell(addressRow, lngColumn).getValue();
-        var response = callAPI(lat + '%2C' + lng, key);
-        var code = response.getResponseCode();
-
-        if (code == '200'){
-            var json = JSON.parse(response.getContentText());
-            if (json){
-                if (json.total_results >= 1){
-                    var place = json.results[0].formatted;
-                    cells.getCell(addressRow, addressColumn).setValue(place);
-                }
-            }
-        } else {
-            var etxt = error_txt(code);
-            cells.getCell(addressRow, addressColumn).setValue(etxt);
-        }
-    }    
-}
-
 function generateMenu(){
   return [{
     name: "Address to Latitude, Longitude",
     functionName: "forward"
-  },
-  {
-    name: "Latitude, Longitude to Address",
-    functionName: "reverse"
   }];
 }
 
