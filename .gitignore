@@ -3,3 +3,7 @@ venv/
 .DS_Store
 *.qgs
 *.qgz
+*.docx
+*.pdf
+*.zip
+*.png
