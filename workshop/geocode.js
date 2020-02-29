@@ -101,7 +101,7 @@ function do_forward(key){
     // For each row of selected data...
     for (addressRow = 1; addressRow <= rowCount; ++addressRow) {
         var place = addresses[addressRow - 1].join(' ');
-        var countrycode = String(countrycodes[addressRow - 1]).replace(',', '');
+        var countrycode = String(countrycodes[addressRow - 1]).replace(',', '').toLowerCase();
         var popup = SpreadsheetApp.getUi();
         var response = callAPI(place, key, country = countrycode);
         var code = response.getResponseCode();

@@ -19,12 +19,16 @@ DROP TABLE IF EXISTS booths;
 DROP TABLE IF EXISTS countries;
 DROP TABLE IF EXISTS sponsors;
 
+-- Create sponsors table.
+
 CREATE TABLE sponsors (
     category VARCHAR(15),
     name VARCHAR,
     website VARCHAR,
     CONSTRAINT sponsor_pkey PRIMARY KEY (name)
 );
+
+-- Populate sponsors table.
 
 COPY sponsors(category, name, website)
 FROM '/Users/ehuntley/Desktop/data/beyond-extraction/data/sponsors.csv'  DELIMITER ',' CSV HEADER;
