@@ -8,10 +8,6 @@ function forward(){
     getKey('forward');
 }
 
-function reverse(){
-    getKey('reverse');
-}
-
 function callAPI(query, key, country = null){
     // full API docs: https://opencagedata.com/api    
     var url = 'https://api.opencagedata.com/geocode/v1/json?query='
