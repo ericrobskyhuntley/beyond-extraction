@@ -4,6 +4,7 @@ DROP VIEW IF EXISTS exhibitor_addresses;
 DROP VIEW IF EXISTS investor_to_countries;
 DROP VIEW IF EXISTS booth_to_investor;
 DROP VIEW IF EXISTS investor_by_countries;
+DROP VIEW IF EXISTS investor_booth_summary;
 DROP VIEW IF EXISTS booth_summary;
 
 -- Drop tables if they exist.
@@ -16,6 +17,17 @@ DROP TABLE IF EXISTS exhibitor_by_booth;
 DROP TABLE IF EXISTS exhibitors;
 DROP TABLE IF EXISTS booths;
 DROP TABLE IF EXISTS countries;
+DROP TABLE IF EXISTS sponsors;
+
+CREATE TABLE sponsors (
+    category VARCHAR(15),
+    name VARCHAR,
+    website VARCHAR,
+    CONSTRAINT sponsor_pkey PRIMARY KEY (name)
+);
+
+COPY sponsors(category, name, website)
+FROM '/Users/ehuntley/Desktop/data/beyond-extraction/data/sponsors.csv'  DELIMITER ',' CSV HEADER;
 
 -- Create booths table.
 

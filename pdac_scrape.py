@@ -14,6 +14,7 @@ from opencage.geocoder import OpenCageGeocode
 from os import environ, path
 import geopandas as gpd
 from shapely.geometry import Point
+from pprint import pprint
 
 parser = ArgumentParser()
 parser.add_argument('-p', 
@@ -94,6 +95,40 @@ if REGEOCODE:
 else:
     ADDRESSES = gpd.read_file(DIR + 'addresses.geojson')
 
+def sponsor(url):
+    sponsors = pd.DataFrame()
+    sponsor_soup = BeautifulSoup(requests.get(url).content, 'html.parser')
+
+    body = sponsor_soup.find('div', id='MainBody_C040_Col00')
+    s_links = body.find_all('a')
+    for l in s_links:
+        image = l.find('img')
+        if image:
+            name = image.get('title').strip()
+            website = l.get('href').strip()
+            parent_div = l.parent.parent.parent.parent.parent.parent.get('class')
+            if len(parent_div) > 1:
+                c = parent_div[1].replace("sponsors","").strip()
+            elif name == 'Teck':
+                c = 'diamond'
+            else:
+                c = None
+            if c:
+                category = c
+            else:
+                category = None
+            s = pd.Series({
+                        'name': name,
+                        'website': website,
+                        'category': category
+                        })
+            sponsors = sponsors.append(s, ignore_index=True)
+    sponsors = sponsors.dropna(subset=['category'])
+    return sponsors
+        
+
+
+
 def pros_tent(url):
     prospectors = pd.DataFrame()
     pros_soup = BeautifulSoup(requests.get(url).content, 'html.parser')
@@ -125,7 +160,7 @@ def core_shack(urls):
                 proj = proj_elem.get_text().strip()[:-1]
             name = full_name.get_text().split(',', 1)[0].strip()
             loc = unidecode.unidecode(proj_elem.next_sibling.strip())
-            for iter, c in COUNTRIES.iterrows():
+            for _, c in COUNTRIES.iterrows():
                 if (" " + c['name_long'] in loc) or (" " + c['iso_a3'] in loc) or (" " + c['iso_a2'] in loc):
                     country = c['iso_a2'].lower()
                     break
@@ -315,9 +350,17 @@ def run_pt(directory):
     print("Writing PT exhibitors to CSV...")
     prospectors.to_csv(directory + 'prospectors.csv', index=False)
 
+def run_sp(directory):
+    sp_url = 'https://www.pdac.ca/convention/sponsors/our-sponsors'
+    print("Scraping Prospectors Tent (PT) exhibitors...")
+    sponsors = sponsor(sp_url)
+    print("Writing PT exhibitors to CSV...")
+    sponsors.to_csv(directory + 'sponsors.csv', index=False)
+
 if __name__ == '__main__':
-   run_ix(DIR)
-   run_ts(DIR)
-   run_cs(DIR)
-   run_pt(DIR)
-   print("Done.")
+    # run_ix(DIR)
+    # run_ts(DIR)
+    # run_cs(DIR)
+    # run_pt(DIR)
+    run_sp(DIR)
+    print("Done.")

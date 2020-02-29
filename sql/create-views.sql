@@ -4,6 +4,7 @@ DROP VIEW IF EXISTS exhibitor_addresses;
 DROP VIEW IF EXISTS investor_to_countries;
 DROP VIEW IF EXISTS booth_to_investor;
 DROP VIEW IF EXISTS investor_by_countries;
+DROP VIEW IF EXISTS investor_booth_summary;
 DROP VIEW IF EXISTS booth_summary;
 
 CREATE VIEW exhibitor_addresses AS
