@@ -1,5 +1,7 @@
 # Beyond Extraction Resources
 
+⛔️ DEPRECATED/NO LONGER MAINTAINED ⛔️
+
 To scrape exhibitor data, simply run the following command from the terminal:
 
 ```sh
